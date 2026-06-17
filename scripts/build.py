@@ -93,11 +93,16 @@ def parse_question(path):
             stem_lines.append(line)
     stem = "\n".join(stem_lines).strip()
 
+    gen = fm.get("generated", False)
+    if isinstance(gen, str):
+        gen = gen.strip().lower() == "true"
+
     return {
         "id": fm["id"],
-        "exam": fm["exam"],
-        "number": int(fm.get("number", 0)),
+        "exam": fm.get("exam", ""),
+        "number": int(fm.get("number", 0)) if str(fm.get("number", "0")).isdigit() else 0,
         "type": fm.get("type", "single"),
+        "generated": bool(gen),
         "tags": fm.get("tags", []),
         "correct": fm.get("correct", []),
         "pdfs": fm.get("pdfs", []),
@@ -123,7 +128,19 @@ def main():
     presentations = {slug: {"name": name, "pdf": pdf}
                      for slug, (name, pdf) in PRESENTATIONS.items()}
 
-    data = {"exams": exams, "presentations": presentations, "questions": questions}
+    # topic list (presentations) with closed-question counts, in vocab order
+    topics = []
+    for slug, (name, pdf) in PRESENTATIONS.items():
+        closed = sum(1 for q in questions
+                     if q["type"] != "open" and slug in q.get("pdfs", []))
+        opened = sum(1 for q in questions
+                     if q["type"] == "open" and slug in q.get("pdfs", []))
+        if closed + opened > 0:
+            topics.append({"slug": slug, "name": name, "pdf": pdf,
+                           "closed": closed, "open": opened})
+
+    data = {"exams": exams, "topics": topics,
+            "presentations": presentations, "questions": questions}
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:

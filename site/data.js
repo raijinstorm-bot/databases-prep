@@ -18,6 +18,147 @@ window.QUIZ_DATA = {
    "label": "2024 — Variant B",
    "closed": 17,
    "open": 2
+  },
+  {
+   "id": "2025",
+   "label": "2025",
+   "closed": 22,
+   "open": 3
+  }
+ ],
+ "topics": [
+  {
+   "slug": "relational-databases",
+   "name": "Relational Databases",
+   "pdf": "db_2_relational_databases",
+   "closed": 24,
+   "open": 0
+  },
+  {
+   "slug": "er-modelling",
+   "name": "Entity-Relationship Modelling",
+   "pdf": "db_3_4_entity_relationship_modelling",
+   "closed": 37,
+   "open": 0
+  },
+  {
+   "slug": "sql-select",
+   "name": "SQL SELECT",
+   "pdf": "db_5_sql_select",
+   "closed": 24,
+   "open": 0
+  },
+  {
+   "slug": "sql-select-2",
+   "name": "SQL SELECT II",
+   "pdf": "db_6_sql_select_part_II",
+   "closed": 20,
+   "open": 0
+  },
+  {
+   "slug": "physical-data-models",
+   "name": "Modifications & Physical Data Models",
+   "pdf": "db_7a_modifications_physical_data_models",
+   "closed": 25,
+   "open": 1
+  },
+  {
+   "slug": "indexes",
+   "name": "Indexes",
+   "pdf": "db_8_indexes",
+   "closed": 25,
+   "open": 0
+  },
+  {
+   "slug": "jdbc",
+   "name": "JDBC",
+   "pdf": "db_9_jdbc",
+   "closed": 22,
+   "open": 1
+  },
+  {
+   "slug": "concurrency",
+   "name": "Concurrency Issues",
+   "pdf": "db_11_concurrency_issues",
+   "closed": 32,
+   "open": 0
+  },
+  {
+   "slug": "stored-procedures",
+   "name": "Stored Procedures",
+   "pdf": "db_12_stored_procedures",
+   "closed": 25,
+   "open": 0
+  },
+  {
+   "slug": "architecture-patterns",
+   "name": "System Architecture Patterns",
+   "pdf": "db_13_system_architecture_patterns",
+   "closed": 22,
+   "open": 0
+  },
+  {
+   "slug": "data-warehouses",
+   "name": "Data Warehouses",
+   "pdf": "db_14_data_warehouses",
+   "closed": 27,
+   "open": 1
+  },
+  {
+   "slug": "big-data",
+   "name": "Big Data",
+   "pdf": "db_15_Big_Data",
+   "closed": 26,
+   "open": 1
+  },
+  {
+   "slug": "nosql",
+   "name": "NoSQL",
+   "pdf": "db_16_NoSQL_ISI_IAD",
+   "closed": 29,
+   "open": 2
+  },
+  {
+   "slug": "hbase",
+   "name": "Apache HBase",
+   "pdf": "db_17_ApacheHBase",
+   "closed": 21,
+   "open": 2
+  },
+  {
+   "slug": "oracle-net",
+   "name": "Oracle Net",
+   "pdf": "db_18_Oracle_Net",
+   "closed": 28,
+   "open": 0
+  },
+  {
+   "slug": "gis",
+   "name": "GIS",
+   "pdf": "db_19_GIS",
+   "closed": 26,
+   "open": 0
+  },
+  {
+   "slug": "oracle-storage-backup",
+   "name": "Oracle Storage & Backup",
+   "pdf": "db_20_Oracle_Storage_Backup",
+   "closed": 28,
+   "open": 2
+  },
+  {
+   "slug": "oracle-security",
+   "name": "Oracle Security",
+   "pdf": "db_21_Oracle_Security",
+   "closed": 25,
+   "open": 1
+  },
+  {
+   "slug": "vector-databases",
+   "name": "Vector Databases",
+   "pdf": "db_22_vector_databases",
+   "closed": 20,
+   "open": 0
   }
  ],
  "presentations": {
@@ -104,6 +245,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 1,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -140,6 +282,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 2,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -175,6 +318,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 3,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -210,6 +354,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 4,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -245,6 +390,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 5,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -280,6 +426,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 6,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -315,6 +462,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 7,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -350,6 +498,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 8,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -385,6 +534,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 9,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -422,6 +572,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 10,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -459,6 +610,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 11,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -496,6 +648,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 12,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -531,6 +684,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 13,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -568,6 +722,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 14,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -603,6 +758,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 15,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -638,6 +794,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 16,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -674,6 +831,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 17,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -709,6 +867,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 18,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -745,6 +904,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 19,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -781,6 +941,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 20,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -818,6 +979,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 21,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -853,6 +1015,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 22,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -890,6 +1053,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 23,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -925,6 +1089,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 24,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -960,6 +1125,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 25,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -995,6 +1161,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 26,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1032,6 +1199,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 27,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1068,6 +1236,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 28,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1105,6 +1274,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 29,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1142,6 +1312,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 30,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1177,6 +1348,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 31,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1215,6 +1387,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 32,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1250,6 +1423,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 33,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1285,6 +1459,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 34,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1322,6 +1497,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 35,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1358,6 +1534,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 36,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1393,6 +1570,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 37,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1429,6 +1607,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 38,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1465,6 +1644,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 39,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1502,6 +1682,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 40,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1537,6 +1718,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 41,
    "type": "single",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1572,6 +1754,7 @@ window.QUIZ_DATA = {
    "exam": "2023-1",
    "number": 43,
    "type": "multi",
+   "generated": true,
    "tags": [
     "2023-1"
    ],
@@ -1608,6 +1791,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 2,
    "type": "open",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1624,6 +1808,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 3,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1664,6 +1849,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 4,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1699,6 +1885,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 5,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1734,6 +1921,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 6,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1775,6 +1963,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 7,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1811,6 +2000,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 8,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1846,6 +2036,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 9,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1886,6 +2077,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 10,
    "type": "open",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1902,6 +2094,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 11,
    "type": "open",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1918,6 +2111,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 12,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1954,6 +2148,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 13,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -1990,6 +2185,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 14,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -2031,6 +2227,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 15,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -2070,6 +2267,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 16,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -2110,6 +2308,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 17,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -2146,6 +2345,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 18,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -2182,6 +2382,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 19,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -2221,6 +2422,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 20,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -2260,6 +2462,7 @@ window.QUIZ_DATA = {
    "exam": "2024-A",
    "number": 21,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-A"
    ],
@@ -2300,6 +2503,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 1,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2339,6 +2543,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 2,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2374,6 +2579,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 3,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2409,6 +2615,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 4,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2444,6 +2651,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 5,
    "type": "open",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2460,6 +2668,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 6,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2504,6 +2713,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 7,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2540,6 +2750,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 8,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2576,6 +2787,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 9,
    "type": "open",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2593,6 +2805,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 10,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2631,6 +2844,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 11,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2670,6 +2884,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 12,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2708,6 +2923,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 13,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2748,6 +2964,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 14,
    "type": "single",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2783,6 +3000,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 15,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2820,6 +3038,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 16,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2860,6 +3079,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 17,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2896,6 +3116,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 18,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2937,6 +3158,7 @@ window.QUIZ_DATA = {
    "exam": "2024-B",
    "number": 19,
    "type": "multi",
+   "generated": false,
    "tags": [
     "2024-B"
    ],
@@ -2968,6 +3190,14904 @@ window.QUIZ_DATA = {
     }
    ],
    "explanation": "Availability is improved by redundancy in the connection path: multiple listeners, listening on several network interfaces, and client-side configuration that fails over among listeners. Profiles govern passwords/resources, not connection resiliency (d)."
+  },
+  {
+   "id": "q-2025-01",
+   "exam": "2025",
+   "number": 1,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "c",
+    "e"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Data cube:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "is used in GIS"
+    },
+    {
+     "letter": "b",
+     "text": "is created in order to make it easier to browse raw data"
+    },
+    {
+     "letter": "c",
+     "text": "contains date dimension"
+    },
+    {
+     "letter": "d",
+     "text": "contains date measure"
+    },
+    {
+     "letter": "e",
+     "text": "typically built on top of the data present in a data warehouse"
+    }
+   ],
+   "explanation": "An OLAP cube is a multidimensional structure built over the (aggregated) data of a data warehouse (e), and commonly includes a time/date dimension (c). Measures are numeric values (sums, counts), not dates (d); a cube serves analytical browsing of aggregated data, not raw data (b), and is unrelated to GIS (a)."
+  },
+  {
+   "id": "q-2025-02",
+   "exam": "2025",
+   "number": 2,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "A transaction is executed in READ UNCOMMITTED mode. When executing this transaction the programmer reads the balance contained in a certain bank account record. This means:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The balance of this account is guaranteed not to change during the transaction"
+    },
+    {
+     "letter": "b",
+     "text": "The record with the balance can be not committed yet, dirty reads can be observed"
+    },
+    {
+     "letter": "c",
+     "text": "Another isolation level should be used, due to the possible use of wrong data in the transaction"
+    },
+    {
+     "letter": "d",
+     "text": "Another isolation level should be used to speed up data processing"
+    }
+   ],
+   "explanation": "READ UNCOMMITTED permits dirty reads, so the balance read may come from an uncommitted (possibly rolled-back) change (b); for financial data this is unsafe, so a stronger isolation level is advisable (c). It gives no stability guarantee (a), and higher isolation does not speed up processing (d)."
+  },
+  {
+   "id": "q-2025-03",
+   "exam": "2025",
+   "number": 3,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net",
+    "oracle-security"
+   ],
+   "stem": "A connection from a remote client application to Oracle database is attempted. This always requires:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "the use of Oracle listener"
+    },
+    {
+     "letter": "b",
+     "text": "the use of user and password"
+    },
+    {
+     "letter": "c",
+     "text": "satisfying conditions defined by the user profile"
+    }
+   ],
+   "explanation": "A new remote connection must reach a running listener (a) and authenticate with valid credentials (b). A profile is assigned to every user, but satisfying its limits is not the universal gating requirement that establishing the connection itself is, so (c) is not the intended 'always required' condition."
+  },
+  {
+   "id": "q-2025-04",
+   "exam": "2025",
+   "number": 4,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "A table has been defined. Next, the need to change its structure was observed. Such a change:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "can be always done with ALTER TABLE"
+    },
+    {
+     "letter": "b",
+     "text": "may require the table to be dropped and recreated"
+    },
+    {
+     "letter": "c",
+     "text": "is not possible without disconnecting all users"
+    }
+   ],
+   "explanation": "Many structural changes work with ALTER TABLE, but not all — some require dropping and recreating the table (b). 'Always' (a) is false, and disconnecting all users (c) is not generally required."
+  },
+  {
+   "id": "q-2025-05",
+   "exam": "2025",
+   "number": 5,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Oracle database has been successfully running in NOARCHIVE mode and suggested backups were created. After the failure of disk containing data files:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The database can be recovered to the moment of the last whole backup of a database"
+    },
+    {
+     "letter": "b",
+     "text": "The database can be recovered till the moment immediately preceding disk failure"
+    },
+    {
+     "letter": "c",
+     "text": "Backup is not needed to recover the database"
+    },
+    {
+     "letter": "d",
+     "text": "Online logs will not be used to recover a database"
+    }
+   ],
+   "explanation": "In NOARCHIVELOG mode there are no archived redo logs to roll forward, so after media failure you can only restore the last whole (consistent) backup (a) and cannot apply redo to reach the point of failure (b is false); online redo logs cannot be used for this media recovery (d). A backup is essential (c is false)."
+  },
+  {
+   "id": "q-2025-06",
+   "exam": "2025",
+   "number": 6,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Data warehouse:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "contains all columns present in OLTP database"
+    },
+    {
+     "letter": "b",
+     "text": "is nowadays replaced by Business Intelligence platforms"
+    },
+    {
+     "letter": "c",
+     "text": "has higher quality data than Big Data resources"
+    },
+    {
+     "letter": "d",
+     "text": "typically contains data from multiple relational databases"
+    },
+    {
+     "letter": "e",
+     "text": "typically contains data for recent weeks only to speed up analytical processing"
+    }
+   ],
+   "explanation": "A warehouse integrates curated data from several relational source systems (d) and, being validated/cleansed, is of higher quality than raw Big Data (c). It does not copy every OLTP column (a), is not replaced by BI tools that sit on top of it (b), and keeps long history rather than only recent weeks (e)."
+  },
+  {
+   "id": "q-2025-07",
+   "exam": "2025",
+   "number": 7,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "A table contains 500 000 records and columns: A taking 500 000 unique values and B taking 3 unique values. Both columns are frequently used for filtering, but not together:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "An index should be created with an index key composed of column A"
+    },
+    {
+     "letter": "b",
+     "text": "An index should be created with an index key composed of column B"
+    },
+    {
+     "letter": "c",
+     "text": "An index should be created with an index key composed of both columns A and B"
+    }
+   ],
+   "explanation": "Column A is highly selective (every value unique), so a B-tree index on A is very effective (a). Column B has only 3 distinct values (very low selectivity) — indexing it gives little benefit (b). Since the columns are not used together, a composite index (c) is inappropriate."
+  },
+  {
+   "id": "q-2025-08",
+   "exam": "2025",
+   "number": 8,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "er-modelling",
+    "relational-databases"
+   ],
+   "stem": "A foreign key pointing from table A to table B (teachers) and relying on a single column has been defined. The column of the foreign key was set as a NOT NULL column. This means:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "For every teacher there is at least one lecture, but possibly more"
+    },
+    {
+     "letter": "b",
+     "text": "For every teacher there is exactly one lecture"
+    },
+    {
+     "letter": "c",
+     "text": "For every lecture there is possibly more than one teacher assigned"
+    },
+    {
+     "letter": "d",
+     "text": "For every lecture there is exactly one teacher assigned"
+    },
+    {
+     "letter": "e",
+     "text": "For some lectures there may be no teacher assigned"
+    },
+    {
+     "letter": "f",
+     "text": "Some lectures may refer to teachers that have been already removed from the table of teachers"
+    }
+   ],
+   "explanation": "A single-column, NOT NULL foreign key from A (lectures) to B (teachers) forces each lecture row to reference exactly one existing teacher (d). NOT NULL rules out lectures without a teacher (e); a single FK column cannot reference several teachers (c); the FK constraint prevents dangling references (f); and nothing guarantees every teacher is used (a, b)."
+  },
+  {
+   "id": "q-2025-09",
+   "exam": "2025",
+   "number": 9,
+   "type": "open",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [],
+   "pdfs": [
+    "oracle-security",
+    "jdbc"
+   ],
+   "stem": "Some of the tables of an Oracle database contain confidential data that should be browsed only by some of the system users. Occasionally, a database administrator may also have to browse it. Describe how to reduce the risk that unauthorised users will read the data and how to detect reading of the confidential data by users allowed to do so but overusing their permissions. (For extra points: describe how an SQL injection attack can be performed and how it relates to unauthorised use of data.)",
+   "options": [],
+   "explanation": "**Reducing the risk.** Apply least privilege: grant SELECT on the confidential tables only to the users who genuinely need it, ideally through roles rather than direct grants, and revoke everything else. Finer control can be added with views that expose only permitted columns/rows, or with Virtual Private Database / fine-grained access control and column/row-level security; sensitive columns can also be encrypted. The DBA cannot be denied access by privileges alone, which is exactly why detection is needed.\n\n**Detecting overuse.** Enable auditing on the confidential tables so that read (SELECT) access is logged, including access by privileged users and the DBA; **fine-grained auditing (FGA)** can log reads that match specific conditions (e.g. particular rows/columns) and is well suited to catching authorised-but-excessive access. The audit trail is then reviewed to spot users reading data beyond their legitimate need.\n\n**SQL injection.** If a client builds SQL by concatenating unvalidated user input (e.g. `... WHERE name = '<userInput>'`), an attacker can supply input such as `' OR '1'='1` to change the query's meaning and read data they should not see. It relates directly to unauthorised data use because it bypasses application-level access checks at the query level. The defence is **parametrised/prepared statements** (bind variables) plus input validation and least-privilege database accounts."
+  },
+  {
+   "id": "q-2025-10",
+   "exam": "2025",
+   "number": 10,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "A table in the first normal form:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "contains primary key"
+    },
+    {
+     "letter": "b",
+     "text": "can include values such as “London, Downing Street, 10”"
+    },
+    {
+     "letter": "c",
+     "text": "can contain a composite primary key"
+    },
+    {
+     "letter": "d",
+     "text": "can include columns that depend on a part of a primary key only"
+    }
+   ],
+   "explanation": "1NF requires a key (a), allows a composite primary key (c), and does NOT forbid partial dependencies — those are only removed at 2NF — so a 1NF table may still have columns depending on part of the key (d). A single column holding a whole composite address like “London, Downing Street, 10” is non-atomic and violates 1NF (b)."
+  },
+  {
+   "id": "q-2025-11",
+   "exam": "2025",
+   "number": 11,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Big Data is defined as:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "high value data"
+    },
+    {
+     "letter": "b",
+     "text": "high quality data"
+    },
+    {
+     "letter": "c",
+     "text": "high volume data"
+    },
+    {
+     "letter": "d",
+     "text": "high velocity data"
+    }
+   ],
+   "explanation": "The classic defining 'Vs' present here are Volume (c) and Velocity (d). Big Data is not defined by high quality (b), and value (a) is a later add-on rather than a defining characteristic."
+  },
+  {
+   "id": "q-2025-12",
+   "exam": "2025",
+   "number": 12,
+   "type": "open",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Describe the logical organisation of an Oracle database. (For extra points: describe how to use tablespaces and backups to quickly restore, after a failure, the data of e.g. 20 tables first — so users can work with the core functionality without waiting for the remaining data to be restored.)",
+   "options": [],
+   "explanation": "**Logical organisation.** An Oracle database is organised logically into **tablespaces**, each a logical storage container mapped to one or more physical datafiles. A tablespace holds **segments** (e.g. a table or index), each segment consists of **extents**, and each extent is a set of contiguous **data blocks** — the smallest logical I/O unit. Schema objects (tables, indexes, views, etc.) belong to user schemas and are stored in segments within tablespaces. This logical layer is deliberately separated from the physical files so storage can be managed independently.\n\n**Fast partial recovery.** Place the ~20 business-critical tables in their own dedicated tablespace(s), run the database in ARCHIVELOG mode, and back up at tablespace/datafile granularity (e.g. with RMAN). After a failure you can then perform **tablespace- or datafile-level restore and recovery**, bringing the critical tablespace(s) back online first by restoring their datafiles and applying redo, while the other tablespaces remain offline and are recovered afterwards. Users regain the core functionality quickly instead of waiting for the whole database to be restored."
+  },
+  {
+   "id": "q-2025-13",
+   "exam": "2025",
+   "number": 13,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "e"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "A one-to-many relation has been identified between tables A and B. This means:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Foreign keys have to be added to both of the tables"
+    },
+    {
+     "letter": "b",
+     "text": "A new table with one foreign key is needed"
+    },
+    {
+     "letter": "c",
+     "text": "A new table with two foreign keys is needed"
+    },
+    {
+     "letter": "d",
+     "text": "A new table without foreign keys is needed"
+    },
+    {
+     "letter": "e",
+     "text": "A foreign key should be added to table B"
+    },
+    {
+     "letter": "f",
+     "text": "A foreign key should be added to table A"
+    }
+   ],
+   "explanation": "A one-to-many relationship (one A relating to many B) is implemented by placing a foreign key on the 'many' side, table B, referencing A (e). No junction table is needed — that is for many-to-many — and a single FK on B suffices, so the other options are wrong."
+  },
+  {
+   "id": "q-2025-14",
+   "exam": "2025",
+   "number": 14,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "To recover an Oracle database, the following files will be useful:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "whole backup"
+    },
+    {
+     "letter": "b",
+     "text": "online transaction logs"
+    },
+    {
+     "letter": "c",
+     "text": "vector layers"
+    },
+    {
+     "letter": "d",
+     "text": "archived transaction logs"
+    },
+    {
+     "letter": "e",
+     "text": "raster layers"
+    }
+   ],
+   "explanation": "Recovery uses a restored backup (a), the online redo logs (b) and, for media/point-in-time recovery, the archived redo logs (d). Vector and raster layers (c, e) are GIS concepts, unrelated to database recovery."
+  },
+  {
+   "id": "q-2025-15",
+   "exam": "2025",
+   "number": 15,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "A NoSQL cluster platform has been proposed to store the data. This means:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "SQL queries will not be possible"
+    },
+    {
+     "letter": "b",
+     "text": "SQL queries may not be possible"
+    },
+    {
+     "letter": "c",
+     "text": "improved support for transactions compared to RDBMS can be expected"
+    }
+   ],
+   "explanation": "NoSQL platforms vary: many offer SQL-like query interfaces while others do not, so SQL queries 'may not be possible' (b) rather than definitely impossible (a). Distributed NoSQL stores typically provide weaker, not stronger, transactional guarantees than an RDBMS (c)."
+  },
+  {
+   "id": "q-2025-16",
+   "exam": "2025",
+   "number": 16,
+   "type": "open",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [],
+   "pdfs": [
+    "hbase",
+    "nosql"
+   ],
+   "stem": "Describe in points the differences between a table in an RDBMS such as MS SQL Server and a table in Apache HBase. (For extra points: describe whether dedicated mechanisms exist for storing multiple versions of the data in a row, whether this means versioning entire rows, and how the number of versions is set.)",
+   "options": [],
+   "explanation": "**RDBMS table (e.g. MS SQL Server):** fixed schema defined in advance; every row has the same columns with declared data types; supports SQL, joins, referential integrity and ACID transactions; data is typically normalised; rows are identified by a primary key.\n\n**Apache HBase table:** a sparse, distributed, wide-column store. The schema fixes only **column families**; the actual columns (qualifiers) can differ from row to row and are added dynamically. Data is accessed by **row key** (and column family/qualifier), there are no SQL joins, and it scales horizontally across a cluster with no full relational ACID semantics. Empty cells take no space (sparse).\n\n**Versioning.** HBase has a dedicated mechanism: each **cell** (a given row key + column family + qualifier) can store **multiple versions distinguished by a timestamp**. This is per-cell, not whole-row versioning — different columns can have different numbers of versions. The maximum number of versions kept is configured per **column family** (the VERSIONS setting), and reads can return the latest or a specific historical version. A standard RDBMS table does not keep such automatic value history."
+  },
+  {
+   "id": "q-2025-17",
+   "exam": "2025",
+   "number": 17,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "The company needs a system that should easily answer queries such as finding all water supply pipes located at least partly in the city area defined by a polygon. This means that the company needs:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "GIS system"
+    },
+    {
+     "letter": "b",
+     "text": "NoSQL system"
+    },
+    {
+     "letter": "c",
+     "text": "RDBMS system"
+    },
+    {
+     "letter": "d",
+     "text": "Apache HBase"
+    }
+   ],
+   "explanation": "Finding features that lie within / intersect a polygon is a spatial query over geographic data, which is exactly what a GIS provides (a). Plain NoSQL, RDBMS or HBase do not natively offer spatial layers and operators."
+  },
+  {
+   "id": "q-2025-18",
+   "exam": "2025",
+   "number": 18,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "A utility company has decided to use a GIS system. It can expect a return on investment:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "because of just buying and installing the GIS system"
+    },
+    {
+     "letter": "b",
+     "text": "because of running spatial queries on raster labelling of its network"
+    },
+    {
+     "letter": "c",
+     "text": "because of just using GIS and mathematical modelling of its network"
+    },
+    {
+     "letter": "d",
+     "text": "because of making better decisions thanks to the GIS system and mathematical modelling"
+    }
+   ],
+   "explanation": "ROI comes from the better decisions enabled by combining the GIS with analysis/mathematical modelling of the network (d), not from merely buying/installing the software (a) or from the tools alone without acting on their output (b, c)."
+  },
+  {
+   "id": "q-2025-19",
+   "exam": "2025",
+   "number": 19,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a",
+    "d"
+   ],
+   "pdfs": [
+    "nosql",
+    "hbase"
+   ],
+   "stem": "Sample NoSQL platforms include:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Apache HBase"
+    },
+    {
+     "letter": "b",
+     "text": "ESRI ArcGIS"
+    },
+    {
+     "letter": "c",
+     "text": "MS SQL Server"
+    },
+    {
+     "letter": "d",
+     "text": "MongoDB"
+    }
+   ],
+   "explanation": "Apache HBase (wide-column) and MongoDB (document) are NoSQL platforms (a, d). ESRI ArcGIS is a GIS (b) and MS SQL Server is a relational DBMS (c)."
+  },
+  {
+   "id": "q-2025-20",
+   "exam": "2025",
+   "number": 20,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "A table of products has been designed which includes a primary key and a column with a list of countries in which a product is sold. Individual country names in this column are comma separated. Such a table:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "is in the first normal form"
+    },
+    {
+     "letter": "b",
+     "text": "is in the second normal form"
+    },
+    {
+     "letter": "c",
+     "text": "is in the third normal form"
+    },
+    {
+     "letter": "d",
+     "text": "is not normalised"
+    }
+   ],
+   "explanation": "A comma-separated list in one column is a repeating, non-atomic value, which violates the very first requirement (1NF). The table therefore is not normalised (d) and cannot be in 1NF/2NF/3NF."
+  },
+  {
+   "id": "q-2025-21",
+   "exam": "2025",
+   "number": 21,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a",
+    "d",
+    "e"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "A table in the third normal form:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "contains primary key"
+    },
+    {
+     "letter": "b",
+     "text": "can include non-atomic values"
+    },
+    {
+     "letter": "c",
+     "text": "can include one column for all address data i.e. (city, street, house number)"
+    },
+    {
+     "letter": "d",
+     "text": "can contain a composite primary key"
+    },
+    {
+     "letter": "e",
+     "text": "is also a table in the second normal form"
+    },
+    {
+     "letter": "f",
+     "text": "can include columns that depend on a part of a primary key only"
+    }
+   ],
+   "explanation": "A 3NF table has a primary key (a), may have a composite key (d), and by definition already satisfies 1NF and 2NF (e). It must use atomic values (so b and the single combined-address column c are not allowed) and must have removed partial dependencies (f violates 2NF and hence 3NF)."
+  },
+  {
+   "id": "q-2025-22",
+   "exam": "2025",
+   "number": 22,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "Before the list of columns for the tables planned in the relational database is developed:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "System scope should be defined"
+    },
+    {
+     "letter": "b",
+     "text": "Normalization should be performed"
+    },
+    {
+     "letter": "c",
+     "text": "Possible high-level integration with other databases should be identified"
+    },
+    {
+     "letter": "d",
+     "text": "The objectives for creating the database should be specified"
+    }
+   ],
+   "explanation": "Defining columns is a design step that must be preceded by requirements/analysis: establishing the objectives (d), the system scope (a), and how it integrates with other systems (c). Normalisation operates on already-identified attributes/columns, so it comes afterwards, not before (b)."
+  },
+  {
+   "id": "q-2025-23",
+   "exam": "2025",
+   "number": 23,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Big Data is:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "typically used with schema-on-write approach"
+    },
+    {
+     "letter": "b",
+     "text": "typically data of higher quality than data present in data warehouses"
+    },
+    {
+     "letter": "c",
+     "text": "typically carefully modelled before being placed in a system, typically being a relational database management system"
+    },
+    {
+     "letter": "d",
+     "text": "frequently stored in Apache Hadoop"
+    }
+   ],
+   "explanation": "Big Data is frequently stored on Apache Hadoop (d). It uses schema-on-read rather than schema-on-write (a), is generally of lower quality than a curated warehouse (b), and is ingested raw rather than carefully modelled into an RDBMS first (c)."
+  },
+  {
+   "id": "q-2025-24",
+   "exam": "2025",
+   "number": 24,
+   "type": "multi",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "The benefits of using a stored procedure compared to executing a batch of SQL statements include:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "improved performance"
+    },
+    {
+     "letter": "b",
+     "text": "portability of the code among different DBMSs"
+    },
+    {
+     "letter": "c",
+     "text": "the ability to reduce the overhead of client-server network communication"
+    }
+   ],
+   "explanation": "A stored procedure runs server-side, is precompiled/cached and bundles many statements into one call, improving performance (a) and cutting client-server round-trips (c). Procedural code is vendor-specific, so it is not portable across DBMSs (b)."
+  },
+  {
+   "id": "q-2025-25",
+   "exam": "2025",
+   "number": 25,
+   "type": "single",
+   "generated": false,
+   "tags": [
+    "2025"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "There is a need to put new orders into a local database and into a central database of a company. The orders can be placed in the central database with some latency in case of network connectivity issues which occasionally happen. The suggested solution is to:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "use distributed transactions"
+    },
+    {
+     "letter": "b",
+     "text": "use replication from the local database to the central database"
+    },
+    {
+     "letter": "c",
+     "text": "put new records directly from the local application into the central database"
+    }
+   ],
+   "explanation": "Tolerating latency and occasional network outages points to asynchronous replication from the local to the central database (b). Distributed transactions require all nodes to be available synchronously (a), and writing directly to the central database fails during connectivity issues (c)."
+  },
+  {
+   "id": "q-gen-architecture-patterns-01",
+   "exam": "",
+   "number": 1,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "According to the lecture, why does an organisation frequently run more than one instance of a DBMS platform?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Different database applications require different DBMS platforms or versions"
+    },
+    {
+     "letter": "b",
+     "text": "Key enterprise systems may run on their own instances to increase stability and simplify management"
+    },
+    {
+     "letter": "c",
+     "text": "Standby servers may be used to ensure high availability"
+    },
+    {
+     "letter": "d",
+     "text": "A single DBMS instance is legally forbidden in most countries"
+    }
+   ],
+   "explanation": "The lecture lists differing platform/version needs (a), dedicated instances for stability (b), and standby servers for high availability (c) as reasons for multiple instances. There is no legal prohibition on single instances, so d is false."
+  },
+  {
+   "id": "q-gen-architecture-patterns-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "In the file-based approach described in the lecture, how do database applications access the data?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Through a dedicated server process that performs all data processing centrally"
+    },
+    {
+     "letter": "b",
+     "text": "Through a REST API exposed by a middle-tier application server"
+    },
+    {
+     "letter": "c",
+     "text": "Through an embedded DBMS engine (a software library) reading the database, which is just a collection of files"
+    },
+    {
+     "letter": "d",
+     "text": "Through a distributed transaction coordinator"
+    }
+   ],
+   "explanation": "The lecture states that in the file-based approach, applications access the database (just a collection of files) through an embedded DBMS engine that is a software library (c). There is no central server process; that is the server-based model the file-based approach lacks."
+  },
+  {
+   "id": "q-gen-architecture-patterns-03",
+   "exam": "",
+   "number": 3,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "The lecture argues the file-based approach scales poorly for multi-user systems. Which problems does it cite?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Possible network congestion as data is transferred to workstations"
+    },
+    {
+     "letter": "b",
+     "text": "Increased demand for CPU time on client workstations because processing occurs there"
+    },
+    {
+     "letter": "c",
+     "text": "Limited data security, since data files can be easily copied or modified by users"
+    },
+    {
+     "letter": "d",
+     "text": "Inability to use SQL of any kind"
+    }
+   ],
+   "explanation": "The lecture cites network congestion (a), client-side CPU load because processing happens on workstations (b), and weak security since files can be copied/modified (c). SQLite shows the file-based approach still supports SQL, so d is false."
+  },
+  {
+   "id": "q-gen-architecture-patterns-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "The lecture presents SQLite as a popular serverless solution. Which description matches what it says?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It is a client-server DBMS requiring a dedicated background service"
+    },
+    {
+     "letter": "b",
+     "text": "It is an in-process library, with all source code in one C file, typically less than 1MB in size"
+    },
+    {
+     "letter": "c",
+     "text": "It does not support transactional processing of any kind"
+    },
+    {
+     "letter": "d",
+     "text": "It can only store data in plain CSV files, not as a relational database"
+    }
+   ],
+   "explanation": "The lecture describes SQLite as an in-process library whose source is one C file, typically under 1MB (b), and notes it can offer transactional processing, contradicting c. It manages local data as a relational database queried with SQL, contradicting d, and is serverless, contradicting a."
+  },
+  {
+   "id": "q-gen-architecture-patterns-05",
+   "exam": "",
+   "number": 5,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "According to the lecture, for which use cases is a serverless (file-based) database such as SQLite appropriate?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Running databases on mobile phones, cameras, and other IoT devices"
+    },
+    {
+     "letter": "b",
+     "text": "Running databases on vehicles, drones, or remote sensors"
+    },
+    {
+     "letter": "c",
+     "text": "Running databases on medical devices"
+    },
+    {
+     "letter": "d",
+     "text": "Enabling local data analysis, e.g. in JupyterLab"
+    }
+   ],
+   "explanation": "The lecture lists mobile phones, cameras, vehicles, remote sensors, drones, medical devices, and other IoT devices, as well as local analysis in JupyterLab, as appropriate serverless use cases, so all four options are correct."
+  },
+  {
+   "id": "q-gen-architecture-patterns-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "How does the lecture define a distributed database?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A single database split across multiple disks within one server"
+    },
+    {
+     "letter": "b",
+     "text": "A database accessed only through a serverless library"
+    },
+    {
+     "letter": "c",
+     "text": "A database composed of multiple databases, e.g. a country-wide tax database that is the sum of regional databases"
+    },
+    {
+     "letter": "d",
+     "text": "A database that stores no data locally and only caches remote results"
+    }
+   ],
+   "explanation": "The lecture defines a distributed database as one composed of multiple databases, using the country-wide tax database built from regional databases as the example (c). Splitting one database over disks (a) is unrelated, and the other options misdescribe the concept."
+  },
+  {
+   "id": "q-gen-architecture-patterns-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "The lecture lists reasons to use distributed databases. Which of the following are mentioned?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "For mission-critical systems, a local database can be added when a stable connection to the remote server cannot be guaranteed"
+    },
+    {
+     "letter": "b",
+     "text": "To decrease response time"
+    },
+    {
+     "letter": "c",
+     "text": "When different software systems require their own DBMS platforms (heterogeneous distributed databases)"
+    },
+    {
+     "letter": "d",
+     "text": "To make all data physically reside on a single central server"
+    }
+   ],
+   "explanation": "The lecture cites adding a local database for mission-critical systems with unreliable connectivity (a), decreasing response time (b), and supporting heterogeneous platforms (c). Centralising all data on one server contradicts the very idea of a distributed database, so d is false."
+  },
+  {
+   "id": "q-gen-architecture-patterns-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "In the sample distributed-database architecture, how do the separate DBMS platforms most often communicate, and how do clients connect?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Clients connect to a shared central server; DBMS platforms never communicate"
+    },
+    {
+     "letter": "b",
+     "text": "Clients connect over a VPN; DBMS platforms communicate over the LAN"
+    },
+    {
+     "letter": "c",
+     "text": "Clients most frequently communicate with their own local DBMS instance over a LAN, while DBMS platforms exchange data through secure connections such as a VPN"
+    },
+    {
+     "letter": "d",
+     "text": "Clients and DBMS platforms all share one transaction log"
+    }
+   ],
+   "explanation": "The lecture's callouts state that clients most frequently communicate with their own DBMS instance (via the local LAN), while the DBMS platforms exchange data through secure connections such as a VPN (c). The other options swap or misstate these roles."
+  },
+  {
+   "id": "q-gen-architecture-patterns-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "The lecture notes a subtle case in which even a transaction touching two databases on the same server is still a distributed transaction. Why?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Because the server has more than one CPU"
+    },
+    {
+     "letter": "b",
+     "text": "Because each database has its own private transaction log"
+    },
+    {
+     "letter": "c",
+     "text": "Because the two databases use different SQL dialects"
+    },
+    {
+     "letter": "d",
+     "text": "Because the server runs both an active and a passive node"
+    }
+   ],
+   "explanation": "The lecture states that if every database has its own private transaction log, then even a transaction affecting two databases on the same server requires a distributed transaction (b). The reasoning is about separate logs, not CPUs, dialects, or clustering."
+  },
+  {
+   "id": "q-gen-architecture-patterns-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "According to the lecture, what protocol is typically used to coordinate a distributed transaction, and what are its phases?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Three-phase locking: read, write, release"
+    },
+    {
+     "letter": "b",
+     "text": "Single-phase commit: immediate commit on all servers"
+    },
+    {
+     "letter": "c",
+     "text": "Two-phase commit: a prepare (voting) phase followed by a commit phase distributing the decision"
+    },
+    {
+     "letter": "d",
+     "text": "Snapshot isolation: capture then replay"
+    }
+   ],
+   "explanation": "The lecture states distributed transactions typically use the two-phase commit protocol, with a prepare phase in which all involved DBMS instances vote and a commit phase distributing the decision to apply or roll back (c). The other options misname the protocol or its phases."
+  },
+  {
+   "id": "q-gen-architecture-patterns-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "In Ms SQL Server, which service is named as the coordinator responsible for managing the two stages of a distributed transaction?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "SQL Server Agent"
+    },
+    {
+     "letter": "b",
+     "text": "Microsoft Distributed Transaction Coordinator"
+    },
+    {
+     "letter": "c",
+     "text": "Log-reader agent"
+    },
+    {
+     "letter": "d",
+     "text": "Distribution agent"
+    }
+   ],
+   "explanation": "The lecture names the Microsoft Distributed Transaction Coordinator as the coordinating service for the two phases of a distributed transaction (b). SQL Server Agent schedules jobs, while the log-reader and distribution agents belong to transactional replication."
+  },
+  {
+   "id": "q-gen-architecture-patterns-12",
+   "exam": "",
+   "number": 12,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "The lecture warns of problems a distributed transaction must address. Which of the following are explicitly mentioned?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Some participating DBMSs may be unavailable"
+    },
+    {
+     "letter": "b",
+     "text": "Some DBMSs may reject the requested changes, e.g. due to a constraint violation"
+    },
+    {
+     "letter": "c",
+     "text": "The two-phase commit protocol always finishes in a single network round-trip"
+    },
+    {
+     "letter": "d",
+     "text": "Distributed transactions remove the need for ACID guarantees"
+    }
+   ],
+   "explanation": "The lecture lists unavailable participating DBMSs (a) and DBMSs rejecting changes, e.g. constraint violations (b), as problems to address. The protocol involves significant overhead (not a single round-trip), and executing a DT means ensuring ACID, so c and d are false."
+  },
+  {
+   "id": "q-gen-architecture-patterns-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "In Ms SQL Server, which statement starts a distributed transaction according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`BEGIN TRAN WITH COMMIT`"
+    },
+    {
+     "letter": "b",
+     "text": "`BEGIN DISTRIBUTED { TRAN | TRANSACTION }`"
+    },
+    {
+     "letter": "c",
+     "text": "`START REPLICATION TRANSACTION`"
+    },
+    {
+     "letter": "d",
+     "text": "`EXECUTE DISTRIBUTED PROCEDURE`"
+    }
+   ],
+   "explanation": "The lecture states that on Ms SQL Server a distributed transaction starts with `BEGIN DISTRIBUTED { TRAN | TRANSACTION }` (b). The other statements are not valid distributed-transaction starters described in the lecture."
+  },
+  {
+   "id": "q-gen-architecture-patterns-14",
+   "exam": "",
+   "number": 14,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "The lecture compares distributed transactions and replication as data-synchronisation methods. Which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Distributed transactions are the only method that guarantees on-line consistency of participating databases"
+    },
+    {
+     "letter": "b",
+     "text": "Replication updates all participating servers at exactly the same instant with no latency"
+    },
+    {
+     "letter": "c",
+     "text": "Replication accepts latency, so the system may still accept user input even if one server does not respond"
+    },
+    {
+     "letter": "d",
+     "text": "Distributed transactions continue processing normally even when one server is unavailable"
+    }
+   ],
+   "explanation": "The lecture states distributed transactions are the only method guaranteeing on-line consistency (a) but stop processing when any server is unavailable, contradicting d. Replication accepts latency and lets the system accept input despite an unresponsive server (c), which contradicts the no-latency claim in b."
+  },
+  {
+   "id": "q-gen-architecture-patterns-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "The lecture lists three categories of replication in Ms SQL Server. Which set is correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Active, passive, and hybrid replication"
+    },
+    {
+     "letter": "b",
+     "text": "Synchronous, asynchronous, and lazy replication"
+    },
+    {
+     "letter": "c",
+     "text": "Transactional, snapshot, and merge replication"
+    },
+    {
+     "letter": "d",
+     "text": "Prepare, commit, and rollback replication"
+    }
+   ],
+   "explanation": "The lecture's replication-categories diagram lists transactional, snapshot, and merge replication (c). The other options confuse replication with cluster strategies, generic timing terms, or two-phase commit phases."
+  },
+  {
+   "id": "q-gen-architecture-patterns-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "In transactional replication as described in the lecture, what are the roles of the log-reader agent and the distribution agent?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The log-reader agent commits transactions; the distribution agent reads them"
+    },
+    {
+     "letter": "b",
+     "text": "The log-reader agent monitors changes via the transaction log and captures them into a distribution database; the distribution agent delivers the SQL INSERT/UPDATE/DELETE statements to the subscriber"
+    },
+    {
+     "letter": "c",
+     "text": "The distribution agent merges two databases; the log-reader agent rolls back failed transactions"
+    },
+    {
+     "letter": "d",
+     "text": "Both agents only operate on snapshots of full tables"
+    }
+   ],
+   "explanation": "The lecture states the log-reader agent monitors changes online through the transaction log and places them in a distribution database, while the distribution agent delivers the captured INSERT/UPDATE/DELETE statements to the subscriber periodically or online (b). The other options misassign these roles."
+  },
+  {
+   "id": "q-gen-architecture-patterns-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "In the case study where a head office must have a complete list of regional invoices by the end of the next business day, why does the lecture favour transactional replication over distributed transactions?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Distributed transactions cannot copy invoice data at all"
+    },
+    {
+     "letter": "b",
+     "text": "Replication guarantees stronger on-line consistency than distributed transactions"
+    },
+    {
+     "letter": "c",
+     "text": "Distributed transactions are not supported by Ms SQL Server"
+    },
+    {
+     "letter": "d",
+     "text": "With distributed transactions, no invoices could be issued once the central server became unavailable, whereas replication lets the local log-reader agent gather changes and deliver them once the connection is restored"
+    }
+   ],
+   "explanation": "The lecture notes the drawback of distributed transactions is that no invoices can be issued when the central server is unavailable, while transactional replication still gathers local changes and delivers them after reconnection (d). Distributed transactions offer stronger consistency, not replication, so b is false."
+  },
+  {
+   "id": "q-gen-architecture-patterns-18",
+   "exam": "",
+   "number": 18,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "How does the lecture distinguish snapshot replication from merge replication?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Snapshot replication periodically replaces the subscriber's table content with new content without tracking individual changes"
+    },
+    {
+     "letter": "b",
+     "text": "Merge replication periodically merges the content of two different databases"
+    },
+    {
+     "letter": "c",
+     "text": "Snapshot replication transmits complete SQL statements for each individual change"
+    },
+    {
+     "letter": "d",
+     "text": "Merge replication is used only to publish a read-only price list from headquarters"
+    }
+   ],
+   "explanation": "The lecture describes snapshot replication as periodically replacing subscriber table content without tracking individual changes (a), and merge replication as periodically merging two databases, e.g. central customers with mobile reps' data (b). Transmitting complete SQL statements per change is transactional replication (c), and the price-list publication example is snapshot, not merge (d)."
+  },
+  {
+   "id": "q-gen-architecture-patterns-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "The lecture describes typical high-availability (HA) architectures. Which elements does it list?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Redundant power supplies and RAID (Redundant Array of Inexpensive Disks)"
+    },
+    {
+     "letter": "b",
+     "text": "Multiple network interface cards and redundant network connections"
+    },
+    {
+     "letter": "c",
+     "text": "Clusters of servers"
+    },
+    {
+     "letter": "d",
+     "text": "A single non-redundant server to minimise complexity"
+    }
+   ],
+   "explanation": "The lecture lists redundant power supplies and RAID (a), multiple NICs and redundant network connections (b), and clusters of servers (c) as typical HA elements. A single non-redundant server is the opposite of high availability, so d is false."
+  },
+  {
+   "id": "q-gen-architecture-patterns-20",
+   "exam": "",
+   "number": 20,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "architecture-patterns"
+   ],
+   "stem": "How does the lecture contrast active/passive and active/active cluster strategies?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "In active/passive both servers always share the load; in active/active one server is a standby"
+    },
+    {
+     "letter": "b",
+     "text": "In active/passive one server is normally passive and acts as a standby that handles requests only when the primary fails; in active/active two or more servers share the load"
+    },
+    {
+     "letter": "c",
+     "text": "Both strategies require all servers to be idle until a failover occurs"
+    },
+    {
+     "letter": "d",
+     "text": "Active/active means only one server may run at a time to avoid conflicts"
+    }
+   ],
+   "explanation": "The lecture defines active/passive as one server normally passive, acting as a standby that takes over when the primary fails, and active/active as two or more servers sharing the load (b). Option a swaps the definitions, and c and d misstate both strategies."
+  },
+  {
+   "id": "q-gen-big-data-01",
+   "exam": "",
+   "number": 1,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "According to the Gartner definition adopted by the industry, Big Data is characterised by which \"Vs\"?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "high volume"
+    },
+    {
+     "letter": "b",
+     "text": "high velocity"
+    },
+    {
+     "letter": "c",
+     "text": "high variety"
+    },
+    {
+     "letter": "d",
+     "text": "high veracity"
+    },
+    {
+     "letter": "e",
+     "text": "high validity"
+    }
+   ],
+   "explanation": "The Gartner definition describes Big Data as high-volume, high-velocity and/or high-variety information assets (a, b, c) — the \"3Vs\". Veracity and validity are later additions and are not part of the definition quoted in the presentation."
+  },
+  {
+   "id": "q-gen-big-data-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "In the Google Flu Trends case study, how did Google build its predictions?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "By asking medicine experts to design the model features"
+    },
+    {
+     "letter": "b",
+     "text": "By testing the 50 million most common search terms for correlations with CDC flu data, without using domain knowledge"
+    },
+    {
+     "letter": "c",
+     "text": "By collecting new flu cases reported directly by doctors"
+    },
+    {
+     "letter": "d",
+     "text": "By sampling a small subset of users and extrapolating"
+    }
+   ],
+   "explanation": "Google took the 50 million most common US search terms and built hundreds of millions of models to find correlations with CDC data, with no medical domain knowledge involved (b). Reporting by doctors is the standard CDC approach (c), expert-designed features describe the traditional method (a), and the project did not rely on sampling (d)."
+  },
+  {
+   "id": "q-gen-big-data-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Why were the CDC's standard flu reports typically 1-2 weeks out of date?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Because the CDC deliberately delayed publication for political reasons"
+    },
+    {
+     "letter": "b",
+     "text": "Because relational databases cannot store medical data"
+    },
+    {
+     "letter": "c",
+     "text": "Because people must consult doctors first, and data collection, cleaning and report publication take time"
+    },
+    {
+     "letter": "d",
+     "text": "Because Google blocked access to the data"
+    }
+   ],
+   "explanation": "The presentation states the delay arose because patients have to consult doctors first and because data collection, cleaning and report publication take time (c). The other options are not supported by the material."
+  },
+  {
+   "id": "q-gen-big-data-04",
+   "exam": "",
+   "number": 4,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Which lessons were learned from early Big Data projects such as Google Flu?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The assumption that no domain knowledge is needed turned out to be wrong"
+    },
+    {
+     "letter": "b",
+     "text": "Spurious correlations can make models vulnerable to false dependencies"
+    },
+    {
+     "letter": "c",
+     "text": "Dependencies in the data may evolve over time, increasing model errors"
+    },
+    {
+     "letter": "d",
+     "text": "Big Data models are immune to changing data dependencies"
+    },
+    {
+     "letter": "e",
+     "text": "Domain expertise should always be completely excluded from Big Data work"
+    }
+   ],
+   "explanation": "Early projects showed that domain knowledge does matter (a), that spurious correlations are a real risk (b), and that evolving data dependencies (e.g. new health services) increase errors (c). The claims of immunity (d) and total exclusion of expertise (e) are the misconceptions that were disproven."
+  },
+  {
+   "id": "q-gen-big-data-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "The presentation gives a humorous example of a spurious correlation found in the Google Flu work. Which search terms turned out to be correlated with flu cases?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "\"weather forecast\""
+    },
+    {
+     "letter": "b",
+     "text": "\"online pharmacy\""
+    },
+    {
+     "letter": "c",
+     "text": "\"winter holidays\""
+    },
+    {
+     "letter": "d",
+     "text": "\"high school basketball\""
+    }
+   ],
+   "explanation": "The presentation cites that the number of flu cases turned out to be correlated with queries referring to \"high school basketball\" (d) — a classic example of a spurious correlation. The other terms are plausible-sounding distractors not mentioned."
+  },
+  {
+   "id": "q-gen-big-data-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "How does the \"Big Data approach\" differ from the \"traditional approach\" as presented?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Big Data carefully limits the number of variables to avoid confusing the model"
+    },
+    {
+     "letter": "b",
+     "text": "Big Data tries to get as much data as possible and uses the best-fitting models as black boxes"
+    },
+    {
+     "letter": "c",
+     "text": "Big Data always develops a theoretical formula explaining the process"
+    },
+    {
+     "letter": "d",
+     "text": "Big Data relies primarily on small expert-designed surveys"
+    }
+   ],
+   "explanation": "The Big Data approach gathers as much data as possible, develops many models, and uses the best ones as black boxes (b). Limiting variables, developing explanatory theory, and expert-designed surveys describe the traditional approach."
+  },
+  {
+   "id": "q-gen-big-data-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "According to the figures cited, how did the proportion of digital stored information change between 2000 and 2013?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It dropped from 98% to 25%"
+    },
+    {
+     "letter": "b",
+     "text": "It stayed roughly constant at about 50%"
+    },
+    {
+     "letter": "c",
+     "text": "It rose from about 25% to about 98%"
+    },
+    {
+     "letter": "d",
+     "text": "It rose from about 10% to about 50%"
+    }
+   ],
+   "explanation": "The presentation states that in 2000 about 25% of stored information was digital, while by 2013 about 98% was already digital (c). The other figures misrepresent this shift."
+  },
+  {
+   "id": "q-gen-big-data-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Why is sampling often no longer needed when processing Big Data, according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Because samples are illegal under data protection rules"
+    },
+    {
+     "letter": "b",
+     "text": "Because new tools combined with hardware capabilities make processing entire data sets feasible"
+    },
+    {
+     "letter": "c",
+     "text": "Because samples always give wrong results"
+    },
+    {
+     "letter": "d",
+     "text": "Because relational databases automatically sample all data"
+    }
+   ],
+   "explanation": "Sampling was historically used to cut the cost of data acquisition and processing, but new tools and hardware now allow processing of entire data sets, so it is frequently unnecessary (b). The other reasons are not given in the material."
+  },
+  {
+   "id": "q-gen-big-data-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "What is the central idea of the \"long tail\" model?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The overall sales volume of a large group of unpopular products may exceed the sales of the few most successful products"
+    },
+    {
+     "letter": "b",
+     "text": "Only the few best-selling products ever generate any profit"
+    },
+    {
+     "letter": "c",
+     "text": "Products should be removed if they do not sell in high quantities"
+    },
+    {
+     "letter": "d",
+     "text": "Sales follow a uniform distribution across all products"
+    }
+   ],
+   "explanation": "The long tail model holds that the combined sales of many unpopular products can exceed those of the limited number of best-sellers (a) — a cornerstone of Amazon's success. The other statements contradict this idea."
+  },
+  {
+   "id": "q-gen-big-data-10",
+   "exam": "",
+   "number": 10,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Regarding the scalability of relational DBMS for large-scale web data, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Scaling up a single server indefinitely fully solves the problem"
+    },
+    {
+     "letter": "b",
+     "text": "Scaling up (a more powerful server) is not sufficient to deal with the problem"
+    },
+    {
+     "letter": "c",
+     "text": "A shared-disk cluster (e.g. Oracle RAC) is still not sufficiently scalable and is expensive"
+    },
+    {
+     "letter": "d",
+     "text": "Relational shared-disk clusters scale easily to thousands of nodes"
+    },
+    {
+     "letter": "e",
+     "text": "Web-scale processing was never a performance or cost concern"
+    }
+   ],
+   "explanation": "Scaling up is insufficient (b) and shared-disk clusters such as Oracle RAC remain insufficiently scalable and costly (c). Indefinite scale-up does not solve it (a), shared-disk clusters do not reach thousands of nodes (d), and performance/cost limits were the key driving factor (e)."
+  },
+  {
+   "id": "q-gen-big-data-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "The \"scaling out\" answer adopted for Big Data processing is best described as:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "buying a single, ever more powerful server"
+    },
+    {
+     "letter": "b",
+     "text": "a shared-disk cluster where all servers access one central database"
+    },
+    {
+     "letter": "c",
+     "text": "a cluster of commodity hardware hosts, each holding and processing its own part of the data locally, without a relational database"
+    },
+    {
+     "letter": "d",
+     "text": "moving all data into a single in-memory relational database"
+    }
+   ],
+   "explanation": "Scaling out uses a cluster of commodity hosts, each storing and processing its own data subset locally and not relying on a relational database (c). Options (a) and (b) describe scaling up and shared-disk approaches that proved insufficient."
+  },
+  {
+   "id": "q-gen-big-data-12",
+   "exam": "",
+   "number": 12,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Which statements correctly describe sharding as presented?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Data is distributed across multiple servers, with different data on different servers"
+    },
+    {
+     "letter": "b",
+     "text": "Each server has its own storage and can fully manage (create, modify, read) its subset of data"
+    },
+    {
+     "letter": "c",
+     "text": "Sharding requires every server to hold a complete copy of the entire data set"
+    },
+    {
+     "letter": "d",
+     "text": "Sharding is usually combined with replication to avoid having only one copy of the data"
+    },
+    {
+     "letter": "e",
+     "text": "Sharding inherently guarantees referential integrity across the cluster"
+    }
+   ],
+   "explanation": "Sharding splits data across servers (a), each managing its own subset (b), and is typically combined with replication for redundancy (d). It does not require full copies on every node (c), and the sharding approach typically offers no referential integrity (e)."
+  },
+  {
+   "id": "q-gen-big-data-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "With a replication factor of 3, what is true of each shard?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Each shard exists on exactly one node"
+    },
+    {
+     "letter": "b",
+     "text": "Each shard is present on 3 nodes"
+    },
+    {
+     "letter": "c",
+     "text": "Each shard is split into 3 unrelated pieces with no copies"
+    },
+    {
+     "letter": "d",
+     "text": "The whole cluster is limited to 3 nodes total"
+    }
+   ],
+   "explanation": "A replication factor of 3 means each shard is present on 3 nodes (b), providing redundancy while the cluster itself may contain hundreds of nodes. The other options misinterpret what the replication factor means."
+  },
+  {
+   "id": "q-gen-big-data-14",
+   "exam": "",
+   "number": 14,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Comparing the RDBMS shared-disk approach with the sharding approach, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The RDBMS shared-disk approach ensures referential integrity but incurs significant communication overhead"
+    },
+    {
+     "letter": "b",
+     "text": "The sharding approach typically guarantees referential integrity"
+    },
+    {
+     "letter": "c",
+     "text": "The sharding approach reduces communication overhead and can scale to hundreds or thousands of servers"
+    },
+    {
+     "letter": "d",
+     "text": "Shared-disk installations of 1000 servers are common, with 50 being small"
+    },
+    {
+     "letter": "e",
+     "text": "Sharding cannot scale beyond about 10 servers"
+    }
+   ],
+   "explanation": "Shared-disk RDBMS ensures referential integrity at the cost of communication overhead and uses few servers (50 is large) (a). Sharding usually offers no referential integrity (b false), reduces overhead, and scales to 100s-1000s of servers (c), well beyond 10 (e false); 1000-server shared-disk setups are not typical (d false)."
+  },
+  {
+   "id": "q-gen-big-data-15",
+   "exam": "",
+   "number": 15,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Which are the two key modules of Apache Hadoop highlighted in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Hadoop Distributed File System (HDFS)"
+    },
+    {
+     "letter": "b",
+     "text": "Hadoop MapReduce"
+    },
+    {
+     "letter": "c",
+     "text": "Hadoop SQL Server"
+    },
+    {
+     "letter": "d",
+     "text": "Hadoop Referential Integrity Engine"
+    },
+    {
+     "letter": "e",
+     "text": "Hadoop OLTP Manager"
+    }
+   ],
+   "explanation": "The presentation names HDFS — a distributed file system for high-throughput data access (a) — and Hadoop MapReduce — a system for parallel processing of large data sets (b). The other named modules are fabricated and not part of Hadoop."
+  },
+  {
+   "id": "q-gen-big-data-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "What is a key advantage of Hadoop's architecture beyond just storing large volumes of data?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It enforces a strict relational schema on all stored files"
+    },
+    {
+     "letter": "b",
+     "text": "It centralises all processing on a single master node"
+    },
+    {
+     "letter": "c",
+     "text": "Individual data chunks can be processed locally by individual servers (e.g. with MapReduce tasks)"
+    },
+    {
+     "letter": "d",
+     "text": "It guarantees ACID transactions across the whole cluster"
+    }
+   ],
+   "explanation": "Hadoop processes individual data chunks locally on the servers that store them (e.g. with MapReduce), giving unprecedented cluster performance (c). It does not impose a relational schema (a), does not centralise processing (b), and does not provide cluster-wide ACID transactions (d)."
+  },
+  {
+   "id": "q-gen-big-data-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Which statement best distinguishes a local file system from HDFS?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "HDFS is managed by the node's operating system, while the local file system spans many nodes"
+    },
+    {
+     "letter": "b",
+     "text": "The local file system is managed by the node's OS, whereas HDFS is managed by Hadoop and typically spans many nodes but appears as a single file system from each node"
+    },
+    {
+     "letter": "c",
+     "text": "Both refer to exactly the same storage, just with different commands"
+    },
+    {
+     "letter": "d",
+     "text": "HDFS shell statements by default refer to the local file system"
+    }
+   ],
+   "explanation": "The local file system is managed by the node's OS, while HDFS is managed by Hadoop, spans many nodes, yet appears as one file system from each node (b). HDFS shell commands by default refer to HDFS, not the local file system (d), and the two are not the same storage (c)."
+  },
+  {
+   "id": "q-gen-big-data-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Which HDFS shell command copies a file from the local file system into HDFS?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "copyToLocal"
+    },
+    {
+     "letter": "b",
+     "text": "get"
+    },
+    {
+     "letter": "c",
+     "text": "copyFromLocal"
+    },
+    {
+     "letter": "d",
+     "text": "cat"
+    }
+   ],
+   "explanation": "`copyFromLocal` copies a local file to an HDFS location (c). `copyToLocal` and `get` move data the other way (HDFS to local), and `cat` copies source files to stdout."
+  },
+  {
+   "id": "q-gen-big-data-19",
+   "exam": "",
+   "number": 19,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "Which of the following is one of the five types of Hadoop data, paired with a correct objective?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Relational ledger data — to enforce referential integrity"
+    },
+    {
+     "letter": "b",
+     "text": "Clickstream data — to understand how people move on a portal and perform customer segmentation"
+    },
+    {
+     "letter": "c",
+     "text": "Spreadsheet data — to replace OLAP cubes"
+    },
+    {
+     "letter": "d",
+     "text": "Backup data — to guarantee ACID transactions"
+    }
+   ],
+   "explanation": "Clickstream data is one of the five Hadoop data types, used to understand user navigation paths and perform granular customer segmentation (b). The other pairings are invented; the genuine categories are social media, IT/server logs, clickstream, sensor and geolocation data."
+  },
+  {
+   "id": "q-gen-big-data-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "big-data"
+   ],
+   "stem": "According to the summary, which statements about Big Data and Apache Hadoop are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "RDBMS platforms turned out to be not sufficiently scalable to handle Big Data"
+    },
+    {
+     "letter": "b",
+     "text": "Apache Hadoop is a full relational database platform"
+    },
+    {
+     "letter": "c",
+     "text": "Apache Hadoop offers a file system rather than a database platform"
+    },
+    {
+     "letter": "d",
+     "text": "Other scalable platforms enabling more structured Big Data storage were developed after Hadoop"
+    },
+    {
+     "letter": "e",
+     "text": "Big Data processing is purely about technology, with no impact on services"
+    }
+   ],
+   "explanation": "The summary states that RDBMS proved insufficiently scalable (a), that Hadoop provides a file system rather than a database (c), and that more structured scalable platforms followed (d). Hadoop is not a relational database (b), and Big Data also enables novel services such as large-scale recommendation engines (e)."
+  },
+  {
+   "id": "q-gen-concurrency-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "Why are transactions executed in parallel rather than strictly serialised, according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Serial execution is impossible in modern DBMSs"
+    },
+    {
+     "letter": "b",
+     "text": "Complete isolation through serialisation would diminish DBMS performance"
+    },
+    {
+     "letter": "c",
+     "text": "Parallel execution guarantees that no anomalies can ever occur"
+    },
+    {
+     "letter": "d",
+     "text": "The ACID properties forbid serial execution"
+    }
+   ],
+   "explanation": "The presentation states that full isolation would require serialised execution, which would diminish performance, so a balance between performance and isolation is sought by running transactions in parallel. Parallel execution actually allows anomalies, so c is wrong, and ACID does not forbid serial execution."
+  },
+  {
+   "id": "q-gen-concurrency-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "Which anomaly occurs when a transaction reads data that has not yet been committed by another transaction?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Lost update"
+    },
+    {
+     "letter": "b",
+     "text": "Phantom"
+    },
+    {
+     "letter": "c",
+     "text": "Dirty read"
+    },
+    {
+     "letter": "d",
+     "text": "Non-repeatable read"
+    }
+   ],
+   "explanation": "A dirty read happens when a transaction reads uncommitted data; if the other transaction later rolls back, the first transaction has read data that never really existed. Lost updates, phantoms and non-repeatable reads describe different scenarios."
+  },
+  {
+   "id": "q-gen-concurrency-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "According to the presentation, a phantom is best described as:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A row whose value changes between two reads in the same transaction"
+    },
+    {
+     "letter": "b",
+     "text": "A new row that matches the search criteria but was not initially seen"
+    },
+    {
+     "letter": "c",
+     "text": "A modification overwritten by another transaction"
+    },
+    {
+     "letter": "d",
+     "text": "An uncommitted row read by another transaction"
+    }
+   ],
+   "explanation": "A phantom is a row that matches the search criteria but is not initially seen: if transaction 2 inserts a matching row and transaction 1 re-runs the query, it gets a different set of rows. The other descriptions correspond to non-repeatable reads, lost updates, and dirty reads respectively."
+  },
+  {
+   "id": "q-gen-concurrency-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "A lost update anomaly occurs when:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A transaction reads uncommitted data that is later rolled back"
+    },
+    {
+     "letter": "b",
+     "text": "A new row appears between two reads of the same query"
+    },
+    {
+     "letter": "c",
+     "text": "A single row returns different values on two reads"
+    },
+    {
+     "letter": "d",
+     "text": "Modifications made by one transaction are overwritten by another transaction unaware of those changes"
+    }
+   ],
+   "explanation": "Lost updates occur when more than one transaction reads the same data and the modifications made by one are overwritten by another that was unaware of the earlier change. The other options describe dirty reads, phantoms, and non-repeatable reads."
+  },
+  {
+   "id": "q-gen-concurrency-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "In the Account 456 example without locking, Transaction A adds 500 then rolls back while Transaction B subtracts 100. What wrong final balance results, and why?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "900 USD, which is correct"
+    },
+    {
+     "letter": "b",
+     "text": "1500 USD, because the rollback was ignored"
+    },
+    {
+     "letter": "c",
+     "text": "1400 USD instead of 900 USD, because A's uncommitted change affected B"
+    },
+    {
+     "letter": "d",
+     "text": "1000 USD, because both transactions cancelled out"
+    }
+   ],
+   "explanation": "The slide shows the balance ending at 1400 USD instead of the correct 900 USD, because Transaction A's update (+500) influenced Transaction B's computation before A rolled back. The correct isolated result would have been 1000 - 100 = 900."
+  },
+  {
+   "id": "q-gen-concurrency-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "Which SQL command sets the isolation level for a transaction in MS SQL Server?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`ALTER SESSION SET ISOLATION = LevelName`"
+    },
+    {
+     "letter": "b",
+     "text": "`SET TRANSACTION ISOLATION LEVEL LevelName`"
+    },
+    {
+     "letter": "c",
+     "text": "`SET ISOLATION LevelName`"
+    },
+    {
+     "letter": "d",
+     "text": "`BEGIN TRANSACTION ISOLATED LevelName`"
+    }
+   ],
+   "explanation": "The presentation gives the syntax `SET TRANSACTION ISOLATION LEVEL LevelName` for MS SQL Server. The other forms are invented and do not match the slide."
+  },
+  {
+   "id": "q-gen-concurrency-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "Under the READ COMMITTED isolation level in MS SQL Server, which anomalies are still possible?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "None of the anomalies are possible"
+    },
+    {
+     "letter": "b",
+     "text": "Dirty reads only"
+    },
+    {
+     "letter": "c",
+     "text": "Non-repeatable reads and phantoms"
+    },
+    {
+     "letter": "d",
+     "text": "Dirty reads, non-repeatable reads and phantoms"
+    }
+   ],
+   "explanation": "READ COMMITTED prevents dirty reads (only committed results are seen) but still allows non-repeatable reads and phantoms, since other transactions can commit during execution. It does not block all anomalies, and dirty reads are specifically prevented."
+  },
+  {
+   "id": "q-gen-concurrency-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "Which isolation level prevents dirty reads and non-repeatable reads but still allows phantoms?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "READ UNCOMMITTED"
+    },
+    {
+     "letter": "b",
+     "text": "READ COMMITTED"
+    },
+    {
+     "letter": "c",
+     "text": "REPEATABLE READ"
+    },
+    {
+     "letter": "d",
+     "text": "SERIALIZABLE"
+    }
+   ],
+   "explanation": "According to the isolation-level table, REPEATABLE READ blocks dirty reads and non-repeatable reads but phantom records can still happen. READ COMMITTED still allows non-repeatable reads, and SERIALIZABLE blocks phantoms too."
+  },
+  {
+   "id": "q-gen-concurrency-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "How does the SNAPSHOT isolation level work, according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It blocks all reads until other transactions finish"
+    },
+    {
+     "letter": "b",
+     "text": "A transaction sees the content of the database as it was at the start of the transaction"
+    },
+    {
+     "letter": "c",
+     "text": "It permits dirty reads to maximise performance"
+    },
+    {
+     "letter": "d",
+     "text": "It only prevents phantoms but allows dirty reads"
+    }
+   ],
+   "explanation": "The table states that under SNAPSHOT a transaction sees the content of the database as it was at the start of the transaction, preventing dirty reads, non-repeatable reads, and phantoms. It does not block reads or permit dirty reads."
+  },
+  {
+   "id": "q-gen-concurrency-10",
+   "exam": "",
+   "number": 10,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "According to the presentation, which resources can a DBMS impose locks on to satisfy an isolation level?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A single record being modified"
+    },
+    {
+     "letter": "b",
+     "text": "The CPU scheduler of the DBMS host"
+    },
+    {
+     "letter": "c",
+     "text": "A range of records, or an entire table including its data and indexes"
+    },
+    {
+     "letter": "d",
+     "text": "The entire database, or metadata"
+    }
+   ],
+   "explanation": "The slide lists locks affecting a record being modified, a range of records, the entire table (with its data and indexes), the entire database, and metadata. The CPU scheduler is not a database resource that gets locked."
+  },
+  {
+   "id": "q-gen-concurrency-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "In MS SQL Server, a Shared lock is used for which kind of operation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "INSERT, UPDATE and DELETE"
+    },
+    {
+     "letter": "b",
+     "text": "Read operations that do not change data, i.e. SQL SELECT"
+    },
+    {
+     "letter": "c",
+     "text": "DDL statements that modify a table"
+    },
+    {
+     "letter": "d",
+     "text": "Compiling and executing queries on a table structure"
+    }
+   ],
+   "explanation": "A Shared lock is used for read operations that do not change data, i.e. SELECT, and during it no other transaction can modify the data. Exclusive locks cover INSERT/UPDATE/DELETE, while schema modification and schema stability locks cover DDL and query compilation respectively."
+  },
+  {
+   "id": "q-gen-concurrency-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "Under the default isolation level, what does an Exclusive lock (used for INSERT, UPDATE, DELETE) prevent?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Only it prevents other transactions from reading, but allows modification"
+    },
+    {
+     "letter": "b",
+     "text": "Nothing; exclusive locks are advisory only"
+    },
+    {
+     "letter": "c",
+     "text": "Other transactions can neither modify nor (by default) read the locked data"
+    },
+    {
+     "letter": "d",
+     "text": "Only DDL statements on the table"
+    }
+   ],
+   "explanation": "The slide states an exclusive lock prevents other transactions from modifying the locked data, and under the default isolation level it also prevents them from reading data locked in exclusive mode. So both reads and writes by others are blocked."
+  },
+  {
+   "id": "q-gen-concurrency-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "According to the presentation, which statements about the two MS SQL Server schema lock categories are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Schema stability locks ensure a db object will not be removed while used by another transaction"
+    },
+    {
+     "letter": "b",
+     "text": "Schema modification locks prevent access to db objects that are being modified"
+    },
+    {
+     "letter": "c",
+     "text": "Schema stability locks prevent any concurrent reads of the data"
+    },
+    {
+     "letter": "d",
+     "text": "Schema modification locks are placed automatically during every SELECT"
+    }
+   ],
+   "explanation": "Schema stability locks keep an object from being removed while in use (and are applied when compiling/executing queries, allowing concurrent data changes), while schema modification locks block access to objects being altered by DDL. Schema stability does not block data reads, and schema modification locks accompany DDL, not SELECTs."
+  },
+  {
+   "id": "q-gen-concurrency-14",
+   "exam": "",
+   "number": 14,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "The presentation notes that locks in MS SQL Server are applied and released automatically. What further consequences does it describe?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Locks typically cause hard errors that abort statements"
+    },
+    {
+     "letter": "b",
+     "text": "Locks typically do not cause errors, but may suspend statements from other transactions"
+    },
+    {
+     "letter": "c",
+     "text": "Locks are released when a transaction terminates with COMMIT or ROLLBACK"
+    },
+    {
+     "letter": "d",
+     "text": "Locks must always be requested explicitly by the application"
+    }
+   ],
+   "explanation": "The slides state locks are applied and released automatically, typically do not cause errors but may suspend other transactions' statements, and are released when the transaction ends via COMMIT or ROLLBACK. They are not applied manually by the application in the normal case."
+  },
+  {
+   "id": "q-gen-concurrency-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "In Example 1, Session #1 runs an UPDATE under READ COMMITTED while Session #2 runs a SELECT under READ UNCOMMITTED on the same row. What happens to Session #2?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Session #2 is suspended until Session #1 completes"
+    },
+    {
+     "letter": "b",
+     "text": "Session #2 is not suspended, and dirty reads are possible since Session #1 may be cancelled"
+    },
+    {
+     "letter": "c",
+     "text": "Session #2 raises a deadlock error"
+    },
+    {
+     "letter": "d",
+     "text": "Session #2 sees only the committed data and never any anomaly"
+    }
+   ],
+   "explanation": "Because Session #2 uses READ UNCOMMITTED, it is not suspended and can read the uncommitted change; if Session #1 later rolls back, this becomes a dirty read. There is no deadlock, and the low isolation level explicitly allows the anomaly."
+  },
+  {
+   "id": "q-gen-concurrency-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "In Example 4, Session #1 reads the same row twice under REPEATABLE READ while Session #2 tries to UPDATE that row. What is the outcome?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Session #1 experiences a non-repeatable read"
+    },
+    {
+     "letter": "b",
+     "text": "Session #2 proceeds immediately and commits"
+    },
+    {
+     "letter": "c",
+     "text": "Session #2 is suspended, so non-repeatable reads are not possible in Session #1"
+    },
+    {
+     "letter": "d",
+     "text": "Both sessions are rolled back due to deadlock"
+    }
+   ],
+   "explanation": "Under REPEATABLE READ, the row read by Session #1 is protected, so Session #2's UPDATE is suspended until Session #1 finishes; this prevents non-repeatable reads. Contrast with Example 3, where READ COMMITTED allowed the update and thus the anomaly."
+  },
+  {
+   "id": "q-gen-concurrency-17",
+   "exam": "",
+   "number": 17,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "According to the presentation, what defines a deadlock and how is it resolved?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A combination of locks that prevents more than one transaction from executing"
+    },
+    {
+     "letter": "b",
+     "text": "A situation that the DBMS can always resolve without terminating any transaction"
+    },
+    {
+     "letter": "c",
+     "text": "It cannot be resolved without terminating (rolling back) one of the transactions"
+    },
+    {
+     "letter": "d",
+     "text": "It is automatically prevented by using READ UNCOMMITTED"
+    }
+   ],
+   "explanation": "A deadlock is a combination of locks blocking more than one transaction that cannot be resolved without terminating (ROLLBACK) one of them, which cancels its updates and should be avoided. It is not always resolvable without termination, and isolation level alone (e.g. READ UNCOMMITTED) does not prevent it."
+  },
+  {
+   "id": "q-gen-concurrency-18",
+   "exam": "",
+   "number": 18,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "Which practices does the presentation recommend to avoid deadlocks?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Always lock resources in the same sequence across transactions"
+    },
+    {
+     "letter": "b",
+     "text": "For example, always lock the account with the lowest applicable number first, or always lock the account table before the customers table"
+    },
+    {
+     "letter": "c",
+     "text": "Always use the longest possible transactions to hold all locks at once"
+    },
+    {
+     "letter": "d",
+     "text": "Disable locking entirely"
+    }
+   ],
+   "explanation": "The slide advises issuing lock-acquiring statements in the same sequence in every transaction, giving examples such as locking the lowest account number first or the account table before the customers table. Long transactions worsen contention, and disabling locking is not a deadlock-avoidance strategy described."
+  },
+  {
+   "id": "q-gen-concurrency-19",
+   "exam": "",
+   "number": 19,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "What does `ROLLBACK TRAN B` do when `B` is a savepoint created with `SAVE TRAN B`?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It rolls back the entire transaction and releases all locks"
+    },
+    {
+     "letter": "b",
+     "text": "It rolls back only the changes executed after `SAVE TRAN B`, not the entire transaction"
+    },
+    {
+     "letter": "c",
+     "text": "It commits the changes up to the savepoint"
+    },
+    {
+     "letter": "d",
+     "text": "It creates a new nested transaction named B"
+    }
+   ],
+   "explanation": "A savepoint placed with `SAVE TRAN B` acts as a label; `ROLLBACK TRAN B` undoes only the changes made after that savepoint, not the whole transaction, so locks acquired earlier are kept. It does not commit anything or start a new transaction."
+  },
+  {
+   "id": "q-gen-concurrency-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "concurrency"
+   ],
+   "stem": "According to the presentation's discussion of transaction execution time, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A typical (standard) transaction takes less than a second to complete"
+    },
+    {
+     "letter": "b",
+     "text": "Long-running transactions should rely on locks to protect data for many days"
+    },
+    {
+     "letter": "c",
+     "text": "Long-running transactions instead create a logical copy of the modified data"
+    },
+    {
+     "letter": "d",
+     "text": "Standard transactions should be kept short so as not to decrease throughput"
+    }
+   ],
+   "explanation": "Standard transactions impose locks, so they should be short (typically under a second) to preserve throughput. Long-running transactions cannot be lock-based, as that would block work (e.g. read-only access) for days; instead a logical copy of the modified data is created. Thus b is false."
+  },
+  {
+   "id": "q-gen-data-warehouses-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "What does the acronym OLTP stand for?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "On-Line Trend Processing"
+    },
+    {
+     "letter": "b",
+     "text": "On-Line Transaction Processing"
+    },
+    {
+     "letter": "c",
+     "text": "Off-Line Transaction Protocol"
+    },
+    {
+     "letter": "d",
+     "text": "On-Line Tabular Processing"
+    }
+   ],
+   "explanation": "OLTP means On-Line Transaction Processing — systems used to collect and manage everyday business transactions. The other expansions are invented and do not match the term used in the presentation."
+  },
+  {
+   "id": "q-gen-data-warehouses-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "An OLAP system is primarily used to:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "process many concurrent everyday transactions"
+    },
+    {
+     "letter": "b",
+     "text": "replace the source operational databases entirely"
+    },
+    {
+     "letter": "c",
+     "text": "support decisions by analysing data rather than handling concurrent transactions"
+    },
+    {
+     "letter": "d",
+     "text": "guarantee on-line, real-time replication between source databases"
+    }
+   ],
+   "explanation": "OLAP (On-Line Analytical Processing) supports decision-making through data analysis, relying on different data models than OLTP. Handling concurrent everyday transactions is the role of OLTP systems, not OLAP."
+  },
+  {
+   "id": "q-gen-data-warehouses-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "In the ETL acronym, the three steps stand for:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Extract, Transfer, Link"
+    },
+    {
+     "letter": "b",
+     "text": "Extract, Transform, Load"
+    },
+    {
+     "letter": "c",
+     "text": "Evaluate, Transform, Load"
+    },
+    {
+     "letter": "d",
+     "text": "Extract, Translate, List"
+    }
+   ],
+   "explanation": "ETL stands for Extract, Transform, Load — data is extracted from sources, transformed, and loaded into the warehouse. ELT reorders the last two (Extract, Load, Transform), but the letters themselves are Extract/Transform/Load."
+  },
+  {
+   "id": "q-gen-data-warehouses-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Why is there no need to transfer data into a data warehouse in an on-line (real-time) manner?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Because source databases are always offline"
+    },
+    {
+     "letter": "b",
+     "text": "Because ETL tools cannot operate in real time"
+    },
+    {
+     "letter": "c",
+     "text": "Because the warehouse is used to observe trends and aggregate values, for which the most recent hour is not needed"
+    },
+    {
+     "letter": "d",
+     "text": "Because the warehouse stores only the current state, never history"
+    }
+   ],
+   "explanation": "The presentation states a warehouse is used to observe trends and aggregate values, so having data from the last hour is not needed. The other options misstate ETL capabilities and the nature of warehouse contents (which include long history)."
+  },
+  {
+   "id": "q-gen-data-warehouses-05",
+   "exam": "",
+   "number": 5,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Which statements about the data stored in a data warehouse are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It contains corporate historical data, in many cases no longer available in OLTP databases"
+    },
+    {
+     "letter": "b",
+     "text": "It contains only the most recent transactional records"
+    },
+    {
+     "letter": "c",
+     "text": "It includes high-quality data carefully integrated from many sources"
+    },
+    {
+     "letter": "d",
+     "text": "It is intentionally kept low-quality to save processing time"
+    },
+    {
+     "letter": "e",
+     "text": "It never includes any redundant structures"
+    }
+   ],
+   "explanation": "A warehouse keeps long-term historical data that may already have been purged from OLTP systems (a) and consists of high-quality, carefully integrated data (c). It is not limited to recent records (b), is not low quality (d), and may contain redundant structures to speed up queries (e)."
+  },
+  {
+   "id": "q-gen-data-warehouses-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Compared to OLTP systems, a data warehouse is optimised for:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "frequent data modification"
+    },
+    {
+     "letter": "b",
+     "text": "reporting"
+    },
+    {
+     "letter": "c",
+     "text": "concurrent transaction commits"
+    },
+    {
+     "letter": "d",
+     "text": "minimising storage at the cost of query speed"
+    }
+   ],
+   "explanation": "A data warehouse is optimised for reporting, unlike OLTP systems which are optimised for data modification. It may even add redundant structures to accelerate typical analytical queries."
+  },
+  {
+   "id": "q-gen-data-warehouses-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "The data structures in a data warehouse, being the outcome of dimensional modelling, are typically:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "denormalised to improve performance"
+    },
+    {
+     "letter": "b",
+     "text": "simplified to make queries and reporting easier"
+    },
+    {
+     "letter": "c",
+     "text": "identical to the OLTP source structures"
+    },
+    {
+     "letter": "d",
+     "text": "different from the data structures of the OLTP systems that feed them"
+    },
+    {
+     "letter": "e",
+     "text": "fully normalised to third normal form for every table"
+    }
+   ],
+   "explanation": "Dimensional structures are frequently denormalised (a) and simplified (b) for easier querying, and therefore differ from the OLTP source structures (d). They are not identical to OLTP structures (c) nor strictly normalised (e)."
+  },
+  {
+   "id": "q-gen-data-warehouses-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "According to the presentation, dimensional data modelling is best described as the process of capturing:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "how the business works"
+    },
+    {
+     "letter": "b",
+     "text": "how transactions are committed"
+    },
+    {
+     "letter": "c",
+     "text": "how the business is monitored"
+    },
+    {
+     "letter": "d",
+     "text": "how source databases are physically stored"
+    }
+   ],
+   "explanation": "The presentation contrasts relational modelling (capturing how the business works) with dimensional modelling, which captures how the business is monitored and is used to build data warehouse models. The other options describe relational or operational concerns."
+  },
+  {
+   "id": "q-gen-data-warehouses-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "In data warehouse terminology, a \"fact\" is defined as:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "a descriptive attribute used to group records"
+    },
+    {
+     "letter": "b",
+     "text": "a data element used to measure business performance"
+    },
+    {
+     "letter": "c",
+     "text": "a hierarchical set of attributes such as year/quarter/month"
+    },
+    {
+     "letter": "d",
+     "text": "a table that describes proper city names"
+    }
+   ],
+   "explanation": "A fact is a data element used to measure business performance (e.g. records of sales, purchases, deliveries). The grouping attributes (a, c) describe dimensions, and the descriptive lookup (d) describes a dimension table."
+  },
+  {
+   "id": "q-gen-data-warehouses-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Which of the following is the best example of a dimension in dimensional modelling?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Sales in USD"
+    },
+    {
+     "letter": "b",
+     "text": "Number of customer complaints"
+    },
+    {
+     "letter": "c",
+     "text": "Number of labour hours"
+    },
+    {
+     "letter": "d",
+     "text": "Time decomposed into year/quarter/month/week/day"
+    }
+   ],
+   "explanation": "A dimension is an attribute or set of hierarchical attributes used to group facts — time (year/quarter/month/...) is a classic example (d). The other options (sales in USD, number of complaints, labour hours) are numerical measures."
+  },
+  {
+   "id": "q-gen-data-warehouses-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "A \"measure\" in a data warehouse is typically:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "a textual label used to filter facts"
+    },
+    {
+     "letter": "b",
+     "text": "a numerical attribute of a fact used to gauge business performance"
+    },
+    {
+     "letter": "c",
+     "text": "a foreign key linking to a dimension table"
+    },
+    {
+     "letter": "d",
+     "text": "the date of a recorded event"
+    }
+   ],
+   "explanation": "A measure is typically a numerical attribute of a fact (e.g. sales in USD, number of complaints, labour hours) used as a measure of business performance. Labels and foreign keys belong to dimensions, and a date is a dimension attribute."
+  },
+  {
+   "id": "q-gen-data-warehouses-12",
+   "exam": "",
+   "number": 12,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Which attributes typically comprise a fact table?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "the date of the record (e.g. date of a sale)"
+    },
+    {
+     "letter": "b",
+     "text": "large binary fields and long descriptive text columns"
+    },
+    {
+     "letter": "c",
+     "text": "a number of measure attributes"
+    },
+    {
+     "letter": "d",
+     "text": "dimension attributes that are foreign keys to dimension tables"
+    },
+    {
+     "letter": "e",
+     "text": "only a single row describing the whole organisation"
+    }
+   ],
+   "explanation": "A fact table typically holds the record date (a), measure attributes (c), and foreign keys to dimensions (d). Because fact tables are very large, text descriptions and large binary fields are usually excluded (b), and they contain many rows, not one (e)."
+  },
+  {
+   "id": "q-gen-data-warehouses-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "A defining characteristic of a star schema is that:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "dimension tables refer to many other dimension tables"
+    },
+    {
+     "letter": "b",
+     "text": "there is no central fact table"
+    },
+    {
+     "letter": "c",
+     "text": "a fact table is surrounded by dimension tables that do not refer to other tables"
+    },
+    {
+     "letter": "d",
+     "text": "all tables are fully normalised"
+    }
+   ],
+   "explanation": "In a star schema a central fact table is surrounded by dimension tables, and those dimension tables do not refer to other tables (c). Dimensions referencing further tables would indicate a snowflake, not a star; and star schemas are typically denormalised."
+  },
+  {
+   "id": "q-gen-data-warehouses-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "In an OLAP data cube, each cell represents:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "a dimension attribute"
+    },
+    {
+     "letter": "b",
+     "text": "a measure value"
+    },
+    {
+     "letter": "c",
+     "text": "a single source database"
+    },
+    {
+     "letter": "d",
+     "text": "an ETL step"
+    }
+   ],
+   "explanation": "In a data cube each cell represents a measure value, while each edge denotes a dimension attribute. The cube is built on a fact table and some dimension tables, not on source databases or ETL steps."
+  },
+  {
+   "id": "q-gen-data-warehouses-15",
+   "exam": "",
+   "number": 15,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "In reality, an OLAP data cube frequently includes:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "more than three dimensions"
+    },
+    {
+     "letter": "b",
+     "text": "more than one measure"
+    },
+    {
+     "letter": "c",
+     "text": "hierarchical dimensions allowing drill-down to find data of interest"
+    },
+    {
+     "letter": "d",
+     "text": "exactly three dimensions and exactly one measure"
+    },
+    {
+     "letter": "e",
+     "text": "raw, non-aggregated transaction logs as its only content"
+    }
+   ],
+   "explanation": "Real cubes commonly have more than three dimensions (a), more than one measure (b), and hierarchical dimensions enabling drill-down (c). The \"exactly three / one measure\" claim (d) is just the simplified textbook picture, and cubes serve aggregated analytical data rather than raw logs (e)."
+  },
+  {
+   "id": "q-gen-data-warehouses-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "For a measure-and-dimension combination in a cube, what is the most frequently used aggregation method?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Sum"
+    },
+    {
+     "letter": "b",
+     "text": "Weighted average"
+    },
+    {
+     "letter": "c",
+     "text": "First"
+    },
+    {
+     "letter": "d",
+     "text": "Maximum"
+    }
+   ],
+   "explanation": "The presentation states that the most frequently used aggregation method is a sum. Average, weighted average, weighted sum, minimum, maximum, first, last and count are the remaining, less common methods."
+  },
+  {
+   "id": "q-gen-data-warehouses-17",
+   "exam": "",
+   "number": 17,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Which statements about Business Intelligence (BI) systems are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Having a data warehouse automatically means having a BI system"
+    },
+    {
+     "letter": "b",
+     "text": "BI tools let users transform data into useful information"
+    },
+    {
+     "letter": "c",
+     "text": "BI systems include reporting, querying, data analysis and data visualization"
+    },
+    {
+     "letter": "d",
+     "text": "BI systems can use data from OLAP platforms such as data cubes or directly from data warehouses"
+    },
+    {
+     "letter": "e",
+     "text": "BI is used exclusively by software developers, never by business staff"
+    }
+   ],
+   "explanation": "BI tools turn data into useful information (b), provide reporting/querying/analysis/visualization (c), and can draw from cubes or directly from warehouses (d). Having a warehouse does not by itself constitute a BI system (a), and BI is primarily used by business administrative staff (e)."
+  },
+  {
+   "id": "q-gen-data-warehouses-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "How does a data mart typically differ from a data warehouse?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A data mart stores only non-numeric data"
+    },
+    {
+     "letter": "b",
+     "text": "A data mart never contains any fact tables"
+    },
+    {
+     "letter": "c",
+     "text": "A data mart usually serves the needs of a part of an organisation rather than the entire organisation"
+    },
+    {
+     "letter": "d",
+     "text": "A data mart is always larger than a data warehouse"
+    }
+   ],
+   "explanation": "Unlike a data warehouse, a data mart usually serves the needs of a part of the organisation rather than the whole (c). The presentation does not restrict a mart to non-numeric data or forbid fact tables, and marts are typically smaller in scope, not larger."
+  },
+  {
+   "id": "q-gen-data-warehouses-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "Regarding the BI solution life cycle described in the presentation, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Requirements analysis happens only after the data warehouse is built"
+    },
+    {
+     "letter": "b",
+     "text": "Requirements should be analysed even before data investigation is made"
+    },
+    {
+     "letter": "c",
+     "text": "Creating the data warehouse and ETL process is the final step of the cycle"
+    },
+    {
+     "letter": "d",
+     "text": "An interactive front-end for data presentation is still needed after the warehouse and ETL are built"
+    }
+   ],
+   "explanation": "The presentation stresses analysing requirements even before data investigation (b) and notes that building the warehouse plus ETL is not the final step because an interactive front-end is still required (d). This contradicts the claims that requirements come last (a) and that the warehouse/ETL is the final step (c)."
+  },
+  {
+   "id": "q-gen-data-warehouses-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "data-warehouses"
+   ],
+   "stem": "According to the summary, which benefits does a data warehouse (DWH) provide?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It provides a \"big picture\" rather than focusing on a single aspect like sales or production"
+    },
+    {
+     "letter": "b",
+     "text": "It holds high-quality data"
+    },
+    {
+     "letter": "c",
+     "text": "It is a good data source for BI systems and for analytical departments / data scientists"
+    },
+    {
+     "letter": "d",
+     "text": "It eliminates the need for any reporting front-end tools"
+    },
+    {
+     "letter": "e",
+     "text": "It contains lower-quality data than the raw operational sources"
+    }
+   ],
+   "explanation": "A DWH gives a cross-organisation \"big picture\" (a), holds high-quality data (b), and serves both BI users and analysts/data scientists (c). It does not remove the need for front-end reporting tools (d), and its data is higher quality than the raw sources, not lower (e)."
+  },
+  {
+   "id": "q-gen-er-modelling-01",
+   "exam": "",
+   "number": 1,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "According to the presentation, which aspects of data integrity are distinguished?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Entity integrity"
+    },
+    {
+     "letter": "b",
+     "text": "Referential integrity"
+    },
+    {
+     "letter": "c",
+     "text": "Additional constraints"
+    },
+    {
+     "letter": "d",
+     "text": "Temporal integrity"
+    }
+   ],
+   "explanation": "The presentation lists three aspects of data integrity: entity integrity, referential integrity, and additional constraints. \"Temporal integrity\" is not mentioned as one of these aspects."
+  },
+  {
+   "id": "q-gen-er-modelling-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "What is the objective of entity integrity?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Guarantee that foreign keys refer to existing records"
+    },
+    {
+     "letter": "b",
+     "text": "Guarantee the uniqueness of a primary key throughout table records"
+    },
+    {
+     "letter": "c",
+     "text": "Ensure that salary is greater than tax for each record"
+    },
+    {
+     "letter": "d",
+     "text": "Ensure that no NULL values appear in any column"
+    }
+   ],
+   "explanation": "The presentation states that entity integrity aims to guarantee the uniqueness of a primary key across all table records. Ensuring foreign keys refer to existing records is referential integrity, and logical conditions such as salary > tax are additional constraints."
+  },
+  {
+   "id": "q-gen-er-modelling-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "To enforce entity integrity, what structure is typically created automatically by the DBMS together with the primary key?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A foreign key"
+    },
+    {
+     "letter": "b",
+     "text": "A trigger that logs all changes"
+    },
+    {
+     "letter": "c",
+     "text": "A unique index (a tree-like structure for quickly checking existing PK values)"
+    },
+    {
+     "letter": "d",
+     "text": "A separate audit table"
+    }
+   ],
+   "explanation": "The presentation explains that typically a unique index — a tree-like structure used to quickly check which primary key values already exist — is automatically created by the DBMS. The DBMS then monitors create and update operations to reject duplicate primary key values."
+  },
+  {
+   "id": "q-gen-er-modelling-04",
+   "exam": "",
+   "number": 4,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "Which characteristics describe a surrogate primary key?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It uses integer values generated from a sequence (1, 2, ...)"
+    },
+    {
+     "letter": "b",
+     "text": "It relies on values not used in the real world, often not shown to end users"
+    },
+    {
+     "letter": "c",
+     "text": "It is always a composite key"
+    },
+    {
+     "letter": "d",
+     "text": "It is a solution when no natural primary key exists"
+    }
+   ],
+   "explanation": "The presentation describes surrogate primary keys as integer values generated from a sequence, relying on values not used in the real world (often hidden from users), and a solution when no natural PK exists or when the natural PK would be composite. A surrogate key is itself a single column, not a composite key, so c is wrong."
+  },
+  {
+   "id": "q-gen-er-modelling-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "Why does the presentation say referential integrity is \"absolutely necessary\" when a surrogate primary key is used?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Because surrogate keys are never unique"
+    },
+    {
+     "letter": "b",
+     "text": "Because surrogate keys cannot be indexed"
+    },
+    {
+     "letter": "c",
+     "text": "Because if a referenced record (e.g. room_id 23215) were removed, nothing meaningful would be known from the surrogate value alone (e.g. the location of an asset)"
+    },
+    {
+     "letter": "d",
+     "text": "Because surrogate keys must always allow NULL"
+    }
+   ],
+   "explanation": "The presentation argues that with surrogate keys the foreign key value carries no real-world meaning, so if the referenced row were deleted (e.g. room_id=23215), nothing would be known about the asset's location. Referential integrity therefore must prevent such dangling references."
+  },
+  {
+   "id": "q-gen-er-modelling-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "A condition such as `salary > tax` that must hold for every record is an example of:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Entity integrity"
+    },
+    {
+     "letter": "b",
+     "text": "An additional constraint"
+    },
+    {
+     "letter": "c",
+     "text": "Referential integrity"
+    },
+    {
+     "letter": "d",
+     "text": "A surrogate key"
+    }
+   ],
+   "explanation": "The presentation classifies logical conditions like salary > tax as additional constraints, checked whenever CRUD operations are attempted. It also notes a tendency to place such constraints in client applications, since they may depend on local enterprise configuration."
+  },
+  {
+   "id": "q-gen-er-modelling-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "How does the presentation define a data model (after Hoberman)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A list of all real values such as names, prices and VAT IDs"
+    },
+    {
+     "letter": "b",
+     "text": "A program that automatically generates SQL"
+    },
+    {
+     "letter": "c",
+     "text": "A spreadsheet containing hundreds of real records"
+    },
+    {
+     "letter": "d",
+     "text": "A set of symbols and text used for communicating a precise representation of an information landscape"
+    }
+   ],
+   "explanation": "The presentation quotes Hoberman: a data model is \"a set of symbols and text used for communicating a precise representation of an information landscape.\" A data model contains only types, not actual values, and serves as a concise communication medium rather than a store of real records."
+  },
+  {
+   "id": "q-gen-er-modelling-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "Which data model represents the business at a very high level, is limited to about one page and roughly 20 concepts of top importance?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Conceptual data model (CDM)"
+    },
+    {
+     "letter": "b",
+     "text": "Logical data model (LDM)"
+    },
+    {
+     "letter": "c",
+     "text": "Physical data model (PDM)"
+    },
+    {
+     "letter": "d",
+     "text": "Dimensional data model"
+    }
+   ],
+   "explanation": "The presentation states that the conceptual data model (CDM) represents the business at a very high level, containing only basic and critical concepts with definitions and relationships, limited to one page and around 20 top-importance concepts. The LDM is detailed and the PDM is technology-specific."
+  },
+  {
+   "id": "q-gen-er-modelling-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "According to the presentation, the physical data model (PDM) is best described as:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A model containing only basic and critical business concepts"
+    },
+    {
+     "letter": "b",
+     "text": "A model independent of any technology"
+    },
+    {
+     "letter": "c",
+     "text": "A logical data model modified with performance-enhancing techniques for a specific environment (e.g. MS SQL Server)"
+    },
+    {
+     "letter": "d",
+     "text": "A model that contains no entities, only relationships"
+    }
+   ],
+   "explanation": "The presentation defines the PDM as a detailed technology solution: a logical data model modified with performance-enhancing techniques for a specific software or even hardware environment, such as MS SQL Server. The CDM holds only high-level concepts and the LDM is technology-independent."
+  },
+  {
+   "id": "q-gen-er-modelling-10",
+   "exam": "",
+   "number": 10,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "In a physical data model for an RDBMS, what do the diagram elements become?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Entities become candidate keys"
+    },
+    {
+     "letter": "b",
+     "text": "Entities become tables (or views)"
+    },
+    {
+     "letter": "c",
+     "text": "Attributes become columns with detailed features (e.g. CompanyName is char(50) not null)"
+    },
+    {
+     "letter": "d",
+     "text": "Physical relationships become database constraints such as foreign keys"
+    }
+   ],
+   "explanation": "The presentation states that in PDMs for RDBMSs, entities become tables (or views), attributes become columns with detailed features (e.g. char(50) not null), and physical relationships become constraints such as foreign keys. Entities do not become candidate keys, so a is wrong."
+  },
+  {
+   "id": "q-gen-er-modelling-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "How does the presentation define an \"entity class\" (entity type / entity set)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A single real-world object such as one specific patient"
+    },
+    {
+     "letter": "b",
+     "text": "A set of entities with the same characteristics, e.g. patients of a hospital"
+    },
+    {
+     "letter": "c",
+     "text": "A graphical symbol on an ER diagram"
+    },
+    {
+     "letter": "d",
+     "text": "An attribute that uniquely identifies a record"
+    }
+   ],
+   "explanation": "The presentation distinguishes an entity (a single real-world object, e.g. a patient) from an entity class / entity type / entity set, which is a set of entities sharing the same characteristics (e.g. all patients of a hospital)."
+  },
+  {
+   "id": "q-gen-er-modelling-12",
+   "exam": "",
+   "number": 12,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "Which statements about ER diagrams are correct according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Software tools can generate CREATE TABLE statements from an ER diagram and perform reverse engineering from an existing database"
+    },
+    {
+     "letter": "b",
+     "text": "ER diagrams can only be used during project initiation, not maintenance"
+    },
+    {
+     "letter": "c",
+     "text": "ER diagrams can be developed for both logical and physical data models"
+    },
+    {
+     "letter": "d",
+     "text": "Every relationship is described by an entity box rather than a line"
+    }
+   ],
+   "explanation": "The presentation states that tools can generate CREATE TABLE statements from a diagram and reverse-engineer diagrams from databases, that ER diagrams are used across the whole life cycle (initiation to maintenance), and that they apply to both logical and physical models. Relationships are described by lines, not entity boxes, so b and d are wrong."
+  },
+  {
+   "id": "q-gen-er-modelling-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "In the relationship-cardinality notation used in the lecture, the crow's foot symbol (`<`):",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Stands for zero and is used with minimal cardinality only"
+    },
+    {
+     "letter": "b",
+     "text": "Stands for many and is used with maximal cardinality only"
+    },
+    {
+     "letter": "c",
+     "text": "Stands for one and is used with both minimal and maximal cardinality"
+    },
+    {
+     "letter": "d",
+     "text": "Stands for exactly one"
+    }
+   ],
+   "explanation": "The presentation specifies the symbols: the circle stands for zero (minimal cardinality only), the bar stands for one (both minimal and maximal), and the crow's foot stands for many (maximal cardinality only). Therefore the crow's foot means \"many\" on the maximal side."
+  },
+  {
+   "id": "q-gen-er-modelling-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "A relationship end shown as a double bar (`||`) means:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "At least zero, at most one"
+    },
+    {
+     "letter": "b",
+     "text": "One to many"
+    },
+    {
+     "letter": "c",
+     "text": "Exactly one (e.g. every capital is the capital of exactly one country)"
+    },
+    {
+     "letter": "d",
+     "text": "Zero or many"
+    }
+   ],
+   "explanation": "The presentation gives the double bar (`||`) as meaning \"exactly one,\" illustrated by every capital being the capital of exactly one country. The circle+bar means \"at most one,\" and the bar+crow's foot means \"one to many.\""
+  },
+  {
+   "id": "q-gen-er-modelling-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "In the relationship symbol, what does the \"at least\" (inner) part of an end represent?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The maximal cardinality of the relationship"
+    },
+    {
+     "letter": "b",
+     "text": "The minimal cardinality of the relationship"
+    },
+    {
+     "letter": "c",
+     "text": "The name of the foreign key"
+    },
+    {
+     "letter": "d",
+     "text": "The domain of an attribute"
+    }
+   ],
+   "explanation": "The presentation explains that the \"at least\" part (the symbol nearer the entity) denotes the minimal cardinality of a relationship, while the \"at most\" part (the outer symbol at the line ending) denotes the maximal cardinality."
+  },
+  {
+   "id": "q-gen-er-modelling-16",
+   "exam": "",
+   "number": 16,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "According to the presentation, the top-down design approach:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Starts from planned benefits, scope and objectives, then identifies entities, attributes and relationships"
+    },
+    {
+     "letter": "b",
+     "text": "Starts from interviewing many individual end users and merging their needs"
+    },
+    {
+     "letter": "c",
+     "text": "Is typically used at least at the beginning of a project (e.g. a project charter defines high-level objectives)"
+    },
+    {
+     "letter": "d",
+     "text": "Is used less frequently than bottom-up"
+    }
+   ],
+   "explanation": "The presentation describes top-down as starting from planned benefits, scope and objectives, identifying entities first, and being used at least at a project's start (often driven by a project charter). Starting from individual user requirements and being \"less frequently used\" describe the bottom-up approach instead."
+  },
+  {
+   "id": "q-gen-er-modelling-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "When a many-to-many relationship is moved from a conceptual model into a physical model for an RDBMS, the presentation recommends:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Removing the relationship entirely"
+    },
+    {
+     "letter": "b",
+     "text": "Storing both sides as a list inside one column"
+    },
+    {
+     "letter": "c",
+     "text": "Adding an extra (associative) entity corresponding to an additional table with foreign keys to both original tables"
+    },
+    {
+     "letter": "d",
+     "text": "Making one side a surrogate key only"
+    }
+   ],
+   "explanation": "The presentation states that a many-to-many relationship (with \"at most many\" on both ends) is allowed in conceptual models but, for an RDBMS physical model, must be extended with an extra entity. That associative entity (e.g. VENDOR_PRODUCTS) becomes a table holding foreign keys to both original tables."
+  },
+  {
+   "id": "q-gen-er-modelling-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "The presentation states that vague relationship labels such as \"have\" or \"are associated with\" should be avoided because:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They make the diagram render incorrectly in CASE tools"
+    },
+    {
+     "letter": "b",
+     "text": "They make the meaning unclear (e.g. \"have parts\" could mean spare parts or composed-of parts)"
+    },
+    {
+     "letter": "c",
+     "text": "They are reserved keywords in SQL"
+    },
+    {
+     "letter": "d",
+     "text": "They prevent generating CREATE TABLE statements"
+    }
+   ],
+   "explanation": "The presentation argues that a good data model yields precision, with unambiguous symbols and terms. A vague label like \"have\" leaves the meaning unclear (\"have spare parts?\", \"are composed of parts?\"), so such labels should be avoided in favour of precise ones like \"is composed of.\""
+  },
+  {
+   "id": "q-gen-er-modelling-19",
+   "exam": "",
+   "number": 19,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "The presentation gives \"for every finished order there is either a receipt or an invoice\" and \"a customer is either a person or a legal entity\" as examples of:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Recurrent relationships"
+    },
+    {
+     "letter": "b",
+     "text": "Many-to-many relationships"
+    },
+    {
+     "letter": "c",
+     "text": "Mutually exclusive (XOR) relationships"
+    },
+    {
+     "letter": "d",
+     "text": "Surrogate keys"
+    }
+   ],
+   "explanation": "These are the presentation's examples of mutually exclusive relationships: when an entity participates in one relationship it cannot participate in the other. On the diagram this is shown by an arc with dots joining the two relationship lines, denoting an exclusive-or (XOR) constraint."
+  },
+  {
+   "id": "q-gen-er-modelling-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "er-modelling"
+   ],
+   "stem": "According to the presentation, a recurrent (self) relationship:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Occurs when an entity enters a relationship with itself (e.g. Employee \"is managed by\" / \"is a manager of\")"
+    },
+    {
+     "letter": "b",
+     "text": "Frequently corresponds to hierarchical structures of an organisation or product"
+    },
+    {
+     "letter": "c",
+     "text": "Can be implemented by a foreign key referring to the table it is located in"
+    },
+    {
+     "letter": "d",
+     "text": "Always requires a separate associative table to be created"
+    }
+   ],
+   "explanation": "The presentation states that an entity can enter a recurrent relationship with itself, that this often corresponds to hierarchical (tree-like) structures, and that it can be documented with a foreign key referencing the same table. A separate associative table is not required for this self-reference, so d is wrong."
+  },
+  {
+   "id": "q-gen-gis-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "According to the presentation, what is a layer (warstwa) in a geodatabase?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A scanned paper map combined with its coordinate metadata"
+    },
+    {
+     "letter": "b",
+     "text": "A collection of objects of the same category"
+    },
+    {
+     "letter": "c",
+     "text": "A single object together with its descriptive attributes"
+    },
+    {
+     "letter": "d",
+     "text": "A network communication protocol such as WMS"
+    }
+   ],
+   "explanation": "The presentation defines a layer as a collection of objects of the same category, for example a layer of rivers or a layer of buildings. A single object is not a layer, and WMS is a service, not a layer."
+  },
+  {
+   "id": "q-gen-gis-02",
+   "exam": "",
+   "number": 2,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "Which of the following are examples of raster layers?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Scanned paper-based maps"
+    },
+    {
+     "letter": "b",
+     "text": "Orthophotos (aerial photos) and satellite images"
+    },
+    {
+     "letter": "c",
+     "text": "A layer of address points"
+    },
+    {
+     "letter": "d",
+     "text": "A polyline layer of rivers"
+    }
+   ],
+   "explanation": "Raster layers include scanned paper maps, orthophotos and satellite images, stored as bitmaps tied to geocoordinates. Address points and rivers (polylines) are vector-layer objects, not raster."
+  },
+  {
+   "id": "q-gen-gis-03",
+   "exam": "",
+   "number": 3,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "Compared with raster layers, what advantages do vector layers provide according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They make sophisticated queries possible"
+    },
+    {
+     "letter": "b",
+     "text": "They can be displayed at an arbitrary scale with equally high quality"
+    },
+    {
+     "letter": "c",
+     "text": "They are always cheaper to acquire"
+    },
+    {
+     "letter": "d",
+     "text": "They store the data as bitmaps linked to geocoordinates"
+    }
+   ],
+   "explanation": "Vector layers, unlike raster layers, enable sophisticated queries and can be shown at any scale with equally high quality. Storing data as bitmaps describes raster layers, and the presentation makes no claim that vector data is always cheaper."
+  },
+  {
+   "id": "q-gen-gis-04",
+   "exam": "",
+   "number": 4,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "According to the presentation, a single object in a vector layer is composed of:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A shape (e.g. a collection of points)"
+    },
+    {
+     "letter": "b",
+     "text": "A location / geographical coordinates"
+    },
+    {
+     "letter": "c",
+     "text": "Descriptive attributes such as pipe material or river name"
+    },
+    {
+     "letter": "d",
+     "text": "A bitmap tile linked to the region it represents"
+    }
+   ],
+   "explanation": "Each vector map object combines spatial data (shape and location) with descriptive attributes such as pipe material or river name. A bitmap tile is a property of raster layers, not vector objects."
+  },
+  {
+   "id": "q-gen-gis-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "Which of the following is a typical category of vector layer listed in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Bitmap"
+    },
+    {
+     "letter": "b",
+     "text": "Orthophoto"
+    },
+    {
+     "letter": "c",
+     "text": "Polyline (linia łamana)"
+    },
+    {
+     "letter": "d",
+     "text": "Tile"
+    }
+   ],
+   "explanation": "The typical vector layer categories listed are Polyline, Point and Polygon. Bitmap, orthophoto and tile are associated with raster layers, not vector layer categories."
+  },
+  {
+   "id": "q-gen-gis-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "What does GIS stand for?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Geodatabase Indexing System"
+    },
+    {
+     "letter": "b",
+     "text": "Geographical Information System"
+    },
+    {
+     "letter": "c",
+     "text": "Global Imaging Service"
+    },
+    {
+     "letter": "d",
+     "text": "Geometric Integration Standard"
+    }
+   ],
+   "explanation": "GIS stands for Geographical Information System (System Informacji przestrzennej): a collection of hardware, software and geographic data for capturing, managing, analyzing and displaying geographically referenced information. The other expansions are invented."
+  },
+  {
+   "id": "q-gen-gis-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "Which companies are named as top GIS providers in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "ESRI"
+    },
+    {
+     "letter": "b",
+     "text": "Autodesk Inc."
+    },
+    {
+     "letter": "c",
+     "text": "Bentley Systems Inc."
+    },
+    {
+     "letter": "d",
+     "text": "OpenStreetMap Foundation"
+    }
+   ],
+   "explanation": "The presentation lists ESRI, Autodesk Inc. and Bentley Systems Inc. as top GIS providers. OpenStreetMap is cited as a source of free geodata, not as a top GIS software provider."
+  },
+  {
+   "id": "q-gen-gis-08",
+   "exam": "",
+   "number": 8,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "According to the presentation, the GIS system is responsible for which of the following?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Saving and indexing geodata"
+    },
+    {
+     "letter": "b",
+     "text": "Rendering maps in the user interface"
+    },
+    {
+     "letter": "c",
+     "text": "Querying geodata"
+    },
+    {
+     "letter": "d",
+     "text": "Managing permissions"
+    }
+   ],
+   "explanation": "The architecture slide states the GIS system is responsible for saving geodata, indexing it, rendering maps in the user interface, querying geodata and managing permissions. All four tasks are listed."
+  },
+  {
+   "id": "q-gen-gis-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "In the basic GIS architecture, what are the three tiers from top to bottom?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Geodatabase → GIS system → Client applications"
+    },
+    {
+     "letter": "b",
+     "text": "Client applications → GIS system → Geodatabase"
+    },
+    {
+     "letter": "c",
+     "text": "GIS system → Client applications → Geodatabase"
+    },
+    {
+     "letter": "d",
+     "text": "Client applications → Geodatabase → GIS system"
+    }
+   ],
+   "explanation": "The architecture diagram stacks the tiers as Client applications at the top, the GIS system in the middle, and the Geodatabase at the bottom. The GIS system mediates between the clients and the underlying geodata store."
+  },
+  {
+   "id": "q-gen-gis-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "The presentation notes that ESRI ArcGIS supports how many coordinate systems?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Exactly 5"
+    },
+    {
+     "letter": "b",
+     "text": "About 50"
+    },
+    {
+     "letter": "c",
+     "text": "4000+"
+    },
+    {
+     "letter": "d",
+     "text": "Just one universal system"
+    }
+   ],
+   "explanation": "The presentation states that the ESRI ArcGIS platform supports 4000+ coordinate systems, while noting that in Poland alone 5+ standard coordinate systems exist. There is no single universal coordinate system."
+  },
+  {
+   "id": "q-gen-gis-11",
+   "exam": "",
+   "number": 11,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "What are drawbacks of storing maps as a simple collection of files (e.g. ESRI SHAPE, DXF, DGN)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "One file can be edited by only one user at a time"
+    },
+    {
+     "letter": "b",
+     "text": "Management is complicated, as some installations use thousands of files"
+    },
+    {
+     "letter": "c",
+     "text": "Spatial indexing is impossible to perform on file-based storage"
+    },
+    {
+     "letter": "d",
+     "text": "Files cannot store descriptive attributes at all"
+    }
+   ],
+   "explanation": "The file-based simple solution has limited editing capabilities (one file editable by one user) and complicated management of potentially thousands of files. The presentation does not claim that spatial indexing is impossible or that files cannot hold attributes."
+  },
+  {
+   "id": "q-gen-gis-12",
+   "exam": "",
+   "number": 12,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "What characterizes the enterprise solution for storing geodata?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Geodata is stored in a standard RDBMS such as Oracle or MS SQL Server, or managed by a spatial extension of an RDBMS"
+    },
+    {
+     "letter": "b",
+     "text": "Many users can potentially edit the same map layer at the same time"
+    },
+    {
+     "letter": "c",
+     "text": "Each layer is restricted to a single editing user, as with files"
+    },
+    {
+     "letter": "d",
+     "text": "Descriptive attributes can no longer be linked to geodata"
+    }
+   ],
+   "explanation": "In the enterprise solution geodata lives in a standard RDBMS (or a spatial extension of one), allowing many users to edit the same layer concurrently. The single-user restriction is the file-based drawback, and descriptive data can still be linked."
+  },
+  {
+   "id": "q-gen-gis-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "Which platform is described as one of the most successful free, open source GIS platforms?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "ArcGIS"
+    },
+    {
+     "letter": "b",
+     "text": "MicroStation"
+    },
+    {
+     "letter": "c",
+     "text": "QGIS"
+    },
+    {
+     "letter": "d",
+     "text": "Oracle Spatial"
+    }
+   ],
+   "explanation": "The presentation names QGIS (qgis.org) as one of the most successful free, open source GIS platforms. ArcGIS (ESRI) and MicroStation (Bentley) are commercial, and Oracle Spatial is an RDBMS spatial extension."
+  },
+  {
+   "id": "q-gen-gis-14",
+   "exam": "",
+   "number": 14,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "Which components make up the QGIS offering according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "QGIS Desktop — used to edit, analyse and publish geodata"
+    },
+    {
+     "letter": "b",
+     "text": "QGIS Server — used to publish layers through network services such as WMS and WFS"
+    },
+    {
+     "letter": "c",
+     "text": "QGIS Web client — used to publish GIS projects on the web"
+    },
+    {
+     "letter": "d",
+     "text": "QGIS Mobile — used to capture field GPS coordinates offline"
+    }
+   ],
+   "explanation": "The presentation lists QGIS Desktop, QGIS Server and QGIS Web client as the components of QGIS. A \"QGIS Mobile\" offline GPS component is not mentioned."
+  },
+  {
+   "id": "q-gen-gis-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "According to the presentation, what is the relationship between layers and a GIS project?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Having the required layers is exactly the same as having a GIS project"
+    },
+    {
+     "letter": "b",
+     "text": "A GIS project references individual layers but also adds complex settings such as symbols, labels and scale-dependent display rules"
+    },
+    {
+     "letter": "c",
+     "text": "A GIS project contains only raster layers, never vector layers"
+    },
+    {
+     "letter": "d",
+     "text": "A GIS project is just a single tnsnames.ora-style configuration file"
+    }
+   ],
+   "explanation": "The presentation stresses that having layers is not the same as having a GIS project; a project references layers and adds complex settings (symbols, labels, which layers appear at which scales, data-dependent line widths, etc.). It is not limited to raster layers nor reducible to a single config file."
+  },
+  {
+   "id": "q-gen-gis-16",
+   "exam": "",
+   "number": 16,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "The \"Select By Location\" dialog example illustrates that GIS queries can use spatial relationship predicates such as:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "intersect"
+    },
+    {
+     "letter": "b",
+     "text": "are within a distance of"
+    },
+    {
+     "letter": "c",
+     "text": "contain"
+    },
+    {
+     "letter": "d",
+     "text": "sort ascending by attribute value"
+    }
+   ],
+   "explanation": "The ArcEditor \"Select By Location\" example shows spatial predicates including intersect, are within a distance of, and contain (among others such as touch the boundary of and have their centroid in). Sorting ascending by an attribute value is an ordinary tabular operation, not a spatial predicate."
+  },
+  {
+   "id": "q-gen-gis-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "What does WMS stand for, as used to integrate on-the-fly map layers from different organisations?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Wide Map Standard"
+    },
+    {
+     "letter": "b",
+     "text": "Web Mapping Schema"
+    },
+    {
+     "letter": "c",
+     "text": "Web Map Service"
+    },
+    {
+     "letter": "d",
+     "text": "Workstation Map Server"
+    }
+   ],
+   "explanation": "WMS stands for Web Map Service, which can integrate on-the-fly map layers coming from different servers of different organisations to render up-to-date map images. The other expansions are invented."
+  },
+  {
+   "id": "q-gen-gis-18",
+   "exam": "",
+   "number": 18,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "In the multi-tier GIS architecture, which tasks are listed as performed via the GIS Application Server / DBMS Server tier?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Managing spatial data"
+    },
+    {
+     "letter": "b",
+     "text": "Maintaining spatial indexes"
+    },
+    {
+     "letter": "c",
+     "text": "Managing versioning and long-lasting transactions"
+    },
+    {
+     "letter": "d",
+     "text": "Printing maps for end users"
+    }
+   ],
+   "explanation": "The middle/server tier manages spatial data, maintains spatial indexes, and manages versioning and long-lasting transactions. Printing maps is listed among the web client capabilities, not the server tier."
+  },
+  {
+   "id": "q-gen-gis-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "Which of the following are listed as network communication options between GIS clients and the application server?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Vendor-based protocol"
+    },
+    {
+     "letter": "b",
+     "text": "Easy Connect naming"
+    },
+    {
+     "letter": "c",
+     "text": "Standard feature-based service (WFS) and standard image-based service (WMS)"
+    },
+    {
+     "letter": "d",
+     "text": "Named Pipes only"
+    }
+   ],
+   "explanation": "The communication standards slide lists a vendor-based protocol, a standard feature-based service (WFS) and a standard image-based service (WMS). Easy Connect naming and Named Pipes belong to Oracle Net, not to this GIS communication list."
+  },
+  {
+   "id": "q-gen-gis-20",
+   "exam": "",
+   "number": 20,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "gis"
+   ],
+   "stem": "The presentation explains that the benefits of GIS come primarily from:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Simply owning and storing the geodata"
+    },
+    {
+     "letter": "b",
+     "text": "Using the data to drive changes in the real world, such as changes in the utility network"
+    },
+    {
+     "letter": "c",
+     "text": "Maximising the number of raster layers stored"
+    },
+    {
+     "letter": "d",
+     "text": "Reducing the number of coordinate systems to one"
+    }
+   ],
+   "explanation": "The network-modelling slide concludes that, like other IT systems, the benefits of GIS come not from merely having the data but from using it to make changes in the real world (e.g. adjusting pressures in a water network). Merely storing data or counting layers does not by itself create value."
+  },
+  {
+   "id": "q-gen-hbase-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "Apache HBase is modeled after which system?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Amazon DynamoDB"
+    },
+    {
+     "letter": "b",
+     "text": "Google's Bigtable"
+    },
+    {
+     "letter": "c",
+     "text": "Oracle RDBMS"
+    },
+    {
+     "letter": "d",
+     "text": "Apache Cassandra"
+    }
+   ],
+   "explanation": "The lecture states HBase is an open-source, distributed, versioned, column-oriented store modeled after Google's Bigtable (Chang et al., 2006) (b). The other systems are not the model HBase was based on."
+  },
+  {
+   "id": "q-gen-hbase-02",
+   "exam": "",
+   "number": 2,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "According to the lecture, which statements describe Apache HBase?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It is the leading database-related project in the Hadoop group"
+    },
+    {
+     "letter": "b",
+     "text": "Its goal is hosting very large tables (billions of rows by millions of columns) on clusters of commodity hardware"
+    },
+    {
+     "letter": "c",
+     "text": "It provides Bigtable-like capabilities on top of Apache Hadoop and HDFS"
+    },
+    {
+     "letter": "d",
+     "text": "It is a relational database optimised for ACID transactions"
+    },
+    {
+     "letter": "e",
+     "text": "It is designed to run only on a single high-performance server"
+    }
+   ],
+   "explanation": "HBase is the leading Hadoop database project, designed for very large tables on commodity-hardware clusters, providing Bigtable-like capabilities atop Hadoop/HDFS (a, b, c). It is non-relational with limited transactions (d is false) and is distributed across clusters, not single-server (e is false)."
+  },
+  {
+   "id": "q-gen-hbase-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "According to the lecture's guidance on when to use HBase, roughly how much data justifies choosing it over a traditional RDBMS?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A few thousand rows"
+    },
+    {
+     "letter": "b",
+     "text": "A few million rows"
+    },
+    {
+     "letter": "c",
+     "text": "Hundreds of millions or billions of rows"
+    },
+    {
+     "letter": "d",
+     "text": "Any amount of data, since HBase always outperforms an RDBMS"
+    }
+   ],
+   "explanation": "The lecture advises that HBase is a good candidate when you have hundreds of millions or billions of rows (c). With only a few thousand or million rows an RDBMS may be better, since the data might end up on one or two nodes leaving the cluster idle (a, b are wrong), and HBase is not universally superior (d is false)."
+  },
+  {
+   "id": "q-gen-hbase-04",
+   "exam": "",
+   "number": 4,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "According to the lecture, which RDBMS features must you be willing to live without when moving to HBase?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Typed columns"
+    },
+    {
+     "letter": "b",
+     "text": "Secondary indexes"
+    },
+    {
+     "letter": "c",
+     "text": "Row-level storage of data"
+    },
+    {
+     "letter": "d",
+     "text": "Transactions and advanced query languages"
+    },
+    {
+     "letter": "e",
+     "text": "Storage on disk"
+    }
+   ],
+   "explanation": "The lecture lists typed columns, secondary indexes, transactions and advanced query languages among the RDBMS extras you give up with HBase (a, b, d). HBase still stores data (on HDFS) at the cell level, so c and e are not features you lose."
+  },
+  {
+   "id": "q-gen-hbase-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "How does the lecture suggest treating a migration from an RDBMS to HBase?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "As a simple port achieved by swapping the JDBC driver"
+    },
+    {
+     "letter": "b",
+     "text": "As a complete redesign rather than a port"
+    },
+    {
+     "letter": "c",
+     "text": "As impossible, because HBase cannot store relational data"
+    },
+    {
+     "letter": "d",
+     "text": "As reversible at any time with no data-model changes"
+    }
+   ],
+   "explanation": "The lecture explicitly says an RDBMS application cannot be \"ported\" to HBase by merely changing a JDBC driver; moving should be considered a complete redesign (b). A simple driver swap (a) is exactly what it warns against, and the other options are not claims made in the slides."
+  },
+  {
+   "id": "q-gen-hbase-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "The lecture notes that even HDFS does not perform well below a certain number of DataNodes. What number is given, and why?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "2, because of the NameNode requirement"
+    },
+    {
+     "letter": "b",
+     "text": "3, because of CQL replication"
+    },
+    {
+     "letter": "c",
+     "text": "5, because HDFS block replication defaults to 3 (plus a NameNode)"
+    },
+    {
+     "letter": "d",
+     "text": "10, because of the column-family limit"
+    }
+   ],
+   "explanation": "The lecture states even HDFS does not do well with fewer than 5 DataNodes, due to factors such as HDFS block replication defaulting to 3, plus a NameNode (c). The other counts and reasons are not what the slide gives."
+  },
+  {
+   "id": "q-gen-hbase-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "In which modes can HBase run, according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Standalone mode"
+    },
+    {
+     "letter": "b",
+     "text": "Pseudodistributed mode (one-node-based cluster)"
+    },
+    {
+     "letter": "c",
+     "text": "Fully distributed mode"
+    },
+    {
+     "letter": "d",
+     "text": "Serverless cloud-only mode"
+    },
+    {
+     "letter": "e",
+     "text": "Read-only archival mode"
+    }
+   ],
+   "explanation": "The lecture lists standalone, pseudodistributed (one-node cluster) and fully distributed modes (a, b, c). Serverless-cloud-only and read-only archival modes (d, e) are not mentioned. In fully distributed mode a production-quality cluster should have at least 5 nodes."
+  },
+  {
+   "id": "q-gen-hbase-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "The lecture describes an HBase table conceptually as which of the following?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A fixed grid of typed columns"
+    },
+    {
+     "letter": "b",
+     "text": "A map of maps, where every map is a key-value pair"
+    },
+    {
+     "letter": "c",
+     "text": "A graph of nodes and edges"
+    },
+    {
+     "letter": "d",
+     "text": "A single JSON document per table"
+    }
+   ],
+   "explanation": "The lecture describes an HBase table as a map of maps, where every map is a key-value pair; keys are arbitrary strings mapping to a row, and a row is itself a map from columns to values (b). The other descriptions match other data models, not HBase."
+  },
+  {
+   "id": "q-gen-hbase-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "How is a column referred to in HBase using its fully qualified name?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "'columnInFamily.family'"
+    },
+    {
+     "letter": "b",
+     "text": "'family:columnInFamily'"
+    },
+    {
+     "letter": "c",
+     "text": "'keyspace.table.column'"
+    },
+    {
+     "letter": "d",
+     "text": "'row/column'"
+    }
+   ],
+   "explanation": "Since columns are grouped into column families, HBase columns are referred to with fully qualified names of the form 'family:columnInFamily' (b), e.g. results:value. The other forms are not the HBase notation."
+  },
+  {
+   "id": "q-gen-hbase-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "What does the lecture say about the expected number of column families in an HBase table?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It should be at least ten for good performance"
+    },
+    {
+     "letter": "b",
+     "text": "It is expected to be low, i.e. at most three"
+    },
+    {
+     "letter": "c",
+     "text": "Exactly one is allowed per table"
+    },
+    {
+     "letter": "d",
+     "text": "There is no recommended limit at all"
+    }
+   ],
+   "explanation": "The lecture states the number of column families is expected to be low, i.e. at most three (b). More than one is allowed (so c is wrong), but it is not unbounded (d is wrong), and a high count like ten is not recommended (a is wrong)."
+  },
+  {
+   "id": "q-gen-hbase-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "In the sample measurements table, which command correctly creates a table with the two column families used in the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "create 'measurements','parameter','value'"
+    },
+    {
+     "letter": "b",
+     "text": "create 'measurements','results:parameter','time:timeStamp'"
+    },
+    {
+     "letter": "c",
+     "text": "create 'measurements','results','time'"
+    },
+    {
+     "letter": "d",
+     "text": "create 'measurements' with columns (parameter, value, precision)"
+    }
+   ],
+   "explanation": "When creating an HBase table only the column families are declared, not individual columns. The lecture uses `create 'measurements','results','time'` (c). Options a, b and d incorrectly include column qualifiers or RDBMS-style column declarations."
+  },
+  {
+   "id": "q-gen-hbase-12",
+   "exam": "",
+   "number": 12,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "In the HBase shell, what do the `scan` and `get` commands do in the lecture's examples?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`scan 'measurements'` displays the entire table content"
+    },
+    {
+     "letter": "b",
+     "text": "`get 'measurements','1','results:value'` retrieves one or more specific column values"
+    },
+    {
+     "letter": "c",
+     "text": "`scan` deletes all rows after displaying them"
+    },
+    {
+     "letter": "d",
+     "text": "`get` can only ever return one column and never multiple"
+    },
+    {
+     "letter": "e",
+     "text": "`scan` declares new column families"
+    }
+   ],
+   "explanation": "In the examples, `scan` displays the entire table content (a) and `get` retrieves one or more specified column values for a row (b) — the lecture shows `get` returning two columns at once, so d is false. `scan` does not delete or declare anything (c, e are false)."
+  },
+  {
+   "id": "q-gen-hbase-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "According to the \"HBase tables: discussion\" slide, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Only column families are declared when creating a table"
+    },
+    {
+     "letter": "b",
+     "text": "Whether a column family always contains the same columns in each row is up to the client application"
+    },
+    {
+     "letter": "c",
+     "text": "Any cell is just an array of bytes from HBase's perspective, with no explicit data-type support"
+    },
+    {
+     "letter": "d",
+     "text": "Individual columns must be declared in advance like in an RDBMS"
+    },
+    {
+     "letter": "e",
+     "text": "Entire rows, not cells, are the unit inserted and retrieved"
+    }
+   ],
+   "explanation": "The slide states only column families are declared (a), column consistency across rows is the client's responsibility (b), and cells are byte arrays with no explicit typing (c). Columns are not pre-declared (d is false), and because a row may contain millions of columns, individual cells rather than whole rows are inserted/retrieved (e is false)."
+  },
+  {
+   "id": "q-gen-hbase-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "The lecture mentions a benefit of having more than one column family. What is it?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It enables SQL JOINs between families"
+    },
+    {
+     "letter": "b",
+     "text": "It guarantees ACID transactions across families"
+    },
+    {
+     "letter": "c",
+     "text": "Every family may have its own settings, such as version settings"
+    },
+    {
+     "letter": "d",
+     "text": "It reduces the number of timestamps stored per cell"
+    }
+   ],
+   "explanation": "The lecture states the benefit of multiple column families is that each family may have its own settings, such as version settings (c). It does not enable JOINs (a) or ACID across families (b), and it does not change per-cell timestamping (d)."
+  },
+  {
+   "id": "q-gen-hbase-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "What exactly does the HBase timestamp stored with every value represent?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The clock time formatted as a human-readable date string"
+    },
+    {
+     "letter": "b",
+     "text": "An integer counting milliseconds since 1st January 1970 00:00 until the time of insertion"
+    },
+    {
+     "letter": "c",
+     "text": "A sequential version number starting at 1 for each cell"
+    },
+    {
+     "letter": "d",
+     "text": "The number of replicas holding the value"
+    }
+   ],
+   "explanation": "The lecture defines the HBase timestamp as an integer measuring the number of milliseconds since 1 January 1970 00:00 up to the time of insertion (b). It is not a formatted date string (a), a sequential counter (c), or a replica count (d)."
+  },
+  {
+   "id": "q-gen-hbase-16",
+   "exam": "",
+   "number": 16,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "Which statements about versioning in HBase are correct according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "When a cell is updated, the old value is not removed but kept with its own timestamp"
+    },
+    {
+     "letter": "b",
+     "text": "By default, the most recent version (by timestamp) is returned"
+    },
+    {
+     "letter": "c",
+     "text": "Only the current value is ever stored; history is discarded"
+    },
+    {
+     "letter": "d",
+     "text": "More than one version of a cell's data can be requested"
+    },
+    {
+     "letter": "e",
+     "text": "Versioning applies to entire rows as a unit, never to individual cells"
+    }
+   ],
+   "explanation": "HBase keeps the old cell value with its own timestamp (a), returns the most recent version by default (b), and lets you request multiple versions (d). History is not discarded (c is false), and versioning is per cell (row+column combination), not whole rows (e is false)."
+  },
+  {
+   "id": "q-gen-hbase-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "The lecture notes that, using the HBase shell, different column values of a row get different timestamps by default. How can all column values of a row share the same timestamp?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "By using the `scan` command instead of `get`"
+    },
+    {
+     "letter": "b",
+     "text": "By using the API to insert the entire row at the same time"
+    },
+    {
+     "letter": "c",
+     "text": "By creating the table with a single column family"
+    },
+    {
+     "letter": "d",
+     "text": "It is impossible; shell and API both always assign distinct timestamps"
+    }
+   ],
+   "explanation": "The shell puts one value at a time, so columns get different timestamps; the lecture states the API can insert an entire row at once, in which case all column values share the same timestamp (b). The choice of command (a), number of families (c), or claiming it is impossible (d) do not achieve this."
+  },
+  {
+   "id": "q-gen-hbase-18",
+   "exam": "",
+   "number": 18,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "According to the lecture, at which levels can a delete operation be performed in HBase?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "At cell and timestamp level (a specific version)"
+    },
+    {
+     "letter": "b",
+     "text": "At cell level (all versions of a column value)"
+    },
+    {
+     "letter": "c",
+     "text": "At row level (all data of a row, e.g. via deleteall)"
+    },
+    {
+     "letter": "d",
+     "text": "At column-family level for the whole table at once"
+    },
+    {
+     "letter": "e",
+     "text": "At keyspace level"
+    }
+   ],
+   "explanation": "The lecture states delete can be performed at cell&timestamp, cell, and row level (a, b, c) — the examples show deleting a specific version, a whole cell, and `deleteall` for an entire row. Deleting an entire column family table-wide (d) and a keyspace level (e, a Cassandra concept) are not listed."
+  },
+  {
+   "id": "q-gen-hbase-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "How can HBase tables be accessed, according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Through Java libraries / Java API (the default way)"
+    },
+    {
+     "letter": "b",
+     "text": "Via REST requests over the network"
+    },
+    {
+     "letter": "c",
+     "text": "Using a C/C++ client or Scala"
+    },
+    {
+     "letter": "d",
+     "text": "Through SQL statements by default, with no extra project needed"
+    },
+    {
+     "letter": "e",
+     "text": "Only through a graphical desktop application"
+    }
+   ],
+   "explanation": "By default HBase is accessed via Java libraries/API (a), and alternatives include REST over the network (b) and C/C++ or Scala clients (c). SQL is not the default and requires an additional project (so d is false), and access is not limited to a GUI (e is false)."
+  },
+  {
+   "id": "q-gen-hbase-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "hbase"
+   ],
+   "stem": "According to the summary slide, which statements about HBase table data and usage are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Rows are stored on many servers of a cluster"
+    },
+    {
+     "letter": "b",
+     "text": "Rows can include varied sets of columns within the same table"
+    },
+    {
+     "letter": "c",
+     "text": "Data is frequently denormalised and cells can have multiple versions"
+    },
+    {
+     "letter": "d",
+     "text": "HBase handles categories of data such as time series, often alongside other Big Data projects like Apache Hadoop"
+    },
+    {
+     "letter": "e",
+     "text": "HBase enforces a strict, normalised relational schema across all rows"
+    }
+   ],
+   "explanation": "The summary states HBase rows are spread across cluster servers (a), can have varied column sets (b), are frequently denormalised with multi-version cells (c), and that HBase handles data like time series and is used with projects such as Hadoop (d). It does not enforce a strict normalised relational schema (e is false)."
+  },
+  {
+   "id": "q-gen-indexes-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "What is the primary purpose of an index in a relational database?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "To enforce data types on table columns"
+    },
+    {
+     "letter": "b",
+     "text": "To speed up the retrieval of rows from a table or view"
+    },
+    {
+     "letter": "c",
+     "text": "To store backups of table data on a separate disk"
+    },
+    {
+     "letter": "d",
+     "text": "To translate SQL into the DBMS's internal language"
+    }
+   ],
+   "explanation": "An index is an on-disk structure associated with a table or view used to speed up retrieval of rows. It does not enforce data types, store backups, or translate SQL."
+  },
+  {
+   "id": "q-gen-indexes-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "Which data structure is typically used to represent an index?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A hash table only"
+    },
+    {
+     "letter": "b",
+     "text": "A linked list"
+    },
+    {
+     "letter": "c",
+     "text": "A B-tree"
+    },
+    {
+     "letter": "d",
+     "text": "A relational view"
+    }
+   ],
+   "explanation": "The presentation states that B-trees are typically used as an index representation. The other structures are not the typical index representation described."
+  },
+  {
+   "id": "q-gen-indexes-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "How many clustered indexes can a single table have?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Exactly zero"
+    },
+    {
+     "letter": "b",
+     "text": "At most one"
+    },
+    {
+     "letter": "c",
+     "text": "Exactly one for every column"
+    },
+    {
+     "letter": "d",
+     "text": "Unlimited, like nonclustered indexes"
+    }
+   ],
+   "explanation": "There can be at most one clustered index per table, because the entire table records are physically stored in that order. A table may also have zero clustered indexes (then it is a heap), so \"exactly zero\" and the other options are wrong."
+  },
+  {
+   "id": "q-gen-indexes-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "What does defining a clustered index on a table cause?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The DBMS creates an extra B-tree but leaves the table records in arbitrary order"
+    },
+    {
+     "letter": "b",
+     "text": "The table's columns are split into two separate tables"
+    },
+    {
+     "letter": "c",
+     "text": "The DBMS physically stores the table records in the specified order"
+    },
+    {
+     "letter": "d",
+     "text": "All other indexes on the table are automatically dropped"
+    }
+   ],
+   "explanation": "A clustered index makes the DBMS physically store the table records in the specified order (e.g. growing OrderId). It does not leave records arbitrary, split columns, or drop other indexes."
+  },
+  {
+   "id": "q-gen-indexes-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "If a table has no clustered index, how are its records stored?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "As a heap, with no specified order"
+    },
+    {
+     "letter": "b",
+     "text": "Sorted by the primary key automatically"
+    },
+    {
+     "letter": "c",
+     "text": "In a separate B-tree that orders all records"
+    },
+    {
+     "letter": "d",
+     "text": "Alphabetically by the first text column"
+    }
+   ],
+   "explanation": "Without a clustered index, records are stored as a heap with no specified order. This can make inserts and updates faster, since no order must be preserved. The other options describe ordered storage that a heap does not impose."
+  },
+  {
+   "id": "q-gen-indexes-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "In MS SQL Server, which type of index does `CREATE INDEX` create by default if neither CLUSTERED nor NONCLUSTERED is specified?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A clustered index"
+    },
+    {
+     "letter": "b",
+     "text": "A unique index"
+    },
+    {
+     "letter": "c",
+     "text": "A nonclustered index"
+    },
+    {
+     "letter": "d",
+     "text": "A heap"
+    }
+   ],
+   "explanation": "By default a NONCLUSTERED index is created. CLUSTERED must be requested explicitly; uniqueness requires the UNIQUE keyword; a heap is the absence of a clustered index, not something CREATE INDEX produces."
+  },
+  {
+   "id": "q-gen-indexes-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "Which statements about nonclustered indexes are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A single table can have many nonclustered indexes"
+    },
+    {
+     "letter": "b",
+     "text": "Every nonclustered index has a separate structure requiring its own extra space on disk"
+    },
+    {
+     "letter": "c",
+     "text": "A nonclustered index can be created on a heap or on a clustered table"
+    },
+    {
+     "letter": "d",
+     "text": "A nonclustered index determines the physical storage order of the entire table"
+    }
+   ],
+   "explanation": "A table can have many nonclustered indexes (a), each in its own on-disk structure (b), and they can be created on a heap or on a clustered table (c). Determining the table's physical storage order is the role of a clustered index, so (d) is false."
+  },
+  {
+   "id": "q-gen-indexes-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "An index key is defined as `Country, City, Street, Address`. Which use is this index well suited to support?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Filtering only by Address with no other column"
+    },
+    {
+     "letter": "b",
+     "text": "Sorting the customers by Country, City, Street, Address"
+    },
+    {
+     "letter": "c",
+     "text": "Speeding up inserts into the table"
+    },
+    {
+     "letter": "d",
+     "text": "Reducing the disk space used by the table"
+    }
+   ],
+   "explanation": "An index on Country, City, Street, Address can be used to sort customers in that order (and to filter by leading columns such as Country). It does not speed up inserts (indexes add write overhead) or reduce table disk space, and a trailing column like Address alone is not efficiently served by this key."
+  },
+  {
+   "id": "q-gen-indexes-09",
+   "exam": "",
+   "number": 9,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "The key objective of creating an index is to improve performance for which operations?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Searching for records matching a WHERE condition"
+    },
+    {
+     "letter": "b",
+     "text": "Matching records in a JOIN clause"
+    },
+    {
+     "letter": "c",
+     "text": "Sorting records with ORDER BY"
+    },
+    {
+     "letter": "d",
+     "text": "Inserting large batches of new records faster"
+    }
+   ],
+   "explanation": "Indexes improve searching (WHERE), joining (JOIN) and sorting (ORDER BY). They generally slow inserts/updates/deletes because the index trees must be kept up to date, so (d) is false."
+  },
+  {
+   "id": "q-gen-indexes-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "What is a negative impact of creating indexes on a table?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They prevent the table from being queried with SELECT"
+    },
+    {
+     "letter": "b",
+     "text": "They can increase the time needed to complete INSERT/UPDATE/DELETE statements"
+    },
+    {
+     "letter": "c",
+     "text": "They make primary keys impossible to define"
+    },
+    {
+     "letter": "d",
+     "text": "They permanently corrupt the heap structure"
+    }
+   ],
+   "explanation": "Because the DBMS must keep index trees consistent with table content, CRUD statements can become slower and may require many index trees to be rebuilt. Indexes do not block SELECTs, prevent primary keys, or corrupt anything."
+  },
+  {
+   "id": "q-gen-indexes-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "Why does a unique index help the DBMS enforce uniqueness of a key efficiently?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It deletes any duplicate rows automatically without checking"
+    },
+    {
+     "letter": "b",
+     "text": "It converts the table into a heap to avoid conflicts"
+    },
+    {
+     "letter": "c",
+     "text": "While updating the index, the DBMS can easily determine if another record already has the same key value"
+    },
+    {
+     "letter": "d",
+     "text": "It disables all other indexes during the check"
+    }
+   ],
+   "explanation": "With a unique index, the DBMS can quickly determine whether a conflicting key value already exists while updating the index, instead of scanning the whole table. It does not silently delete rows, convert to a heap, or disable other indexes."
+  },
+  {
+   "id": "q-gen-indexes-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "A column `study_type` takes only two values: 'Bachelor of Science' and 'Master Of Science'. Why is indexing this column generally a poor idea?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Two-value columns cannot be indexed by any DBMS"
+    },
+    {
+     "letter": "b",
+     "text": "It has very poor selectivity, so the DBMS is unlikely to use the index yet must still maintain it"
+    },
+    {
+     "letter": "c",
+     "text": "Indexes can only be created on numeric columns"
+    },
+    {
+     "letter": "d",
+     "text": "It would force the table to become a clustered table"
+    }
+   ],
+   "explanation": "A column with only two values has very poor selectivity — on average it filters out only half the records, so the DBMS is unlikely to use the index yet still has to update it, possibly increasing processing time. The other claims are not true."
+  },
+  {
+   "id": "q-gen-indexes-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "According to the guidelines, indexes should be considered when a large number of records is expected (>1000) and which conditions hold?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The column(s) are frequently used in search/sort operations"
+    },
+    {
+     "letter": "b",
+     "text": "The size of the index key is short"
+    },
+    {
+     "letter": "c",
+     "text": "There is good selectivity of the index column(s)"
+    },
+    {
+     "letter": "d",
+     "text": "The column has only two or three distinct values"
+    }
+   ],
+   "explanation": "Indexes are worthwhile when columns are frequently searched/sorted (a), the index key is short to avoid huge trees (b), and selectivity is good (c). Very few distinct values mean poor selectivity, which is a reason to avoid an index, so (d) is wrong."
+  },
+  {
+   "id": "q-gen-indexes-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "Why does the presentation recommend creating an index on the columns of a foreign key?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Foreign keys cannot be defined without an index"
+    },
+    {
+     "letter": "b",
+     "text": "It physically stores the child table in the order of the parent key"
+    },
+    {
+     "letter": "c",
+     "text": "Otherwise, removing or modifying a parent key value, and every JOIN, would require scanning the child table"
+    },
+    {
+     "letter": "d",
+     "text": "It guarantees the foreign key values are unique"
+    }
+   ],
+   "explanation": "Without an index on a foreign key, every deletion/modification of a referenced parent key, and every JOIN, would require scanning the child table. Indexing the foreign key speeds up referential integrity checking and joins. It does not enforce uniqueness or change physical storage of the child."
+  },
+  {
+   "id": "q-gen-indexes-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "What is the fundamental reason an index improves the performance of an SQL statement?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It compresses the SQL text so the parser runs faster"
+    },
+    {
+     "letter": "b",
+     "text": "It decreases the number of disk blocks that must be read to execute the statement"
+    },
+    {
+     "letter": "c",
+     "text": "It moves the table entirely into CPU registers"
+    },
+    {
+     "letter": "d",
+     "text": "It rewrites the query to avoid using the WHERE clause"
+    }
+   ],
+   "explanation": "The true advantage of an index comes from decreasing the number of disk blocks that must be read: the DBMS reads the small index structure plus some records, instead of scanning the whole table. The other options misdescribe how indexes work."
+  },
+  {
+   "id": "q-gen-indexes-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "When should a clustered index be considered, according to the guidelines?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "When you rarely access the table's records"
+    },
+    {
+     "letter": "b",
+     "text": "When the column has only a few distinct values"
+    },
+    {
+     "letter": "c",
+     "text": "When you frequently access groups of related records (e.g. multiple lines of one order)"
+    },
+    {
+     "letter": "d",
+     "text": "When you want to avoid keeping any data in sorted order"
+    }
+   ],
+   "explanation": "A clustered index is worth considering when you frequently access groups of related records, because they will be stored in the same part of the disk and read together. The other situations do not motivate a clustered index."
+  },
+  {
+   "id": "q-gen-indexes-17",
+   "exam": "",
+   "number": 17,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "Which statements about a query execution plan are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It is an algorithm describing how the DBMS will execute the statement"
+    },
+    {
+     "letter": "b",
+     "text": "Its steps may include scanning index trees and table content"
+    },
+    {
+     "letter": "c",
+     "text": "It can be investigated to identify and eliminate bottlenecks in data processing"
+    },
+    {
+     "letter": "d",
+     "text": "It guarantees every query runs in constant time regardless of table size"
+    }
+   ],
+   "explanation": "A query execution plan is the algorithm for executing a statement (a), its steps include scanning indexes and tables (b), and it can be analysed to find bottlenecks (c). Scanning large tables without a suitable index can give unacceptable response time, so (d) is false."
+  },
+  {
+   "id": "q-gen-indexes-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "What does Oracle's automated indexing feature (introduced in 19c) do with newly identified candidate indexes?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It immediately makes every candidate index visible and permanent"
+    },
+    {
+     "letter": "b",
+     "text": "It creates invisible indexes, then converts those that improve performance to visible ones and removes unsuccessful ones"
+    },
+    {
+     "letter": "c",
+     "text": "It only suggests indexes but never creates any"
+    },
+    {
+     "letter": "d",
+     "text": "It disables all manually created indexes first"
+    }
+   ],
+   "explanation": "Oracle automated indexing identifies candidate indexes from column use, creates invisible indexes to evaluate them, promotes successful ones to visible, and removes unsuccessful ones. It does not blindly make all candidates permanent, merely suggest, or disable manual indexes."
+  },
+  {
+   "id": "q-gen-indexes-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "What does MS SQL Server's automated tuning (introduced in 2017, present in Azure SQL Database) do?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Identifies problematic query execution plans and fixes them, e.g. by restoring previous better plans when plan regression is detected"
+    },
+    {
+     "letter": "b",
+     "text": "Identifies indexes that should be added and indexes that should be removed"
+    },
+    {
+     "letter": "c",
+     "text": "Eliminates the need for any query execution plans"
+    },
+    {
+     "letter": "d",
+     "text": "Stops the database from ever updating statistics"
+    }
+   ],
+   "explanation": "Automated tuning identifies and fixes problematic plans (e.g. restoring better ones after regression) (a) and recommends adding/removing indexes (b). It does not eliminate execution plans or stop statistics updates; it relies on learning the SQL workload characteristics."
+  },
+  {
+   "id": "q-gen-indexes-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "indexes"
+   ],
+   "stem": "Which statements from the summary about indexes in relational databases are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Relational databases require indexes to offer acceptable performance"
+    },
+    {
+     "letter": "b",
+     "text": "The ability to create multiple indexes per table is a major advantage usually unavailable in Big Data platforms"
+    },
+    {
+     "letter": "c",
+     "text": "A properly planned database should include indexes matching the expected workload even before this workload happens"
+    },
+    {
+     "letter": "d",
+     "text": "Because vendors now offer automated indexing, manual index planning is no longer needed at all"
+    }
+   ],
+   "explanation": "Indexes are mandatory for acceptable relational performance (a), multiple indexes per table is a major advantage over Big Data platforms (b), and good planning anticipates workload (c). Even with automated indexing, the presentation stresses planning indexes in advance, so (d) is false."
+  },
+  {
+   "id": "q-gen-jdbc-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "What does the acronym JDBC stand for?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Java Database Coupling"
+    },
+    {
+     "letter": "b",
+     "text": "Java Database Connectivity"
+    },
+    {
+     "letter": "c",
+     "text": "Java Data Binding Connector"
+    },
+    {
+     "letter": "d",
+     "text": "Joint Database Connection"
+    }
+   ],
+   "explanation": "JDBC stands for Java Database Connectivity, the standard API providing data access from the Java programming language. The other options are invented expansions that do not correspond to the established term."
+  },
+  {
+   "id": "q-gen-jdbc-02",
+   "exam": "",
+   "number": 2,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "According to the presentation, which data sources can JDBC provide access to?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Relational databases"
+    },
+    {
+     "letter": "b",
+     "text": "Compiled Java bytecode classes"
+    },
+    {
+     "letter": "c",
+     "text": "Spreadsheets"
+    },
+    {
+     "letter": "d",
+     "text": "Flat files"
+    },
+    {
+     "letter": "e",
+     "text": "Operating system kernel modules"
+    }
+   ],
+   "explanation": "JDBC provides data access to different data sources including relational databases, spreadsheets, and flat files. Compiled bytecode classes and OS kernel modules are not data sources accessed through JDBC."
+  },
+  {
+   "id": "q-gen-jdbc-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "Which JDBC package provides the core classes and interfaces, and which contains server-side extensions?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`javax.sql` provides core classes; `java.sql` contains server-side extensions"
+    },
+    {
+     "letter": "b",
+     "text": "`java.sql` provides core classes; `javax.sql` contains server-side extensions"
+    },
+    {
+     "letter": "c",
+     "text": "Both core and server-side functionality are in `java.jdbc`"
+    },
+    {
+     "letter": "d",
+     "text": "`java.sql` provides core classes; `java.net` contains server-side extensions"
+    }
+   ],
+   "explanation": "The presentation states that the `java.sql` package provides core classes and interfaces, while `javax.sql` contains server-side extensions. The other options swap or invent the package roles."
+  },
+  {
+   "id": "q-gen-jdbc-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "In the first connection option, which method call is used to load a specified JDBC driver?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`DriverManager.load(...)`"
+    },
+    {
+     "letter": "b",
+     "text": "`Class.forName(...)`"
+    },
+    {
+     "letter": "c",
+     "text": "`con.loadDriver(...)`"
+    },
+    {
+     "letter": "d",
+     "text": "`Statement.register(...)`"
+    }
+   ],
+   "explanation": "In the sample code, the driver is loaded with `Class.forName(\"oracle.jdbc.driver.OracleDriver\")`. `DriverManager.getConnection(...)` then establishes the connection, but it does not load the driver, and the other methods do not exist in the example."
+  },
+  {
+   "id": "q-gen-jdbc-05",
+   "exam": "",
+   "number": 5,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "What are the stated disadvantages of the first connection option (loading a driver explicitly)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The same API cannot be used to access different databases"
+    },
+    {
+     "letter": "b",
+     "text": "The JDBC driver name is hard coded in the application"
+    },
+    {
+     "letter": "c",
+     "text": "It takes time to establish and close a connection"
+    },
+    {
+     "letter": "d",
+     "text": "An application server is always required"
+    }
+   ],
+   "explanation": "The disadvantages listed are that the driver name is hard coded and that establishing/closing connections takes time (so pooling should be applied). Using the same API across databases is actually an advantage, and requiring an application server is a trait of the second (DataSource) option."
+  },
+  {
+   "id": "q-gen-jdbc-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "In the sample code, how are individual rows of a query result iterated and read?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Using a `for` loop over `statement.getRows()`"
+    },
+    {
+     "letter": "b",
+     "text": "Calling `rs.fetch()` repeatedly until it returns null"
+    },
+    {
+     "letter": "c",
+     "text": "Calling `rs.next()` in a loop and reading columns with methods like `rs.getString(...)`"
+    },
+    {
+     "letter": "d",
+     "text": "Calling `con.readRow()` for each record"
+    }
+   ],
+   "explanation": "Results are accessed via a ResultSet object: `rs.next()` advances to each row and column values are read with accessors such as `rs.getString(\"title_name\")`. The other methods do not appear in the JDBC examples."
+  },
+  {
+   "id": "q-gen-jdbc-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "In the first sample `ConnectionTester`, which checked exceptions are caught?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`ClassNotFoundException`"
+    },
+    {
+     "letter": "b",
+     "text": "`SQLException`"
+    },
+    {
+     "letter": "c",
+     "text": "`NamingException`"
+    },
+    {
+     "letter": "d",
+     "text": "`IOException`"
+    }
+   ],
+   "explanation": "The code catches `ClassNotFoundException` (from loading the driver via `Class.forName`) and `SQLException` (from JDBC operations). `NamingException` and `IOException` appear only in the later servlet/DataSource example, not in this one."
+  },
+  {
+   "id": "q-gen-jdbc-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "In the connection string `jdbc:oracle:thin:@localhost:1521:ORCL`, what does `1521` represent?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The maximum number of pooled connections"
+    },
+    {
+     "letter": "b",
+     "text": "The network port on which the DBMS listens"
+    },
+    {
+     "letter": "c",
+     "text": "The Oracle driver version"
+    },
+    {
+     "letter": "d",
+     "text": "The session identifier of the connection"
+    }
+   ],
+   "explanation": "In the JDBC URL, `1521` is the TCP port on which the Oracle DBMS listens (its default), with `localhost` the host and `ORCL` the database/SID. It is not a pool size, driver version, or session id."
+  },
+  {
+   "id": "q-gen-jdbc-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "If the `ConnectionTester` example needed to connect to a different DBMS instead of Oracle, what would have to change?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Nothing, JDBC code is fully DBMS-independent including the driver"
+    },
+    {
+     "letter": "b",
+     "text": "The Java language version"
+    },
+    {
+     "letter": "c",
+     "text": "A different JDBC driver would be needed"
+    },
+    {
+     "letter": "d",
+     "text": "The `ResultSet` interface would have to be reimplemented"
+    }
+   ],
+   "explanation": "The slide explicitly notes that the Oracle JDBC driver is used and that another driver would be needed to access another DBMS. The JDBC API itself stays the same, so the application code is largely portable, but the driver is DBMS-specific."
+  },
+  {
+   "id": "q-gen-jdbc-10",
+   "exam": "",
+   "number": 10,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "What are the stated advantages of the second connection option (obtaining a connection from a DataSource)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "No application server is required"
+    },
+    {
+     "letter": "b",
+     "text": "The same API can be used to access different databases"
+    },
+    {
+     "letter": "c",
+     "text": "Connection attributes such as driver type and DBMS platform are not hard coded"
+    },
+    {
+     "letter": "d",
+     "text": "A connection pool can be accessed"
+    }
+   ],
+   "explanation": "The DataSource option's advantages are a uniform API across databases, no hard-coded connection attributes, and access to a connection pool. Requiring an application server is listed as a disadvantage, not an advantage, of this option."
+  },
+  {
+   "id": "q-gen-jdbc-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "In the servlet example, how is the DataSource obtained?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "By instantiating it directly with `new OracleDataSource()`"
+    },
+    {
+     "letter": "b",
+     "text": "By a JNDI lookup, e.g. `ic.lookup(\"jdbc/DBTestDS\")` via an `InitialContext`"
+    },
+    {
+     "letter": "c",
+     "text": "By calling `DriverManager.getDataSource(...)`"
+    },
+    {
+     "letter": "d",
+     "text": "By reading it from an environment variable at runtime"
+    }
+   ],
+   "explanation": "The servlet creates an `InitialContext` and performs a JNDI lookup `ic.lookup(\"jdbc/DBTestDS\")` to obtain the DataSource, so the real connection configuration is no longer hard coded. The other approaches are not used in the example."
+  },
+  {
+   "id": "q-gen-jdbc-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "When a DataSource backed by a connection pool is used, what does calling `close()` on the obtained connection typically do?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Permanently terminates the physical connection to the DBMS"
+    },
+    {
+     "letter": "b",
+     "text": "Rolls back all transactions of the application"
+    },
+    {
+     "letter": "c",
+     "text": "Releases the connection so it can be reused"
+    },
+    {
+     "letter": "d",
+     "text": "Shuts down the application server's pool"
+    }
+   ],
+   "explanation": "With a pooling DataSource, `getConnection()` usually returns an existing connection and `close()` releases it back to the pool for reuse rather than physically closing it. This reuse is what yields the dramatic performance improvements described."
+  },
+  {
+   "id": "q-gen-jdbc-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "According to the presentation, who creates the pool of connections that a DataSource provides access to?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The JDBC driver automatically on first query"
+    },
+    {
+     "letter": "b",
+     "text": "An application server"
+    },
+    {
+     "letter": "c",
+     "text": "The DBMS itself for every client"
+    },
+    {
+     "letter": "d",
+     "text": "The client web browser"
+    }
+   ],
+   "explanation": "The slide states that a pool of connections is created by an application server, and the server maintains the pool as configured by the administrator. The DataSource is merely the JDBC object used to access those connections."
+  },
+  {
+   "id": "q-gen-jdbc-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "The presentation recommends obtaining a connection through a DataSource especially in which scenario?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Single-user desktop scripts"
+    },
+    {
+     "letter": "b",
+     "text": "Multi-user enterprise applications"
+    },
+    {
+     "letter": "c",
+     "text": "Applications that never use SQL"
+    },
+    {
+     "letter": "d",
+     "text": "Applications that must avoid any application server"
+    }
+   ],
+   "explanation": "The slide states that obtaining a connection through a DataSource is the suggested solution in multi-user enterprise applications, where connection reuse from a pool yields major performance benefits. It is not aimed at single-user scripts or server-less setups."
+  },
+  {
+   "id": "q-gen-jdbc-15",
+   "exam": "",
+   "number": 15,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "According to the presentation, when and why should a `PreparedStatement` be preferred over a regular `Statement`?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "When an SQL statement is to be executed a number of times"
+    },
+    {
+     "letter": "b",
+     "text": "Only for SELECT statements, never for modifications"
+    },
+    {
+     "letter": "c",
+     "text": "Because it creates a precompiled statement on the DBMS side, reducing execution time"
+    },
+    {
+     "letter": "d",
+     "text": "Because it cannot be used with bind parameters"
+    }
+   ],
+   "explanation": "A PreparedStatement should be preferred when a statement is executed repeatedly, because it creates a precompiled statement on the DBMS side that significantly reduces execution time. It works for both selecting and modifying data and supports bind parameters, so the other options are wrong."
+  },
+  {
+   "id": "q-gen-jdbc-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "In the PreparedStatement example performing an `UPDATE`, which method executes the statement?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`ps.executeQuery()`"
+    },
+    {
+     "letter": "b",
+     "text": "`ps.execute(ResultSet)`"
+    },
+    {
+     "letter": "c",
+     "text": "`ps.executeUpdate()`"
+    },
+    {
+     "letter": "d",
+     "text": "`ps.commit()`"
+    }
+   ],
+   "explanation": "For a data-modifying statement such as `UPDATE`, the example calls `ps.executeUpdate()` (followed by `con.commit()`). `executeQuery()` is used for SELECTs that return a ResultSet, and `commit()` is a Connection method, not the statement executor."
+  },
+  {
+   "id": "q-gen-jdbc-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "What is the root cause of the SQL injection vulnerability illustrated in the \"Combining query text with user input\" slides?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Using a PreparedStatement with bind parameters"
+    },
+    {
+     "letter": "b",
+     "text": "Concatenating raw user input directly into the SQL query text"
+    },
+    {
+     "letter": "c",
+     "text": "Closing the ResultSet too early"
+    },
+    {
+     "letter": "d",
+     "text": "Using the Oracle thin driver instead of a thick driver"
+    }
+   ],
+   "explanation": "The vulnerability arises because raw user input is concatenated into the query string, letting an attacker inject SQL such as a `UNION SELECT` that changes the query's intent. Parametrized queries (the fix) are not the cause, and resource closing or driver type are unrelated."
+  },
+  {
+   "id": "q-gen-jdbc-18",
+   "exam": "",
+   "number": 18,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "What does the presentation say about SQL code injection and its mitigation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It can be attempted with any API (such as JDBC or ADO.NET) and any DBMS"
+    },
+    {
+     "letter": "b",
+     "text": "It is only possible with the Oracle thin driver"
+    },
+    {
+     "letter": "c",
+     "text": "Using parametrized queries (e.g. PreparedStatement) makes clear that a value, not SQL code, belongs in part of the statement"
+    },
+    {
+     "letter": "d",
+     "text": "It cannot occur in web applications"
+    }
+   ],
+   "explanation": "The slides state that SQL injection can be attempted with any API and any DBMS, is even easier with web applications, and is mitigated by parametrized queries that distinguish a value from SQL code. So the claims limiting it to one driver or excluding web apps are false."
+  },
+  {
+   "id": "q-gen-jdbc-19",
+   "exam": "",
+   "number": 19,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "Regarding try-with-resources in JDBC, what caution does the presentation raise about the `Connection` object?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Connection does not implement `AutoCloseable`, so it cannot be used there at all"
+    },
+    {
+     "letter": "b",
+     "text": "Statements and ResultSets must never be declared in try-with-resources"
+    },
+    {
+     "letter": "c",
+     "text": "Closing a Connection automatically can be risky because it may close before the transaction status is resolved"
+    },
+    {
+     "letter": "d",
+     "text": "try-with-resources commits the transaction automatically before closing"
+    }
+   ],
+   "explanation": "Connection implements `AutoCloseable`, but the slide warns that auto-closing it can be risky: if there is an active transaction, the JDBC standard says the results are implementation-defined, so the connection might close before the transaction is committed or rolled back. Statements and ResultSets, by contrast, are safe to declare there."
+  },
+  {
+   "id": "q-gen-jdbc-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "jdbc"
+   ],
+   "stem": "According to the summary and discussion slides, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "JDBC lets Java developers connect to a DBMS and submit SELECT, DML and DDL statements, and commit/rollback transactions"
+    },
+    {
+     "letter": "b",
+     "text": "ResultSet and Connection objects should be closed (or returned to the pool) as soon as possible to avoid resource leaks"
+    },
+    {
+     "letter": "c",
+     "text": "JDBC has been fully replaced by the Java Persistence API and is no longer used"
+    },
+    {
+     "letter": "d",
+     "text": "The Java Persistence API provides object-relational mapping, but JDBC remains the core standard on top of which layers can be built"
+    }
+   ],
+   "explanation": "JDBC enables connecting, running SELECT/DML/DDL, and managing transactions; resources should be released promptly to avoid leaks; and JPA adds object-relational mapping while JDBC remains the underlying core standard. The claim that JPA fully replaced JDBC contradicts the summary, which says JDBC remains foundational."
+  },
+  {
+   "id": "q-gen-nosql-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "According to the lecture, who is credited with the first influential use of the term \"NoSQL\", and in what context?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "E. Codd, as the name of his non-relational data model"
+    },
+    {
+     "letter": "b",
+     "text": "Johan Oskarsson, as a Twitter hashtag for a 2009 meeting on new DBMS"
+    },
+    {
+     "letter": "c",
+     "text": "Eric Brewer, when formulating the CAP theorem"
+    },
+    {
+     "letter": "d",
+     "text": "Sam R. Alapati, in his book on Cassandra administration"
+    }
+   ],
+   "explanation": "The lecture attributes the first influential use of \"NoSQL\" to Johan Oskarsson, who picked it as a Twitter hashtag for a 2009 meeting on new DBMS (b). E. Codd developed relational theory (a), Brewer is associated with the CAP theorem (c), and Alapati wrote a Cassandra book (d)."
+  },
+  {
+   "id": "q-gen-nosql-02",
+   "exam": "",
+   "number": 2,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "The proposed definition from [NOSQLWEB] describes NoSQL as \"Next Generation Database Management Systems mostly addressing some of the points\" of being which of the following?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "non-relational"
+    },
+    {
+     "letter": "b",
+     "text": "distributed"
+    },
+    {
+     "letter": "c",
+     "text": "strictly ACID-compliant"
+    },
+    {
+     "letter": "d",
+     "text": "open-source and horizontally scalable"
+    },
+    {
+     "letter": "e",
+     "text": "based on a formal mathematical model"
+    }
+   ],
+   "explanation": "The [NOSQLWEB] definition cites being non-relational, distributed, open-source and horizontally scalable (a, b, d). Strict ACID compliance (c) is not part of the definition and is typically limited in NoSQL, and there is no formal mathematical NoSQL model (e)."
+  },
+  {
+   "id": "q-gen-nosql-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "The lecture notes that partial SQL support was added to Apache HBase. Which organisation is mentioned as having done so?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Facebook"
+    },
+    {
+     "letter": "b",
+     "text": "Twitter"
+    },
+    {
+     "letter": "c",
+     "text": "Cloudera"
+    },
+    {
+     "letter": "d",
+     "text": "Politechnika Warszawska"
+    }
+   ],
+   "explanation": "The slides state that SQL support (at least partial) was added to Apache HBase by Cloudera (c), illustrating that \"NoSQL\" does not mean a total absence of SQL. The other organisations are not mentioned in this context."
+  },
+  {
+   "id": "q-gen-nosql-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "In the asset inventory example with 30 types of assets, what limitation of the relational approach is highlighted?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Relational databases cannot store more than 30 tables"
+    },
+    {
+     "letter": "b",
+     "text": "Adding new asset types may require adding more tables or forcing generic columns like NumberFeature1"
+    },
+    {
+     "letter": "c",
+     "text": "Relational databases cannot enforce referential integrity for assets"
+    },
+    {
+     "letter": "d",
+     "text": "Each asset type requires its own separate database instance"
+    }
+   ],
+   "explanation": "The example shows two awkward RDBMS options: 30 tables (requiring new tables for new types) or one table with generic columns such as NumberFeature1 reused across very different assets (b). This motivates NoSQL's flexible, schemaless model. The other statements are not claims made in the lecture."
+  },
+  {
+   "id": "q-gen-nosql-05",
+   "exam": "",
+   "number": 5,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "Which statements about column-family databases are correct according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The set of columns used can differ from row to row"
+    },
+    {
+     "letter": "b",
+     "text": "Columns are grouped into column families, which are groups frequently accessed together"
+    },
+    {
+     "letter": "c",
+     "text": "One column belongs to exactly one column family"
+    },
+    {
+     "letter": "d",
+     "text": "Column families are added very frequently and cheaply at runtime"
+    },
+    {
+     "letter": "e",
+     "text": "Every row must use the same fixed number of columns"
+    }
+   ],
+   "explanation": "In column-family stores, each row can use its own set and number of columns (a, so e is false), columns are grouped into families accessed together (b), and each column belongs to exactly one family (c). Column families are rarely added and doing so may even require stopping the database (so d is false)."
+  },
+  {
+   "id": "q-gen-nosql-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "In Apache Cassandra, what construct is mentioned as existing instead of column families \"per se\"?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Keyspaces"
+    },
+    {
+     "letter": "b",
+     "text": "Materialised views"
+    },
+    {
+     "letter": "c",
+     "text": "Supercolumns (columns with nested columns)"
+    },
+    {
+     "letter": "d",
+     "text": "Partition keys"
+    }
+   ],
+   "explanation": "The lecture states that in Cassandra there are no column families per se, but there are supercolumns, i.e. columns with nested columns (c). Keyspaces, materialised views and partition keys are real Cassandra concepts but are not the answer to this specific point."
+  },
+  {
+   "id": "q-gen-nosql-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "According to the NoSQL data-model table in the lecture, which pairings of data model and sample DBMS are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Key-value — Neo4j"
+    },
+    {
+     "letter": "b",
+     "text": "Document — MongoDB"
+    },
+    {
+     "letter": "c",
+     "text": "Graph — Redis"
+    },
+    {
+     "letter": "d",
+     "text": "Column store / column families — Apache Cassandra"
+    },
+    {
+     "letter": "e",
+     "text": "Key-value — MongoDB"
+    }
+   ],
+   "explanation": "The table lists MongoDB as a document store (b) and Cassandra (with Hadoop/HBase) as column-family stores (d). Neo4j is a graph database and Redis is key-value, so a, c and e are mismatched."
+  },
+  {
+   "id": "q-gen-nosql-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "Which kinds of databases are described as aggregate-ignorant in the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Key-value and document stores"
+    },
+    {
+     "letter": "b",
+     "text": "Relational DBMSs and NoSQL graph databases"
+    },
+    {
+     "letter": "c",
+     "text": "Column-based and document stores"
+    },
+    {
+     "letter": "d",
+     "text": "Only Apache Cassandra"
+    }
+   ],
+   "explanation": "The aggregates table lists relational DBMSs and NoSQL graph databases as aggregate-ignorant systems (b). Key-value, column-based and document NoSQL databases are listed as aggregate-based (so a, c, d are wrong)."
+  },
+  {
+   "id": "q-gen-nosql-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "Why is the notion of an aggregate useful in aggregate-based databases according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It allows the DBMS to support full multi-table JOINs efficiently"
+    },
+    {
+     "letter": "b",
+     "text": "The DBMS can use it to store and distribute data, e.g. placing an entire order on the same cluster node (sharding)"
+    },
+    {
+     "letter": "c",
+     "text": "It guarantees strict consistency across all cluster nodes"
+    },
+    {
+     "letter": "d",
+     "text": "It removes the need for any client-side data structure"
+    }
+   ],
+   "explanation": "Knowing the aggregate lets the DBMS decide which data belongs on the same node, so all data of one aggregate (e.g. an order) is stored together, supporting sharding (b). Aggregate-based stores generally do not support JOINs (a), do not guarantee strict consistency (c), and clients still assume an implicit schema (d)."
+  },
+  {
+   "id": "q-gen-nosql-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "In an aggregate-based database, how are ACID transactions typically handled according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They can span any number of records from any number of tables, just like a relational OLTP system"
+    },
+    {
+     "letter": "b",
+     "text": "They are fully unsupported, even within a single aggregate"
+    },
+    {
+     "letter": "c",
+     "text": "The data of one aggregate is modified under ACID rules; spanning multiple aggregates must be handled by the client application"
+    },
+    {
+     "letter": "d",
+     "text": "They are guaranteed automatically across the entire cluster regardless of aggregate boundaries"
+    }
+   ],
+   "explanation": "The lecture states that one aggregate's data is modified under ACID rules, while transactions across multiple aggregates are not supported by the DBMS directly and must be handled by the client application (c). Spanning arbitrary tables (a) describes relational OLTP, not aggregate-based stores."
+  },
+  {
+   "id": "q-gen-nosql-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "What does the lecture mean by an \"implicit schema\" in a schemaless data store?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A schema that is formally declared to the DBMS before any data is written"
+    },
+    {
+     "letter": "b",
+     "text": "The data structure expected by the client application, even though no schema is reported to the DBMS"
+    },
+    {
+     "letter": "c",
+     "text": "A schema automatically inferred and enforced by the DBMS engine"
+    },
+    {
+     "letter": "d",
+     "text": "The absence of any assumptions about data structure whatsoever"
+    }
+   ],
+   "explanation": "Even without an explicit schema reported to the DBMS, the client application assumes a structure (e.g. that a column holds net income); this expected structure is the implicit schema (b). It is not declared to or enforced by the DBMS (a, c), and assumptions do exist (d is false)."
+  },
+  {
+   "id": "q-gen-nosql-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "How do aggregate-based DBMSs typically deal with cross-aggregate queries, according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "By executing arbitrary multi-table JOINs at query time"
+    },
+    {
+     "letter": "b",
+     "text": "By forbidding such queries entirely"
+    },
+    {
+     "letter": "c",
+     "text": "By using materialised views, i.e. precomputed results for typical queries"
+    },
+    {
+     "letter": "d",
+     "text": "By converting the store into a relational database on the fly"
+    }
+   ],
+   "explanation": "The lecture says aggregate-based DBMSs may require materialised views — precomputed results for typical queries, updated online or periodically/on request (c). Aggregate-ignorant systems (including relational) handle cross-row, cross-table queries straightforwardly, but aggregate-based stores generally do not do arbitrary JOINs (a)."
+  },
+  {
+   "id": "q-gen-nosql-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "Which statements about MongoDB are correct according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It is an example of a document-based system"
+    },
+    {
+     "letter": "b",
+     "text": "Data are stored as JSON-based documents"
+    },
+    {
+     "letter": "c",
+     "text": "It cannot perform any indexing or aggregation"
+    },
+    {
+     "letter": "d",
+     "text": "It can work with both aggregate-based and aggregate-ignorant data models, including a $lookup to link collections"
+    },
+    {
+     "letter": "e",
+     "text": "SQL is its primary query language"
+    }
+   ],
+   "explanation": "MongoDB is a document store using JSON-based documents (a, b), supports indexing/queries/aggregation, and can link collections via $lookup, handling both aggregate styles (d). It does support indexing and aggregation (so c is false), and SQL is not supported (so e is false)."
+  },
+  {
+   "id": "q-gen-nosql-14",
+   "exam": "",
+   "number": 14,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "Which statements about Apache Cassandra are correct according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It relies on a masterless architecture and is highly scalable and resilient"
+    },
+    {
+     "letter": "b",
+     "text": "It supports full SQL JOIN operations"
+    },
+    {
+     "letter": "c",
+     "text": "It uses CQL, which can be considered a simplified SQL"
+    },
+    {
+     "letter": "d",
+     "text": "It is an example of a column-family (wide-column) database"
+    },
+    {
+     "letter": "e",
+     "text": "It requires a designated master node to coordinate writes"
+    }
+   ],
+   "explanation": "Cassandra is a masterless, highly scalable, resilient wide-column database querying with CQL, a simplified SQL (a, c, d). CQL does not support JOIN (so b is false), and there is no master node (so e is false)."
+  },
+  {
+   "id": "q-gen-nosql-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "In the Cassandra physical organisation, which statement about a datacenter is correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A datacenter must span many physical locations"
+    },
+    {
+     "letter": "b",
+     "text": "A datacenter can be composed of many racks and can have its own replication factor"
+    },
+    {
+     "letter": "c",
+     "text": "A datacenter contains exactly one node"
+    },
+    {
+     "letter": "d",
+     "text": "A datacenter is a synonym for a single rack"
+    }
+   ],
+   "explanation": "A Cassandra datacenter is a multi-node cluster that can be composed of many racks and can have its own replication factor (b). It must never span many physical locations (so a is false), and it is not limited to one node or a single rack (c, d are false)."
+  },
+  {
+   "id": "q-gen-nosql-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "What is the role of \"seed nodes\" in a Cassandra cluster according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They act as master nodes coordinating all writes"
+    },
+    {
+     "letter": "b",
+     "text": "They help other nodes learn the topology of their cluster"
+    },
+    {
+     "letter": "c",
+     "text": "They are the only nodes allowed to store replicas"
+    },
+    {
+     "letter": "d",
+     "text": "They enforce strict consistency across the ring"
+    }
+   ],
+   "explanation": "The lecture states there is no master, but some nodes may play the role of seed nodes, which help other nodes learn the cluster topology (b). They are not masters (a), not the only replica holders (c), and do not enforce strict consistency (d)."
+  },
+  {
+   "id": "q-gen-nosql-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "According to the Cassandra data-organisation hierarchy, what is a partition?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A separate Cassandra instance hosting many keyspaces"
+    },
+    {
+     "letter": "b",
+     "text": "A synonym for a keyspace"
+    },
+    {
+     "letter": "c",
+     "text": "A set of rows sharing the same value of the partition key, making up a table"
+    },
+    {
+     "letter": "d",
+     "text": "A single atomic column value within a row"
+    }
+   ],
+   "explanation": "In Cassandra, a table is composed of partitions, where a partition is the rows sharing the same partition-key value (c). A keyspace is more like a database (a, b are wrong), and a partition is a group of rows, not a single column value (d)."
+  },
+  {
+   "id": "q-gen-nosql-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "The lecture defines eventual consistency in a distributed data store as which of the following?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A read always returns the most recently written data"
+    },
+    {
+     "letter": "b",
+     "text": "All replicas of the data will eventually become consistent, so reads during that time may return stale data"
+    },
+    {
+     "letter": "c",
+     "text": "The system refuses all reads until every replica is updated"
+    },
+    {
+     "letter": "d",
+     "text": "Consistency defined exactly as in ACID transactions"
+    }
+   ],
+   "explanation": "Eventual consistency means replicas become consistent after some time, so reads may temporarily return not-the-most-recent data (b). Returning the most recent data always describes strict consistency (a); the system stays available rather than refusing reads (c); and the lecture warns this consistency is not the same as ACID consistency (d)."
+  },
+  {
+   "id": "q-gen-nosql-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "Which statements about the CAP theorem as presented in the lecture are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Only two of the three properties (Consistency, Availability, Partition tolerance) can be guaranteed at the same time"
+    },
+    {
+     "letter": "b",
+     "text": "Because network problems are unavoidable, in practice one must choose between consistency and availability"
+    },
+    {
+     "letter": "c",
+     "text": "CA systems are the most useful choice in real-life deployments"
+    },
+    {
+     "letter": "d",
+     "text": "Cassandra basically belongs to AP systems, also referred to as BASE systems"
+    },
+    {
+     "letter": "e",
+     "text": "The theorem was formulated by E. Codd"
+    }
+   ],
+   "explanation": "CAP (by Eric Brewer) says only two of the three properties hold simultaneously, and since partition tolerance is needed, the real trade-off is consistency vs availability (a, b). Cassandra is an AP/BASE system (d). CA systems are described as not really useful since partition tolerance is needed (c is false), and Codd did not formulate CAP (e is false)."
+  },
+  {
+   "id": "q-gen-nosql-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "nosql"
+   ],
+   "stem": "Which statements about graph databases are correct according to the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Unlike other NoSQL categories, they are not oriented on clusters and the data is most likely kept on a single server"
+    },
+    {
+     "letter": "b",
+     "text": "They avoid ACID operations because graphs never need consistent multi-node updates"
+    },
+    {
+     "letter": "c",
+     "text": "They improve search performance largely at the cost of extra overhead when inserting data"
+    },
+    {
+     "letter": "d",
+     "text": "Neo4j allows Java objects to be added as properties of both nodes and edges"
+    },
+    {
+     "letter": "e",
+     "text": "They are primarily designed for simple single-key lookups rather than relationship searches"
+    }
+   ],
+   "explanation": "Graph databases are not cluster-oriented, usually run on a single server (a), and trade insert-time overhead for faster (often complex relationship) searches (c). Neo4j supports Java-object properties on nodes and edges (d). ACID operations are described as mandatory and easier to implement on a single server (so b is false), and they target complex relationship searches, not simple key lookups (so e is false)."
+  },
+  {
+   "id": "q-gen-oracle-net-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "What does the acronym TNS, the foundation of Oracle Net Services, stand for?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Transport Network Service"
+    },
+    {
+     "letter": "b",
+     "text": "Transparent Network Substrate"
+    },
+    {
+     "letter": "c",
+     "text": "Transactional Naming System"
+    },
+    {
+     "letter": "d",
+     "text": "TCP Network Stack"
+    }
+   ],
+   "explanation": "TNS stands for Transparent Network Substrate, and together with Oracle Net Services it makes connections independent of the operating system and communication protocols. The other expansions are invented and do not appear in the presentation."
+  },
+  {
+   "id": "q-gen-oracle-net-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "How many databases does a single Oracle DBMS instance handle?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "As many as are listed in listener.ora"
+    },
+    {
+     "letter": "b",
+     "text": "Exactly one database"
+    },
+    {
+     "letter": "c",
+     "text": "One database per background process"
+    },
+    {
+     "letter": "d",
+     "text": "Up to the number of listeners servicing it"
+    }
+   ],
+   "explanation": "The presentation states that one Oracle DBMS instance handles one database only, unlike in MS SQL Server. The number of listeners or background processes does not change this one-to-one relationship."
+  },
+  {
+   "id": "q-gen-oracle-net-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "What are the two core elements of an Oracle instance according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The listener process and the tnsnames.ora file"
+    },
+    {
+     "letter": "b",
+     "text": "Background processes and the shared memory of the SGA"
+    },
+    {
+     "letter": "c",
+     "text": "Server processes and the database files"
+    },
+    {
+     "letter": "d",
+     "text": "The PGA and the redo log files"
+    }
+   ],
+   "explanation": "The presentation describes the core of the instance as its background processes and the shared memory of the System Global Area (SGA). The listener is explicitly not part of the instance, and database files belong to the database rather than the instance."
+  },
+  {
+   "id": "q-gen-oracle-net-04",
+   "exam": "",
+   "number": 4,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which of the following are roles of the System Global Area (SGA) in an Oracle instance?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Caching data read from disk"
+    },
+    {
+     "letter": "b",
+     "text": "Holding parsed SQL statements"
+    },
+    {
+     "letter": "c",
+     "text": "Holding the transaction log buffer"
+    },
+    {
+     "letter": "d",
+     "text": "Maintaining internal structures used by all processes"
+    }
+   ],
+   "explanation": "The SGA is a large shared memory buffer that caches disk data, holds parsed SQL, keeps the transaction log buffer, and maintains internal structures used by all background and server processes. All four describe SGA responsibilities listed in the presentation."
+  },
+  {
+   "id": "q-gen-oracle-net-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which background process is responsible for writing transaction logs?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "DBWn"
+    },
+    {
+     "letter": "b",
+     "text": "LGWR"
+    },
+    {
+     "letter": "c",
+     "text": "ARCn"
+    },
+    {
+     "letter": "d",
+     "text": "LREG"
+    }
+   ],
+   "explanation": "LGWR (Log Writer) writes transaction logs. DBWn saves changes to the database, ARCn archives transaction logs, and LREG registers the instance with a listener."
+  },
+  {
+   "id": "q-gen-oracle-net-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which background process is responsible for registering an instance with a listener?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "LGWR"
+    },
+    {
+     "letter": "b",
+     "text": "ARCn"
+    },
+    {
+     "letter": "c",
+     "text": "LREG"
+    },
+    {
+     "letter": "d",
+     "text": "DBWn"
+    }
+   ],
+   "explanation": "The LREG process registers an instance with a listener. LGWR writes transaction logs, ARCn archives them, and DBWn writes changes to the datafiles."
+  },
+  {
+   "id": "q-gen-oracle-net-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which network protocols are listed as supported by Oracle Net in Oracle 26ai?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "TCP/IP with SSL"
+    },
+    {
+     "letter": "b",
+     "text": "Named Pipes"
+    },
+    {
+     "letter": "c",
+     "text": "SDP (Sockets Direct Protocol)"
+    },
+    {
+     "letter": "d",
+     "text": "Websocket protocol"
+    }
+   ],
+   "explanation": "The presentation lists TCP/IP, TCP/IP with SSL, Named Pipes, SDP, Exadirect, and the Websocket protocol as supported. All four options are among the supported protocols."
+  },
+  {
+   "id": "q-gen-oracle-net-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "For TCP/IP-based connections, which port does the Oracle client software typically use to connect to the TNS listener?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "80"
+    },
+    {
+     "letter": "b",
+     "text": "1571"
+    },
+    {
+     "letter": "c",
+     "text": "1521"
+    },
+    {
+     "letter": "d",
+     "text": "1433"
+    }
+   ],
+   "explanation": "The presentation states that for TCP/IP-based connections the Oracle client typically connects to the TNS listener using port 1521. Port 1571 appears only in a custom non-default example, and 80/1433 are unrelated."
+  },
+  {
+   "id": "q-gen-oracle-net-09",
+   "exam": "",
+   "number": 9,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which statements about the Oracle Net Listener are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "One listener can service multiple database instances identified by service names"
+    },
+    {
+     "letter": "b",
+     "text": "The listener is a part of the DBMS instance"
+    },
+    {
+     "letter": "c",
+     "text": "The listener resides on the server and establishes network communication between clients and the DBMS"
+    },
+    {
+     "letter": "d",
+     "text": "Each client connection requires its own dedicated listener for its entire lifetime"
+    }
+   ],
+   "explanation": "A single listener can service multiple instances by service name, and it resides on the server to broker client-server communication. The listener is explicitly not part of the instance, and after the connection is established the listener is no longer involved, so a per-connection listener is wrong."
+  },
+  {
+   "id": "q-gen-oracle-net-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "What happens to connections when the listener process is terminated?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "All existing connections are immediately dropped"
+    },
+    {
+     "letter": "b",
+     "text": "New remote connections cannot be established, but already established connections continue to be handled"
+    },
+    {
+     "letter": "c",
+     "text": "Both new and existing connections continue to work normally"
+    },
+    {
+     "letter": "d",
+     "text": "The instance is automatically shut down"
+    }
+   ],
+   "explanation": "When a listener is terminated, no new remote connections can be established, but connections already set up will continue to be handled, because the listener only brokers the initial connection. Terminating the listener does not affect existing sessions or shut down the instance."
+  },
+  {
+   "id": "q-gen-oracle-net-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which statement about the Easy Connect naming method is correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It supports any of the network protocols Oracle Net allows"
+    },
+    {
+     "letter": "b",
+     "text": "It requires configuring the client workstation in advance"
+    },
+    {
+     "letter": "c",
+     "text": "TCP/IP is the only supported protocol and no client configuration is needed"
+    },
+    {
+     "letter": "d",
+     "text": "It requires a tnsnames.ora alias to be defined first"
+    }
+   ],
+   "explanation": "Easy Connect naming requires only server name, TCP port and instance name, needs no client configuration, and supports TCP/IP only with no advanced options. It does not rely on a tnsnames.ora alias, which is the alternative net-service-name method."
+  },
+  {
+   "id": "q-gen-oracle-net-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which command is a valid Easy Connect example as shown in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`sqlplus marketing/pass@mySalesServer`"
+    },
+    {
+     "letter": "b",
+     "text": "`sqlplus marketing/pass@127.0.0.1:1521/orcl`"
+    },
+    {
+     "letter": "c",
+     "text": "`sqlplus marketing/pass@//orcl`"
+    },
+    {
+     "letter": "d",
+     "text": "`sqlplus marketing/pass`"
+    }
+   ],
+   "explanation": "The Easy Connect syntax is `username/password@host[:port][/service_name][:server_type][/instance_name]`, matching option (b). Option (a) uses a net service name (the alternative method), and the others omit the required host/connection details."
+  },
+  {
+   "id": "q-gen-oracle-net-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "During name resolution when a Net service name is used, which settings are identified to establish the connection?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "DBMS server name / network address"
+    },
+    {
+     "letter": "b",
+     "text": "DBMS instance name"
+    },
+    {
+     "letter": "c",
+     "text": "Protocol-specific settings such as the TCP/IP port"
+    },
+    {
+     "letter": "d",
+     "text": "The user's password for the database account"
+    }
+   ],
+   "explanation": "Name resolution determines the server address, instance name, protocol-specific settings (e.g. TCP port), and connection-related settings such as dedicated vs shared server. The user's password is supplied by the client at connect time, not obtained through name resolution."
+  },
+  {
+   "id": "q-gen-oracle-net-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which naming method is described as the most frequently used and relies on the tnsnames.ora file?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Directory naming"
+    },
+    {
+     "letter": "b",
+     "text": "External naming"
+    },
+    {
+     "letter": "c",
+     "text": "Local naming"
+    },
+    {
+     "letter": "d",
+     "text": "Easy Connect naming"
+    }
+   ],
+   "explanation": "Local naming uses tnsnames.ora to map service aliases to connect descriptors and is described as the most frequently used naming method. Directory naming uses LDAP, external naming uses non-Oracle services such as NIS, and Easy Connect needs no file."
+  },
+  {
+   "id": "q-gen-oracle-net-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which naming method uses LDAP-compliant directory services so that local tnsnames.ora files need not be maintained on many workstations?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Local naming"
+    },
+    {
+     "letter": "b",
+     "text": "External naming"
+    },
+    {
+     "letter": "c",
+     "text": "Directory naming"
+    },
+    {
+     "letter": "d",
+     "text": "Easy Connect naming"
+    }
+   ],
+   "explanation": "Directory naming uses LDAP-compliant directory services to resolve service aliases and obtain server, protocol, port and instance name, removing the need for local tnsnames.ora files. External naming uses non-Oracle services such as NIS/DCE/CDS, and local naming relies on tnsnames.ora."
+  },
+  {
+   "id": "q-gen-oracle-net-16",
+   "exam": "",
+   "number": 16,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which non-Oracle naming services are mentioned as part of the External naming method?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "NIS (Network Information Service)"
+    },
+    {
+     "letter": "b",
+     "text": "DCE (Distributed Computing Environment)"
+    },
+    {
+     "letter": "c",
+     "text": "LDAP directory"
+    },
+    {
+     "letter": "d",
+     "text": "DNS zone files"
+    }
+   ],
+   "explanation": "External naming involves non-Oracle services that include NIS, DCE and CDS (Cell Directory Services). LDAP is used by the Directory naming method, and DNS zone files are not listed for external naming."
+  },
+  {
+   "id": "q-gen-oracle-net-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Which Oracle Net configuration file defines the overall NET configuration, including which naming methods are used to resolve network names?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "tnsnames.ora"
+    },
+    {
+     "letter": "b",
+     "text": "sqlnet.ora"
+    },
+    {
+     "letter": "c",
+     "text": "listener.ora"
+    },
+    {
+     "letter": "d",
+     "text": "names.ora"
+    }
+   ],
+   "explanation": "sqlnet.ora holds the overall NET configuration, such as `NAMES.DIRECTORY_PATH=(TNSNAMES, EZCONNECT)`, controlling which naming methods are used. tnsnames.ora maps local names to connect descriptors, and listener.ora defines the listeners and the instances they handle."
+  },
+  {
+   "id": "q-gen-oracle-net-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "In which directory do the Oracle Net configuration files (sqlnet.ora, tnsnames.ora, listener.ora) reside?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`<oracle_home>/dbs/`"
+    },
+    {
+     "letter": "b",
+     "text": "`<oracle_home>/network/admin/`"
+    },
+    {
+     "letter": "c",
+     "text": "`/etc/oracle/`"
+    },
+    {
+     "letter": "d",
+     "text": "`<oracle_home>/rdbms/admin/`"
+    }
+   ],
+   "explanation": "The presentation states that all of these files reside in `<oracle_home>/network/admin/`. The other paths are plausible-looking but incorrect."
+  },
+  {
+   "id": "q-gen-oracle-net-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "In the client-side tnsnames.ora file, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Each service name (alias) is mapped to a connect descriptor"
+    },
+    {
+     "letter": "b",
+     "text": "A service name does not need to match the instance name"
+    },
+    {
+     "letter": "c",
+     "text": "The service name must be identical to the SID of the instance"
+    },
+    {
+     "letter": "d",
+     "text": "The file is stored on the server and used by the listener to start instances"
+    }
+   ],
+   "explanation": "tnsnames.ora lists service names/aliases each mapped to a connect descriptor, and the service name need not match the instance name. It is a client-side file; the listener uses listener.ora, and there is no requirement that the alias equal the SID."
+  },
+  {
+   "id": "q-gen-oracle-net-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-net"
+   ],
+   "stem": "Regarding the tnsping utility, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It is used to test connectivity with the listener process"
+    },
+    {
+     "letter": "b",
+     "text": "It can accept both Easy Connect parameters and a service name"
+    },
+    {
+     "letter": "c",
+     "text": "It does not verify whether the listener actually handles a requested service name"
+    },
+    {
+     "letter": "d",
+     "text": "It verifies that the requested service is available before returning"
+    }
+   ],
+   "explanation": "tnsping tests connectivity to the listener and accepts Easy Connect parameters or a service name. It explicitly does not verify the availability of the requested service, nor whether the listener handles a requested service name, so (d) is wrong."
+  },
+  {
+   "id": "q-gen-oracle-security-01",
+   "exam": "",
+   "number": 1,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "According to the security principles in the presentation, applying the principle of least privilege includes which of the following?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Locking user accounts that are not used"
+    },
+    {
+     "letter": "b",
+     "text": "Revoking privileges that are not needed"
+    },
+    {
+     "letter": "c",
+     "text": "Granting users only the privileges they actually require"
+    },
+    {
+     "letter": "d",
+     "text": "Granting all privileges to PUBLIC for convenience"
+    }
+   ],
+   "explanation": "Least privilege means giving only the privileges that are truly needed (c), locking unused accounts (a) and revoking unneeded privileges (b). Granting privileges broadly to PUBLIC is exactly the unsafe practice the principle warns against, so (d) is wrong."
+  },
+  {
+   "id": "q-gen-oracle-security-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Why does the presentation recommend applying software patches as part of database security?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Patches automatically encrypt all confidential data"
+    },
+    {
+     "letter": "b",
+     "text": "Many intrusions exploit known vulnerabilities that IT staff have not yet fixed"
+    },
+    {
+     "letter": "c",
+     "text": "Patches remove the need for user profiles"
+    },
+    {
+     "letter": "d",
+     "text": "Patches replace the need for auditing"
+    }
+   ],
+   "explanation": "The presentation states that many intrusions are made by exploiting known but unfixed vulnerabilities, so patching closes those gaps (b). Patching does not encrypt data, eliminate profiles, or replace auditing."
+  },
+  {
+   "id": "q-gen-oracle-security-03",
+   "exam": "",
+   "number": 3,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "In Oracle, roles are lists of privileges. Which of the following are valid categories of roles mentioned in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "System-defined roles such as DBA and CONNECT"
+    },
+    {
+     "letter": "b",
+     "text": "Object roles such as SELECT and INSERT"
+    },
+    {
+     "letter": "c",
+     "text": "User-defined roles"
+    },
+    {
+     "letter": "d",
+     "text": "Profile roles such as DEFAULT"
+    }
+   ],
+   "explanation": "The presentation lists two role categories: system-defined roles (e.g. DBA, CONNECT) and user-defined roles. SELECT/INSERT are object privileges, not roles, and DEFAULT is a profile, not a role."
+  },
+  {
+   "id": "q-gen-oracle-security-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Which of the following is an example of a system privilege rather than an object privilege?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Executing SQL SELECT on a specific table"
+    },
+    {
+     "letter": "b",
+     "text": "Inserting rows into HR.DEPARTMENTS"
+    },
+    {
+     "letter": "c",
+     "text": "CREATE TABLE"
+    },
+    {
+     "letter": "d",
+     "text": "Updating a particular column of a table"
+    }
+   ],
+   "explanation": "System privileges such as CREATE TABLE or GRANT ANY PRIVILEGE authorise broad operations, whereas object privileges permit operations on specific objects (e.g. SELECT/INSERT/UPDATE on a named table). The other options are all object privileges."
+  },
+  {
+   "id": "q-gen-oracle-security-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "A permission is granted to the PUBLIC pseudo-user in Oracle. What is the effect?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Only the DBA gains that permission"
+    },
+    {
+     "letter": "b",
+     "text": "All users of the database are granted that permission"
+    },
+    {
+     "letter": "c",
+     "text": "The permission is granted only to locked accounts"
+    },
+    {
+     "letter": "d",
+     "text": "The permission applies only to system-defined roles"
+    }
+   ],
+   "explanation": "Any permission granted to the PUBLIC pseudo-user is granted to all users of the database, which is why risky packages such as UTL_FILE should be revoked from PUBLIC. It is not limited to the DBA, locked accounts, or roles."
+  },
+  {
+   "id": "q-gen-oracle-security-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Why does the presentation specifically warn about the UTL_FILE package being granted to everyone?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It allows users to lock other accounts"
+    },
+    {
+     "letter": "b",
+     "text": "It consumes excessive CPU resources"
+    },
+    {
+     "letter": "c",
+     "text": "It lets users read and write operating system text files, which can serve as a backdoor into the OS"
+    },
+    {
+     "letter": "d",
+     "text": "It bypasses all auditing settings"
+    }
+   ],
+   "explanation": "With UTL_FILE users can read and write operating system text files, so granting it broadly can turn the DBMS into a backdoor for breaking into the operating system. It is not about locking accounts, CPU usage, or bypassing auditing."
+  },
+  {
+   "id": "q-gen-oracle-security-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Which SQL statement is used to list user accounts together with their lock status?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`select username, profile from dba_users`"
+    },
+    {
+     "letter": "b",
+     "text": "`select username, account_status from dba_users`"
+    },
+    {
+     "letter": "c",
+     "text": "`select * from dba_profiles where profile='DEFAULT'`"
+    },
+    {
+     "letter": "d",
+     "text": "`revoke execute on utl_file from public`"
+    }
+   ],
+   "explanation": "`select username, account_status from dba_users` lists accounts and whether they are open or locked. Querying username/profile shows profile assignments, the dba_profiles query shows profile limits, and the revoke statement changes a privilege."
+  },
+  {
+   "id": "q-gen-oracle-security-08",
+   "exam": "",
+   "number": 8,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "A user profile in Oracle can be created and assigned to users in order to:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Set limits on the use of database resources"
+    },
+    {
+     "letter": "b",
+     "text": "Define log-on and password-related constraints"
+    },
+    {
+     "letter": "c",
+     "text": "Encrypt the data stored in tables"
+    },
+    {
+     "letter": "d",
+     "text": "Record the SQL SELECT statements a user executes"
+    }
+   ],
+   "explanation": "Profiles serve two main purposes: limiting database resource use (a) and defining log-on/password constraints (b). Encrypting table data and recording executed statements are not profile functions (the latter is auditing)."
+  },
+  {
+   "id": "q-gen-oracle-security-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Which profile resource limit helps mitigate a brute-force attempt to guess a user's password by repeated logon attempts?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "IDLE_TIME"
+    },
+    {
+     "letter": "b",
+     "text": "PASSWORD_LIFE_TIME"
+    },
+    {
+     "letter": "c",
+     "text": "FAILED_LOGIN_ATTEMPTS"
+    },
+    {
+     "letter": "d",
+     "text": "SESSIONS_PER_USER"
+    }
+   ],
+   "explanation": "FAILED_LOGIN_ATTEMPTS sets the number of failed logon attempts after which the account is locked, directly countering password-guessing attacks. IDLE_TIME and SESSIONS_PER_USER limit resources, and PASSWORD_LIFE_TIME governs password expiry."
+  },
+  {
+   "id": "q-gen-oracle-security-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Which profile setting points to a PL/SQL function implementing a custom password complexity policy?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "PASSWORD_REUSE_MAX"
+    },
+    {
+     "letter": "b",
+     "text": "PASSWORD_VERIFY_FUNCTION"
+    },
+    {
+     "letter": "c",
+     "text": "PASSWORD_GRACE_TIME"
+    },
+    {
+     "letter": "d",
+     "text": "PASSWORD_LOCK_TIME"
+    }
+   ],
+   "explanation": "PASSWORD_VERIFY_FUNCTION names a PL/SQL function that implements custom password policy verification. PASSWORD_REUSE_MAX limits reuse count, PASSWORD_GRACE_TIME is the grace period after expiry, and PASSWORD_LOCK_TIME is how long an account stays locked."
+  },
+  {
+   "id": "q-gen-oracle-security-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "What does the PASSWORD_GRACE_TIME profile setting represent?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The number of failed logins before locking the account"
+    },
+    {
+     "letter": "b",
+     "text": "The number of days a password must wait before it can be reused"
+    },
+    {
+     "letter": "c",
+     "text": "The number of days following a successful login after PASSWORD_LIFE_TIME has passed"
+    },
+    {
+     "letter": "d",
+     "text": "The number of days an account is locked after exceeding failed logins"
+    }
+   ],
+   "explanation": "PASSWORD_GRACE_TIME is the number of days, following a successful login after PASSWORD_LIFE_TIME has elapsed, during which the user is warned to change the password. The other descriptions correspond to FAILED_LOGIN_ATTEMPTS, PASSWORD_REUSE_TIME and PASSWORD_LOCK_TIME respectively."
+  },
+  {
+   "id": "q-gen-oracle-security-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "How can imposing profile limits on a single user help prevent a form of Denial of Service?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "By encrypting that user's session traffic"
+    },
+    {
+     "letter": "b",
+     "text": "By preventing one user from consuming the majority of CPU or other resources via demanding queries"
+    },
+    {
+     "letter": "c",
+     "text": "By auditing the user's SELECT statements"
+    },
+    {
+     "letter": "d",
+     "text": "By locking the account after password expiry"
+    }
+   ],
+   "explanation": "A single user submitting particularly demanding queries could consume most of the CPU or other resources, making the DBMS unresponsive (a form of DoS); profile resource limits cap such consumption. Encryption, auditing, and password expiry do not address resource exhaustion."
+  },
+  {
+   "id": "q-gen-oracle-security-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Auditing in Oracle can be used to track which of the following?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Selected actions of selected users or on selected objects"
+    },
+    {
+     "letter": "b",
+     "text": "Logon actions, including unsuccessful attempts"
+    },
+    {
+     "letter": "c",
+     "text": "The DBA's activity"
+    },
+    {
+     "letter": "d",
+     "text": "The exact CPU clock speed of the server"
+    }
+   ],
+   "explanation": "Auditing can track selected actions on selected users/objects (a), both successful and unsuccessful logon attempts (b), and even the DBA's activity (c). Monitoring the server's CPU clock speed is not an auditing function."
+  },
+  {
+   "id": "q-gen-oracle-security-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Which value of the AUDIT_TRAIL parameter causes audit records to be written into the database table SYS.AUD$?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "NONE"
+    },
+    {
+     "letter": "b",
+     "text": "DB"
+    },
+    {
+     "letter": "c",
+     "text": "OS"
+    },
+    {
+     "letter": "d",
+     "text": "FALSE"
+    }
+   ],
+   "explanation": "Setting AUDIT_TRAIL to DB (or TRUE) saves the audit trail into the SYS.AUD$ database table. NONE/FALSE disable auditing, and OS writes the trail to operating system files."
+  },
+  {
+   "id": "q-gen-oracle-security-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "What distinguishes the DB_EXTENDED setting of AUDIT_TRAIL from the plain DB setting?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It writes the trail to the operating system instead of the database"
+    },
+    {
+     "letter": "b",
+     "text": "It disables auditing of the DBA"
+    },
+    {
+     "letter": "c",
+     "text": "It additionally saves the SQL statements with bind variables that generated the audit trail"
+    },
+    {
+     "letter": "d",
+     "text": "It encrypts the audit trail table"
+    }
+   ],
+   "explanation": "DB_EXTENDED behaves like DB but additionally records the SQL statements (with bind variables) that generated each audit record. It still writes to the database, does not disable DBA auditing, and does not encrypt the trail."
+  },
+  {
+   "id": "q-gen-oracle-security-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "For security reasons, what is required after changing the AUDIT_TRAIL parameter?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Nothing; the change takes effect immediately"
+    },
+    {
+     "letter": "b",
+     "text": "The instance must be restarted for the change to take effect"
+    },
+    {
+     "letter": "c",
+     "text": "All user profiles must be recreated"
+    },
+    {
+     "letter": "d",
+     "text": "All audit views must be dropped and recreated"
+    }
+   ],
+   "explanation": "The presentation states that, for security reasons, the AUDIT_TRAIL setting cannot be changed without restarting the instance (hence it is set with scope=spfile). Recreating profiles or dropping audit views is not required."
+  },
+  {
+   "id": "q-gen-oracle-security-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Which audit view records logon attempts (successful and/or unsuccessful, depending on settings)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "DBA_AUDIT_OBJECT"
+    },
+    {
+     "letter": "b",
+     "text": "DBA_AUDIT_SESSION"
+    },
+    {
+     "letter": "c",
+     "text": "DBA_AUDIT_STATEMENT"
+    },
+    {
+     "letter": "d",
+     "text": "DBA_FGA_AUDIT_TRAIL"
+    }
+   ],
+   "explanation": "DBA_AUDIT_SESSION records logon attempts. DBA_AUDIT_OBJECT records actions on database objects, DBA_AUDIT_STATEMENT records SQL statements, and DBA_FGA_AUDIT_TRAIL holds fine-grained auditing records."
+  },
+  {
+   "id": "q-gen-oracle-security-18",
+   "exam": "",
+   "number": 18,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Which statements about trigger-based (value-based) auditing are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It offers the greatest flexibility for tracking the actual values inserted into or used to update a table"
+    },
+    {
+     "letter": "b",
+     "text": "It will not help when SQL SELECT statements have to be monitored"
+    },
+    {
+     "letter": "c",
+     "text": "It is the recommended way to monitor read access to confidential data"
+    },
+    {
+     "letter": "d",
+     "text": "It has no impact on database performance"
+    }
+   ],
+   "explanation": "Trigger-based auditing gives the greatest flexibility for capturing the actual values used in inserts/updates (a), but triggers do not fire on SELECT, so it cannot monitor reads (b). It is therefore not suited to monitoring read access (c), and it may negatively affect performance (d is false)."
+  },
+  {
+   "id": "q-gen-oracle-security-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Fine-grained auditing (FGA), managed by the DBMS_FGA package, can monitor SQL statements affecting which of the following?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Selected tables"
+    },
+    {
+     "letter": "b",
+     "text": "Selected rows matching a criterion"
+    },
+    {
+     "letter": "c",
+     "text": "Selected columns"
+    },
+    {
+     "letter": "d",
+     "text": "Selected statement types from SELECT, INSERT, UPDATE, DELETE"
+    }
+   ],
+   "explanation": "FGA provides a standard way to monitor SQL SELECT or DML statements affecting selected tables, selected rows matching a criterion, selected columns, and selected statement types (SELECT/INSERT/UPDATE/DELETE). All four options are correct, and FGA policies are managed via the DBMS_FGA package."
+  },
+  {
+   "id": "q-gen-oracle-security-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-security"
+   ],
+   "stem": "Which of the following are listed as unsafe practices that developers and data scientists should avoid?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Creating copies of data extracted from a database at user workstations"
+    },
+    {
+     "letter": "b",
+     "text": "Developing applications relying on a single user with excessive permissions"
+    },
+    {
+     "letter": "c",
+     "text": "Storing data on portable devices"
+    },
+    {
+     "letter": "d",
+     "text": "Writing code that is not protected against SQL code injection"
+    }
+   ],
+   "explanation": "All four are explicitly listed as unsafe practices: copying extracted data to workstations, building apps around one over-privileged account, storing data on portable devices, and leaving code vulnerable to SQL injection. Avoiding these is part of developers' and data scientists' responsibility for data security."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "In which instance state does Oracle first check that all control files listed in the initialisation parameters exist and are identical?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "NOMOUNT"
+    },
+    {
+     "letter": "b",
+     "text": "SHUTDOWN"
+    },
+    {
+     "letter": "c",
+     "text": "MOUNT"
+    },
+    {
+     "letter": "d",
+     "text": "OPEN"
+    }
+   ],
+   "explanation": "MOUNT adds, on top of NOMOUNT, the check that all control files exist and are identical; if at least one is missing or damaged the instance stays in NOMOUNT. NOMOUNT only starts the instance and SGA, SHUTDOWN has no processes, and OPEN happens only after control files are already verified at MOUNT."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which files are needed for an Oracle instance to reach the NOMOUNT state?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "All control files"
+    },
+    {
+     "letter": "b",
+     "text": "Initialisation parameter files (init file or spfile)"
+    },
+    {
+     "letter": "c",
+     "text": "At least one redo log file in each group"
+    },
+    {
+     "letter": "d",
+     "text": "All on-line data files"
+    }
+   ],
+   "explanation": "To reach NOMOUNT the instance only needs the initialisation parameter file(s), which start the instance and establish the SGA. Control files are required for MOUNT, while redo log files and on-line data files are checked when entering OPEN."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which SHUTDOWN mode terminates the instance immediately, leaving uncommitted transactions not rolled back so that instance recovery is performed at the next startup?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "NORMAL"
+    },
+    {
+     "letter": "b",
+     "text": "TRANSACTIONAL"
+    },
+    {
+     "letter": "c",
+     "text": "IMMEDIATE"
+    },
+    {
+     "letter": "d",
+     "text": "ABORT"
+    }
+   ],
+   "explanation": "ABORT terminates the instance immediately (equivalent to a power failure), does not synchronise files and does not roll back uncommitted transactions, so instance recovery runs on the next open. NORMAL, TRANSACTIONAL and IMMEDIATE are orderly shutdowns that leave the database synchronised."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-04",
+   "exam": "",
+   "number": 4,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which of the following are considered \"normal\" (orderly) shutdown modes in Oracle?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "NORMAL"
+    },
+    {
+     "letter": "b",
+     "text": "TRANSACTIONAL"
+    },
+    {
+     "letter": "c",
+     "text": "IMMEDIATE"
+    },
+    {
+     "letter": "d",
+     "text": "ABORT"
+    },
+    {
+     "letter": "e",
+     "text": "RESTRICT"
+    }
+   ],
+   "explanation": "NORMAL, TRANSACTIONAL and IMMEDIATE are collectively referred to as normal shutdown modes, in which PMON rolls back incomplete transactions and a checkpoint flushes the buffer cache before files are closed. ABORT is the disorderly shutdown, and RESTRICT is a startup option, not a shutdown mode."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "During a normal shutdown, which process executes a checkpoint that forces the DBWn process to write all data from the buffer cache to the data files?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "PMON"
+    },
+    {
+     "letter": "b",
+     "text": "CKPT"
+    },
+    {
+     "letter": "c",
+     "text": "LGWR"
+    },
+    {
+     "letter": "d",
+     "text": "ARCn"
+    }
+   ],
+   "explanation": "During normal shutdown CKPT executes a checkpoint that forces DBWn to write dirty buffers to the data files. PMON rolls back incomplete transactions, LGWR writes log buffers to online redo logs, and ARCn archives inactive redo logs."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "According to the physical storage hierarchy in Oracle, a tablespace is composed of one or more:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Segments"
+    },
+    {
+     "letter": "b",
+     "text": "Extents"
+    },
+    {
+     "letter": "c",
+     "text": "Datafiles"
+    },
+    {
+     "letter": "d",
+     "text": "Oracle data blocks"
+    }
+   ],
+   "explanation": "In the physical hierarchy a database is composed of tablespaces, and a tablespace is composed of one or more datafiles. Segments, extents and Oracle data blocks belong to the logical storage hierarchy."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which statements about Oracle logical vs. physical storage are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The data of many tables may reside in one file"
+    },
+    {
+     "letter": "b",
+     "text": "The data of one table may reside in many files"
+    },
+    {
+     "letter": "c",
+     "text": "A logical table can only ever map to exactly one datafile"
+    },
+    {
+     "letter": "d",
+     "text": "Logical structures such as tables and indexes are independent from physical structures such as files"
+    }
+   ],
+   "explanation": "Logical and physical structures are managed largely independently: a single file can hold data from many tables (a), and one table's data can be spread across many files (b, d). Therefore the one-to-one mapping in (c) is false."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which tablespace category holds the image of data before modifications so that other users' queries can still be answered while the data is being changed?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Permanent"
+    },
+    {
+     "letter": "b",
+     "text": "Temporary"
+    },
+    {
+     "letter": "c",
+     "text": "Undo"
+    },
+    {
+     "letter": "d",
+     "text": "System"
+    }
+   ],
+   "explanation": "Undo tablespaces hold the pre-modification image of data so concurrent queries can be answered consistently while data changes. Permanent tablespaces keep persistent schema objects, temporary ones hold sort/temporary-table data, and there can be many undo tablespaces but only one active at a time."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-09",
+   "exam": "",
+   "number": 9,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which statements about the Oracle database block size of a tablespace are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "All datafiles of a tablespace share the same database block size"
+    },
+    {
+     "letter": "b",
+     "text": "You can freely change the database block size of an existing tablespace at any time"
+    },
+    {
+     "letter": "c",
+     "text": "Whenever data is read or changed, entire database blocks are read or saved"
+    },
+    {
+     "letter": "d",
+     "text": "The database block size must be smaller than the operating system block size"
+    }
+   ],
+   "explanation": "All datafiles in a tablespace share one block size (a), and I/O always works on whole blocks (c). The block size cannot be changed for an existing tablespace (b is false) and it should be a multiple of the OS block size, not smaller than it (d is false)."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which parameter, set in the init file or spfile, defines the location of the control files?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "FAST_START_MTTR_TARGET"
+    },
+    {
+     "letter": "b",
+     "text": "CONTROL_FILES"
+    },
+    {
+     "letter": "c",
+     "text": "ORACLE_SID"
+    },
+    {
+     "letter": "d",
+     "text": "DB_BLOCK_SIZE"
+    }
+   ],
+   "explanation": "The init file or spfile defines control file locations through the CONTROL_FILES parameter; the control files in turn point to data files and redo log files. FAST_START_MTTR_TARGET tunes recovery time, ORACLE_SID identifies the database, and DB_BLOCK_SIZE sets the block size."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-11",
+   "exam": "",
+   "number": 11,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which statements about Oracle control files are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They are small binary files (typically under 64MB)"
+    },
+    {
+     "letter": "b",
+     "text": "They are required to mount or open a database"
+    },
+    {
+     "letter": "c",
+     "text": "They are of primary interest to end users rather than DBAs"
+    },
+    {
+     "letter": "d",
+     "text": "A database should have a minimum of two, with three preferred on different disks"
+    }
+   ],
+   "explanation": "Control files are small binary files (a), describe the database structure, and are required to mount/open the database (b). They should be multiplexed, with at least two and preferably three on different disks (d). They are of interest to DBAs only, so (c) is false."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which background process writes log buffers to the online redo log files?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "DBWn"
+    },
+    {
+     "letter": "b",
+     "text": "LGWR"
+    },
+    {
+     "letter": "c",
+     "text": "PMON"
+    },
+    {
+     "letter": "d",
+     "text": "SMON"
+    }
+   ],
+   "explanation": "LGWR (Log Writer) writes the log buffers to the online redo log files. DBWn writes dirty buffers to data files, PMON cleans up failed processes/rolls back transactions, and SMON handles instance recovery."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which statements about online redo log files are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They are used in a circular fashion across groups"
+    },
+    {
+     "letter": "b",
+     "text": "A log switch occurs when the active group changes and causes a checkpoint"
+    },
+    {
+     "letter": "c",
+     "text": "Each group consists of one or more members that are mirror images of each other"
+    },
+    {
+     "letter": "d",
+     "text": "There is always exactly one group of redo log files per database"
+    }
+   ],
+   "explanation": "Online redo logs are reused circularly (a), a log switch between groups triggers a checkpoint (b), and each group has one or more mirror members (c). There must be at least two groups, so (d) is false."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "In ARCHIVELOG mode, which background process ensures that redo log files are archived before being overwritten?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "LGWR"
+    },
+    {
+     "letter": "b",
+     "text": "DBWn"
+    },
+    {
+     "letter": "c",
+     "text": "ARCn"
+    },
+    {
+     "letter": "d",
+     "text": "CKPT"
+    }
+   ],
+   "explanation": "When a database runs in ARCHIVELOG mode the ARCn processes (ARC0, ARC1, ...) copy inactive redo logs to archive logs before LGWR can overwrite them. LGWR writes redo, DBWn writes data blocks, and CKPT signals checkpoints."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Why should any production database run in ARCHIVELOG mode rather than NOARCHIVELOG mode?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It eliminates the need to ever take backups"
+    },
+    {
+     "letter": "b",
+     "text": "It allows recovery to the point in time immediately before a failure, including the last committed transaction"
+    },
+    {
+     "letter": "c",
+     "text": "It removes the need for control files"
+    },
+    {
+     "letter": "d",
+     "text": "It makes online redo log files unnecessary"
+    }
+   ],
+   "explanation": "ARCHIVELOG mode preserves archived redo logs so a database can be recovered to immediately before failure (or any chosen time), including the last committed transaction. Backups, control files and online redo logs are all still required, so the other options are false."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-16",
+   "exam": "",
+   "number": 16,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which statements about Recovery Manager (RMAN) are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It can only create logical backups by querying table data"
+    },
+    {
+     "letter": "b",
+     "text": "It can back up data files, control files, archive logs and spfiles"
+    },
+    {
+     "letter": "c",
+     "text": "It provides server-managed backups and the most complete functionality"
+    },
+    {
+     "letter": "d",
+     "text": "It can determine which data blocks have changed to create incremental backups"
+    }
+   ],
+   "explanation": "RMAN backs up data files, control files, archive logs and spfiles (b), provides server-managed backups with the fullest functionality (c), and can build incremental backups by tracking changed blocks (d). Querying table data for logical backups describes Data Pump, not RMAN, so (a) is false."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "A whole backup in Oracle contains all data files for permanent tablespaces, one copy of the control file, and the spfile. Which files are NOT copied?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Permanent tablespace data files"
+    },
+    {
+     "letter": "b",
+     "text": "The control file"
+    },
+    {
+     "letter": "c",
+     "text": "The spfile"
+    },
+    {
+     "letter": "d",
+     "text": "Online redo log files and temporary tablespace data files"
+    }
+   ],
+   "explanation": "Online redo log files are not copied (they are protected by multiplexing and archiving), and data files for temporary tablespaces are not copied either. A whole backup does include permanent data files, a control file copy and the spfile."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Which statement about incremental backups is correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They can be created using ordinary operating system copy commands"
+    },
+    {
+     "letter": "b",
+     "text": "They can be created with RMAN only, which determines which blocks changed"
+    },
+    {
+     "letter": "c",
+     "text": "They always contain complete data files"
+    },
+    {
+     "letter": "d",
+     "text": "They are always larger than full backups"
+    }
+   ],
+   "explanation": "Incremental backups copy only changed data blocks and can be created with RMAN only, since the OS does not know which blocks changed (b). A full backup always contains complete data files (c describes full, not incremental), incremental backups are usually smaller (d is false), and OS commands cannot create them (a is false)."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-19",
+   "exam": "",
+   "number": 19,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "Under which condition can an open (online) backup be performed?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Only when the database is shut down"
+    },
+    {
+     "letter": "b",
+     "text": "Only in NOARCHIVELOG mode"
+    },
+    {
+     "letter": "c",
+     "text": "Only when the database runs in ARCHIVELOG mode"
+    },
+    {
+     "letter": "d",
+     "text": "Only when no temporary tablespaces exist"
+    }
+   ],
+   "explanation": "An online (open) backup can only be done when the database runs in ARCHIVELOG mode, because archived logs are needed to make the inconsistent online copy usable. A backup taken while shut down is a closed/offline backup, not an open one."
+  },
+  {
+   "id": "q-gen-oracle-storage-backup-20",
+   "exam": "",
+   "number": 20,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "oracle-storage-backup"
+   ],
+   "stem": "What is the effect of setting `fast_start_mttr_target` to a very low value such as a few seconds?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It has no effect on performance at all"
+    },
+    {
+     "letter": "b",
+     "text": "It can largely degrade instance performance because much time is spent writing dirty blocks to disk"
+    },
+    {
+     "letter": "c",
+     "text": "It guarantees the instance can never be recovered"
+    },
+    {
+     "letter": "d",
+     "text": "It disables ARCHIVELOG mode"
+    }
+   ],
+   "explanation": "A very low fast_start_mttr_target forces very frequent checkpoints, so a lot of instance time is spent writing dirty blocks to disk, degrading performance. The default of zero maximises performance at the cost of potentially long recovery; the parameter does not disable archiving or prevent recovery."
+  },
+  {
+   "id": "q-gen-physical-data-models-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "Which DML statement is described as performing an \"upsert\", i.e. inserting and/or updating records in a single statement?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "BULK INSERT"
+    },
+    {
+     "letter": "b",
+     "text": "CALL"
+    },
+    {
+     "letter": "c",
+     "text": "MERGE"
+    },
+    {
+     "letter": "d",
+     "text": "SELECT"
+    }
+   ],
+   "explanation": "MERGE is the statement that can insert and/or update records in one statement, the so-called \"upsert\". BULK INSERT imports a datafile (MS SQL Server), CALL invokes a method (Oracle), and SELECT only queries data."
+  },
+  {
+   "id": "q-gen-physical-data-models-02",
+   "exam": "",
+   "number": 2,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "Which of the following are typically classified as DML (Data Manipulation Language) statements?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "INSERT"
+    },
+    {
+     "letter": "b",
+     "text": "UPDATE"
+    },
+    {
+     "letter": "c",
+     "text": "DELETE"
+    },
+    {
+     "letter": "d",
+     "text": "CREATE TABLE"
+    }
+   ],
+   "explanation": "INSERT, UPDATE and DELETE manipulate data and are core DML statements (SELECT is sometimes also included). CREATE TABLE defines structure and belongs to DDL, not DML."
+  },
+  {
+   "id": "q-gen-physical-data-models-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "When an INSERT statement is executed without listing all column names and provides values for only some columns, what happens to the remaining columns?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The statement is always rejected by the DBMS"
+    },
+    {
+     "letter": "b",
+     "text": "Default values such as NULL are attempted to be placed in the remaining columns"
+    },
+    {
+     "letter": "c",
+     "text": "The remaining columns are dropped from the table"
+    },
+    {
+     "letter": "d",
+     "text": "The previous record's values are copied into them"
+    }
+   ],
+   "explanation": "When only some columns are supplied, the DBMS attempts to place default values such as NULL in the remaining columns. The statement is not automatically rejected, columns are not dropped, and no prior record is copied."
+  },
+  {
+   "id": "q-gen-physical-data-models-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "An INSERT statement can take a SELECT statement in place of the VALUES clause. Which condition must hold for this form to work?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The SELECT must return exactly one row"
+    },
+    {
+     "letter": "b",
+     "text": "The SELECT must query the same table that is being inserted into"
+    },
+    {
+     "letter": "c",
+     "text": "The number and types of output columns must correspond to the table definition and the list of column names if used"
+    },
+    {
+     "letter": "d",
+     "text": "The SELECT must not contain a WHERE clause"
+    }
+   ],
+   "explanation": "When inserting from a SELECT, the number and types of the output columns must match the target table definition (and the column list, if given). It may insert as many rows as the query returns, can query other tables, and may include any WHERE clause."
+  },
+  {
+   "id": "q-gen-physical-data-models-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "In a relational database, how is exactly one record selected for an UPDATE statement to modify?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "By referring to its physical position (\"this\" record) in the table"
+    },
+    {
+     "letter": "b",
+     "text": "By a condition referring to the value of a primary key"
+    },
+    {
+     "letter": "c",
+     "text": "By the order in which records were inserted"
+    },
+    {
+     "letter": "d",
+     "text": "By selecting the first record returned by the table scan"
+    }
+   ],
+   "explanation": "Relational databases have no concept of \"this\" record by physical position; to update exactly one record you use a condition referring to the value of its primary key. Insertion order and physical position are not valid ways to address a single row."
+  },
+  {
+   "id": "q-gen-physical-data-models-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "Consider the statement: `UPDATE Customers SET City='Cracow' WHERE Country='Poland'`. What is the effect?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It updates exactly one record"
+    },
+    {
+     "letter": "b",
+     "text": "It deletes all customers from Poland"
+    },
+    {
+     "letter": "c",
+     "text": "It fails because no primary key is referenced"
+    },
+    {
+     "letter": "d",
+     "text": "It can update possibly many records matching the condition"
+    }
+   ],
+   "explanation": "A WHERE condition that is not on a primary key can match many rows, so this UPDATE can modify many records at once. It does not delete anything, and an UPDATE does not require a primary key in the condition to be valid."
+  },
+  {
+   "id": "q-gen-physical-data-models-07",
+   "exam": "",
+   "number": 7,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "Which statements about UPDATE and DELETE are correct according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Referential integrity may cause some UPDATE or DELETE statements to fail"
+    },
+    {
+     "letter": "b",
+     "text": "Aliases for tables affected by UPDATE/DELETE are supported identically on every DBMS"
+    },
+    {
+     "letter": "c",
+     "text": "The value assigned in an UPDATE can be defined through an expression or even an embedded SELECT query"
+    },
+    {
+     "letter": "d",
+     "text": "DELETE can only remove a single record at a time"
+    }
+   ],
+   "explanation": "Referential integrity can make UPDATE/DELETE fail (a), and UPDATE values can come from expressions or embedded SELECTs (c). Alias support differs by vendor — allowed in Oracle but not MS SQL Server — and DELETE can remove many rows, so (b) and (d) are false."
+  },
+  {
+   "id": "q-gen-physical-data-models-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "Regarding table aliases in UPDATE/DELETE statements, the presentation notes a difference between vendors. Which statement is correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Aliases are allowed in MS SQL Server but not in Oracle"
+    },
+    {
+     "letter": "b",
+     "text": "Aliases are forbidden by both Oracle and MS SQL Server"
+    },
+    {
+     "letter": "c",
+     "text": "Aliases are not allowed in MS SQL Server but are supported by Oracle"
+    },
+    {
+     "letter": "d",
+     "text": "Aliases are required by both vendors"
+    }
+   ],
+   "explanation": "The presentation states that such aliases are not allowed in MS SQL Server but are supported by Oracle. The other options reverse or misstate this vendor-specific behaviour."
+  },
+  {
+   "id": "q-gen-physical-data-models-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "What is the purpose of the BULK INSERT statement mentioned in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "To call a stored method in Oracle"
+    },
+    {
+     "letter": "b",
+     "text": "To import a datafile into a database (in MS SQL Server)"
+    },
+    {
+     "letter": "c",
+     "text": "To insert and update records in one statement"
+    },
+    {
+     "letter": "d",
+     "text": "To remove a column from a table"
+    }
+   ],
+   "explanation": "BULK INSERT, in MS SQL Server, is used to import a datafile into a database. Calling a method is CALL (Oracle), the combined insert/update is MERGE, and removing a column is done with ALTER TABLE DROP COLUMN."
+  },
+  {
+   "id": "q-gen-physical-data-models-10",
+   "exam": "",
+   "number": 10,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "When mapping a logical data model (LDM) to a physical data model (PDM), which transformations occur?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Entities become tables"
+    },
+    {
+     "letter": "b",
+     "text": "Attributes become columns"
+    },
+    {
+     "letter": "c",
+     "text": "Tables become entities"
+    },
+    {
+     "letter": "d",
+     "text": "Identifiers with spaces may be renamed to use underscores (e.g. \"Account Id\" → \"Account_Id\")"
+    }
+   ],
+   "explanation": "In moving from LDM to PDM, entities become tables, attributes become columns, and identifiers are often renamed (spaces to underscores). Option (c) reverses the direction of the mapping."
+  },
+  {
+   "id": "q-gen-physical-data-models-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "Splitting a table into two so that the most frequently used columns are in one table and the remaining columns in the other is called:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Horizontal partitioning"
+    },
+    {
+     "letter": "b",
+     "text": "Normalisation"
+    },
+    {
+     "letter": "c",
+     "text": "Vertical partitioning"
+    },
+    {
+     "letter": "d",
+     "text": "Indexing"
+    }
+   ],
+   "explanation": "Splitting a table by columns (frequently used vs. remaining) is vertical partitioning. Horizontal partitioning splits records into partitions; normalisation and indexing are different concepts."
+  },
+  {
+   "id": "q-gen-physical-data-models-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "What is the main motivation for horizontal partitioning, i.e. splitting records into partitions?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "To store the most frequently used columns separately from the rest"
+    },
+    {
+     "letter": "b",
+     "text": "To avoid processing all rows when, most frequently, only the recent ones are queried"
+    },
+    {
+     "letter": "c",
+     "text": "To enforce referential integrity between tables"
+    },
+    {
+     "letter": "d",
+     "text": "To convert a relational table into a document store"
+    }
+   ],
+   "explanation": "Horizontal partitioning splits records into partitions to avoid processing all rows when typically only recent ones are queried. Separating columns is vertical partitioning; partitioning is not about integrity enforcement or document conversion."
+  },
+  {
+   "id": "q-gen-physical-data-models-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "Why might a designer of a physical data model add a redundant column whose value could be calculated from other columns?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Because relational databases require all derived data to be stored"
+    },
+    {
+     "letter": "b",
+     "text": "To violate normalisation rules deliberately as a standard"
+    },
+    {
+     "letter": "c",
+     "text": "Because recalculating the value each time would be too time-consuming"
+    },
+    {
+     "letter": "d",
+     "text": "Because indexes cannot exist without redundant columns"
+    }
+   ],
+   "explanation": "The presentation states redundant columns may be added when computing the value from other columns would be too time-consuming, a performance trade-off. It is not required by relational databases, not a goal in itself, and unrelated to indexes existing."
+  },
+  {
+   "id": "q-gen-physical-data-models-14",
+   "exam": "",
+   "number": 14,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "According to the presentation, which of the following can DDL be used to manage?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Tables"
+    },
+    {
+     "letter": "b",
+     "text": "Constraints"
+    },
+    {
+     "letter": "c",
+     "text": "Indexes"
+    },
+    {
+     "letter": "d",
+     "text": "Individual record values"
+    }
+   ],
+   "explanation": "DDL manages data types, structures and constraints — including tables, constraints, indexes, databases/tablespaces and permissions. Individual record values are manipulated by DML (INSERT/UPDATE/DELETE), not DDL."
+  },
+  {
+   "id": "q-gen-physical-data-models-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "Which statement is used to remove a single column from an existing table?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`DROP TABLE TableName`"
+    },
+    {
+     "letter": "b",
+     "text": "`ALTER TABLE TableName DROP COLUMN ColumnName`"
+    },
+    {
+     "letter": "c",
+     "text": "`DELETE FROM TableName WHERE ColumnName`"
+    },
+    {
+     "letter": "d",
+     "text": "`DROP COLUMN ColumnName FROM TableName`"
+    }
+   ],
+   "explanation": "A column is removed with `ALTER TABLE TableName DROP COLUMN ColumnName`. DROP TABLE removes the whole table, DELETE removes rows (not columns), and option (d) is not valid syntax."
+  },
+  {
+   "id": "q-gen-physical-data-models-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "The presentation notes that advanced Oracle CREATE TABLE options (e.g. PCTFREE, STORAGE, TABLESPACE settings). Which statement about them is correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They are part of the ANSI SQL standard and portable everywhere"
+    },
+    {
+     "letter": "b",
+     "text": "They are DML statements"
+    },
+    {
+     "letter": "c",
+     "text": "They must be included in every CREATE TABLE statement"
+    },
+    {
+     "letter": "d",
+     "text": "They are usually not portable and often refer to data allocation settings"
+    }
+   ],
+   "explanation": "Such advanced options are usually not portable and in many cases refer to data allocation settings, so the statements run only on one platform. They are not standard/portable, not DML, and not mandatory."
+  },
+  {
+   "id": "q-gen-physical-data-models-17",
+   "exam": "",
+   "number": 17,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "According to the \"Why a database?\" comparison, what advantages do databases have over flat files (TXT, XML, CSV)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Databases avoid storing data on disk, keeping everything in memory"
+    },
+    {
+     "letter": "b",
+     "text": "Special structures (indexes) speed up information retrieval"
+    },
+    {
+     "letter": "c",
+     "text": "Concurrent updates by many users are supported with transactional processing"
+    },
+    {
+     "letter": "d",
+     "text": "A complex permission system secures the data"
+    }
+   ],
+   "explanation": "Databases use indexes for fast retrieval (b), support concurrent transactional updates (c), and provide complex permission systems (d). Option (a) is false — databases store data permanently on disk, which is one reason they are used."
+  },
+  {
+   "id": "q-gen-physical-data-models-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "In the client-server approach to databases, what is primarily transferred over the network between client applications and the DBMS?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The entire database files"
+    },
+    {
+     "letter": "b",
+     "text": "The raw data pages of all tables"
+    },
+    {
+     "letter": "c",
+     "text": "SQL statements and the results of queries"
+    },
+    {
+     "letter": "d",
+     "text": "The DBMS engine itself"
+    }
+   ],
+   "explanation": "In the client-server model, clients send SQL statements over the network and only the results of queries are transferred back. The full database files are not sent (improving scalability and security); the engine stays on the server."
+  },
+  {
+   "id": "q-gen-physical-data-models-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "The presentation classifies DBMS by the way data is treated. Which categories are listed?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Relational databases oriented on records"
+    },
+    {
+     "letter": "b",
+     "text": "Object databases oriented on objects"
+    },
+    {
+     "letter": "c",
+     "text": "Document databases storing data as documents (e.g. JSON)"
+    },
+    {
+     "letter": "d",
+     "text": "Spreadsheet databases oriented on cells"
+    }
+   ],
+   "explanation": "The listed categories by how data is treated are relational (records), object (objects) and document (e.g. JSON) databases. \"Spreadsheet databases oriented on cells\" is not a category mentioned."
+  },
+  {
+   "id": "q-gen-physical-data-models-20",
+   "exam": "",
+   "number": 20,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "physical-data-models"
+   ],
+   "stem": "The presentation describes the ANSI_NULLS setting in MS SQL Server. When ANSI_NULLS is ON, how is a comparison of the form `ColumnName = NULL` treated?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Rows with NULL in ColumnName match the condition"
+    },
+    {
+     "letter": "b",
+     "text": "Rows with NULL values in ColumnName do not match the condition"
+    },
+    {
+     "letter": "c",
+     "text": "The query is rejected with a syntax error"
+    },
+    {
+     "letter": "d",
+     "text": "All rows match regardless of the column value"
+    }
+   ],
+   "explanation": "With ANSI_NULLS ON, rows with NULL in the column do not match `ColumnName = NULL`; setting ANSI_NULLS OFF changes this behaviour so such rows can match. The comparison is not a syntax error and does not match all rows."
+  },
+  {
+   "id": "q-gen-relational-databases-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "Who invented relational databases and in which year?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Peter Chen in 1976"
+    },
+    {
+     "letter": "b",
+     "text": "Edgar F. Codd in 1970"
+    },
+    {
+     "letter": "c",
+     "text": "Edgar F. Codd in 1980"
+    },
+    {
+     "letter": "d",
+     "text": "Maciej Grzenda in 1970"
+    }
+   ],
+   "explanation": "The presentation states that relational databases were invented by Edgar F. Codd in 1970 and were further developed over the next 20 years. Peter Chen (1976) is associated with entity-relationship modelling, not the relational model, and 1980 is incorrect for Codd's invention."
+  },
+  {
+   "id": "q-gen-relational-databases-02",
+   "exam": "",
+   "number": 2,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "According to the relational theory, the mathematical foundation of relational databases was intended to:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Increase the productivity of software development"
+    },
+    {
+     "letter": "b",
+     "text": "Guarantee that no NULL values ever appear"
+    },
+    {
+     "letter": "c",
+     "text": "Provide for increased independency of programs and their data"
+    },
+    {
+     "letter": "d",
+     "text": "Replace all business processes with automated ones"
+    }
+   ],
+   "explanation": "The presentation lists the goals of the precise mathematical theory: increasing productivity of software development, avoiding ambiguity through detailed specification, and increasing independency between programs and their data. Eliminating NULLs and replacing business processes are not stated goals of the theory."
+  },
+  {
+   "id": "q-gen-relational-databases-03",
+   "exam": "",
+   "number": 3,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "Which of the following are defining features of a relation (table)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Each relation has a unique name in a database"
+    },
+    {
+     "letter": "b",
+     "text": "Each column has a unique name within the relation"
+    },
+    {
+     "letter": "c",
+     "text": "The order of columns is significant and must be preserved"
+    },
+    {
+     "letter": "d",
+     "text": "All values in a single column are of the same type"
+    }
+   ],
+   "explanation": "The presentation defines a relation by: a unique relation name, a unique column name per relation, all values in a column being the same type, and that the order of columns is NOT important. Therefore option c contradicts the definition, while a, b and d are correct."
+  },
+  {
+   "id": "q-gen-relational-databases-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "Which statement about records in a relation is TRUE according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Records are referenced by their row index"
+    },
+    {
+     "letter": "b",
+     "text": "Two identical records are allowed as long as they are in different positions"
+    },
+    {
+     "letter": "c",
+     "text": "The order of records is not important"
+    },
+    {
+     "letter": "d",
+     "text": "A column may store a list of values for a record"
+    }
+   ],
+   "explanation": "The presentation states that the order of records is not important, records are not referenced by a row index, duplicate (identical) records are not allowed, and only atomic values may be stored (no lists). Only option c is consistent with these rules."
+  },
+  {
+   "id": "q-gen-relational-databases-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "A primary key is best described as:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Any set of columns whose values are unique for the table"
+    },
+    {
+     "letter": "b",
+     "text": "A minimal set of columns whose values are unique for the whole table"
+    },
+    {
+     "letter": "c",
+     "text": "The first column listed in a table"
+    },
+    {
+     "letter": "d",
+     "text": "A column that is allowed to contain NULL values"
+    }
+   ],
+   "explanation": "The presentation explains that because duplicate records are not allowed, there must exist a set of columns with unique values across the table, and such a minimal set is named the primary key. It need not be the first column, and primary key columns cannot be left empty (NULL)."
+  },
+  {
+   "id": "q-gen-relational-databases-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "In the example with columns Name, Surname, PESEL and NIP, where PESEL is the primary key, what role does NIP play?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A foreign key"
+    },
+    {
+     "letter": "b",
+     "text": "A non-key attribute that may be NULL"
+    },
+    {
+     "letter": "c",
+     "text": "A candidate key"
+    },
+    {
+     "letter": "d",
+     "text": "A composite key"
+    }
+   ],
+   "explanation": "The presentation marks PESEL as the primary key and NIP as a candidate key, because NIP is another set of columns whose values are unique for the entire table but was not chosen as the primary key. It is not a foreign key, and as a key it cannot be left empty."
+  },
+  {
+   "id": "q-gen-relational-databases-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "What is a composite key?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A key that is automatically generated by the DBMS"
+    },
+    {
+     "letter": "b",
+     "text": "A key composed of more than one column"
+    },
+    {
+     "letter": "c",
+     "text": "A key that always allows NULL values"
+    },
+    {
+     "letter": "d",
+     "text": "A key that references another table"
+    }
+   ],
+   "explanation": "The presentation defines a composite key as a key composed of more than one column. Because a key must identify each record, the value of each column of such a key must be specified (none can be left empty). A key referencing another table is a foreign key."
+  },
+  {
+   "id": "q-gen-relational-databases-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "When are candidate keys said to exist in a relation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Whenever a table has at least one column"
+    },
+    {
+     "letter": "b",
+     "text": "Only when a foreign key is also defined"
+    },
+    {
+     "letter": "c",
+     "text": "When there are multiple sets of columns with unique values, and one set is not part of another"
+    },
+    {
+     "letter": "d",
+     "text": "Whenever the primary key is composite"
+    }
+   ],
+   "explanation": "The presentation states that candidate keys exist when there are multiple sets of columns whose values are unique for the entire table and one set is not a part of another set; the additional sets are then the candidate keys. The presentation also notes this situation is not very frequent."
+  },
+  {
+   "id": "q-gen-relational-databases-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "A product has not been sold yet. According to the presentation, how should its \"date of sale\" column be represented?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "As 0"
+    },
+    {
+     "letter": "b",
+     "text": "As NULL"
+    },
+    {
+     "letter": "c",
+     "text": "As an empty string ''"
+    },
+    {
+     "letter": "d",
+     "text": "As the current date"
+    }
+   ],
+   "explanation": "The presentation uses exactly this example: the date of sale for products not yet sold should be set to NULL, because no proper date could be used in that context. NULL is explicitly distinguished from 0 and from an empty string."
+  },
+  {
+   "id": "q-gen-relational-databases-10",
+   "exam": "",
+   "number": 10,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "Which guidelines about NULL values does the presentation give?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "NULL is not an empty value such as 0 or ''"
+    },
+    {
+     "letter": "b",
+     "text": "Every column must always accept NULL values"
+    },
+    {
+     "letter": "c",
+     "text": "A decision whether NULL values are allowed is made separately for each column"
+    },
+    {
+     "letter": "d",
+     "text": "Columns should not accept NULL unless there is a good explanation"
+    }
+   ],
+   "explanation": "The presentation states NULL is not 0 or '', that the decision to allow NULL is made per column, and that columns should not accept NULL without good reason. It does not say every column must accept NULL — in fact the opposite is recommended."
+  },
+  {
+   "id": "q-gen-relational-databases-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "In the salesmen example, 25 salesmen earned at least 100 USD and 15 earned less than 100 USD. What does the presentation conclude about salesmen whose income is NULL?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They are counted in the \"at least 100 USD\" group"
+    },
+    {
+     "letter": "b",
+     "text": "They are counted in the \"less than 100 USD\" group"
+    },
+    {
+     "letter": "c",
+     "text": "They are not included in either group, so it is no longer binary true/false logic"
+    },
+    {
+     "letter": "d",
+     "text": "Their income is automatically treated as 0"
+    }
+   ],
+   "explanation": "The presentation uses this example to show that salesmen with NULL income are not included in either of the two groups, because comparisons with NULL do not yield true. This illustrates that NULL breaks binary true/false logic."
+  },
+  {
+   "id": "q-gen-relational-databases-12",
+   "exam": "",
+   "number": 12,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "The presentation treats database systems as investments. Which project selection/justification methods does it mention?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "SWOT analysis"
+    },
+    {
+     "letter": "b",
+     "text": "ROI (Return on Investment)"
+    },
+    {
+     "letter": "c",
+     "text": "NPV (Net Present Value)"
+    },
+    {
+     "letter": "d",
+     "text": "Gantt chart estimation"
+    }
+   ],
+   "explanation": "The presentation explicitly names ROI (Return on Investment) and NPV (Net Present Value) as formal methods for calculating the income generated by a software project. SWOT analysis and Gantt chart estimation are not mentioned in this context."
+  },
+  {
+   "id": "q-gen-relational-databases-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "What is the objective of Step I in the conceptual design of a database?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Normalise all entities to 3NF"
+    },
+    {
+     "letter": "b",
+     "text": "Identify the scope of the system and system boundaries"
+    },
+    {
+     "letter": "c",
+     "text": "Define the foreign keys between tables"
+    },
+    {
+     "letter": "d",
+     "text": "Calculate the ROI of the project"
+    }
+   ],
+   "explanation": "Step I of conceptual design is to identify the scope of the system and system boundaries — for example, an HR management system would not include the list of fixed assets. Normalisation, foreign keys and ROI belong to other steps or topics."
+  },
+  {
+   "id": "q-gen-relational-databases-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "Which conceptual design step corresponds to normalisation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Step I"
+    },
+    {
+     "letter": "b",
+     "text": "Step II"
+    },
+    {
+     "letter": "c",
+     "text": "Step IV"
+    },
+    {
+     "letter": "d",
+     "text": "Step V"
+    }
+   ],
+   "explanation": "The presentation lists normalisation as Step V of the conceptual design, where relations are designed to eliminate redundancies, avoid modification anomalies, and redefine entities and attributes. Steps I–IV cover scope, business processes, business rules, and identifying objects respectively."
+  },
+  {
+   "id": "q-gen-relational-databases-15",
+   "exam": "",
+   "number": 15,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "According to the presentation, an entity is in First Normal Form (1NF) when:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A primary key is present and identified"
+    },
+    {
+     "letter": "b",
+     "text": "There are no repeating attributes, i.e. non-atomic values are eliminated"
+    },
+    {
+     "letter": "c",
+     "text": "Every non-key attribute depends on the entire primary key"
+    },
+    {
+     "letter": "d",
+     "text": "Non-key attributes are independent of each other"
+    }
+   ],
+   "explanation": "The presentation states that 1NF requires the entity to be a relation with an identified primary key and no repeating (non-atomic) attributes. Dependence on the entire primary key is the condition for 2NF, and independence of non-key attributes is the condition for 3NF."
+  },
+  {
+   "id": "q-gen-relational-databases-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "A table Order has primary key (customer_id, order_id) and also contains customer_city and customer_country. Which normal form does this violate, and why?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "1NF, because the table contains repeating attributes"
+    },
+    {
+     "letter": "b",
+     "text": "2NF, because customer_city depends only on part of the primary key (customer_id)"
+    },
+    {
+     "letter": "c",
+     "text": "3NF, because customer_city depends on another non-key attribute"
+    },
+    {
+     "letter": "d",
+     "text": "4NF, because of a multivalued dependency"
+    }
+   ],
+   "explanation": "This is the presentation's 2NF counter-example: customer_city and customer_country depend only on customer_id, which is part of the composite primary key, not the whole key. Partial dependence on the key violates 2NF; 3NF concerns dependencies between non-key attributes and 4NF concerns multivalued dependencies."
+  },
+  {
+   "id": "q-gen-relational-databases-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "An Order entity contains customer_id, order_id, employee_id, employee_name and employee_email. According to the presentation, what is the problem?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "employee_id is non-atomic and violates 1NF"
+    },
+    {
+     "letter": "b",
+     "text": "employee_id depends only on part of the primary key, violating 2NF"
+    },
+    {
+     "letter": "c",
+     "text": "employee_email depends on the employee rather than on the order, violating 3NF"
+    },
+    {
+     "letter": "d",
+     "text": "There is no problem; the table is already in 3NF"
+    }
+   ],
+   "explanation": "This is the presentation's 3NF counter-example. While employee_id relates to the order, attributes such as employee_email are really features of the employee, not the order, so they depend on a non-key attribute. This violates 3NF and causes redundancy and potential inconsistency."
+  },
+  {
+   "id": "q-gen-relational-databases-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "Why is redundancy (e.g. repeating a customer's address in many order records) considered a problem?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It always makes queries impossible to execute"
+    },
+    {
+     "letter": "b",
+     "text": "It may cause inconsistency if the value is updated in only some of the records"
+    },
+    {
+     "letter": "c",
+     "text": "It violates the definition of a primary key"
+    },
+    {
+     "letter": "d",
+     "text": "It prevents foreign keys from being defined"
+    }
+   ],
+   "explanation": "The presentation explains that redundancy may cause inconsistency: for example, if a customer's address is updated in only one of many order records, the records disagree. This is the motivation behind 2NF and 3NF decomposition. Redundancy does not by itself block queries, keys, or foreign keys."
+  },
+  {
+   "id": "q-gen-relational-databases-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "Once a foreign key constraint is enforced, which operations will the DBMS reject to preserve referential integrity?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Inserting a record into the foreign-key table referring to a non-existing record in the primary-key table"
+    },
+    {
+     "letter": "b",
+     "text": "Removing a record from the primary-key table that is referenced by a foreign-key table"
+    },
+    {
+     "letter": "c",
+     "text": "Inserting a record into the primary-key table that is not yet referenced anywhere"
+    },
+    {
+     "letter": "d",
+     "text": "Modifying a primary or foreign key value so the foreign key would point to a non-existing record"
+    }
+   ],
+   "explanation": "The presentation lists the operations a DBMS will reject: inserting an orphan reference, deleting a referenced primary-key record, and modifying key values that would create a dangling reference. Inserting a primary-key record that nobody references yet is perfectly valid and is not rejected."
+  },
+  {
+   "id": "q-gen-relational-databases-20",
+   "exam": "",
+   "number": 20,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "relational-databases"
+   ],
+   "stem": "What does the presentation say about 3NF and OLTP systems?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "3NF is rarely used and only relevant to data warehouses"
+    },
+    {
+     "letter": "b",
+     "text": "OLTP systems minimise insert/update/delete operations"
+    },
+    {
+     "letter": "c",
+     "text": "3NF is the industry standard for most database systems and is related to OLTP, which processes many changes"
+    },
+    {
+     "letter": "d",
+     "text": "OLTP systems require at least 4NF to function"
+    }
+   ],
+   "explanation": "The presentation states 3NF is the industry standard for the majority of database systems and is largely related to OLTP systems, which are expected to process a large number of inserts, updates and deletes (maximising their performance). It does not require 4NF, nor is 3NF limited to data warehouses."
+  },
+  {
+   "id": "q-gen-sql-select-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "According to the presentation, which of the following is NOT one of the listed purposes of the SQL language?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Querying raw or aggregated data from one or many tables"
+    },
+    {
+     "letter": "b",
+     "text": "Defining data structures, e.g. creating new tables"
+    },
+    {
+     "letter": "c",
+     "text": "Compiling client applications into executable binaries"
+    },
+    {
+     "letter": "d",
+     "text": "Updating data by creating, modifying and deleting records"
+    }
+   ],
+   "explanation": "The presentation lists three roles of SQL: querying data, defining data structures, and updating data (insert/modify/delete). Compiling client applications is unrelated to SQL; software developers merely send SQL queries from their applications."
+  },
+  {
+   "id": "q-gen-sql-select-02",
+   "exam": "",
+   "number": 2,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "According to the presentation, who are the typical users of the SQL language?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Software developers"
+    },
+    {
+     "letter": "b",
+     "text": "Data scientists"
+    },
+    {
+     "letter": "c",
+     "text": "Database administrators"
+    },
+    {
+     "letter": "d",
+     "text": "End users who never see a query, via point-and-click only"
+    }
+   ],
+   "explanation": "The slide on the role of SQL explicitly names software developers (who send queries from client applications), data scientists (who retrieve data for analysis), and database administrators (who manage database content). Pure point-and-click end users are not listed as SQL users themselves."
+  },
+  {
+   "id": "q-gen-sql-select-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "The presentation states that the SQL:2023 revision notably includes:",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Removal of object-oriented extensions introduced in SQL3"
+    },
+    {
+     "letter": "b",
+     "text": "Extensions supporting graph-like queries and improved JSON support"
+    },
+    {
+     "letter": "c",
+     "text": "The first definition of the SELECT statement"
+    },
+    {
+     "letter": "d",
+     "text": "Mandatory portability across all DBMS vendors"
+    }
+   ],
+   "explanation": "The slide on SQL revisions states that SQL:2023 includes extensions supporting graph-like queries and improved support for JSON. The other options contradict the presentation, which notes that portability between DBMSs remains difficult."
+  },
+  {
+   "id": "q-gen-sql-select-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "Which alternative names for SQL standard revisions are given correctly in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "SQL92 a.k.a. SQL1"
+    },
+    {
+     "letter": "b",
+     "text": "SQL99 a.k.a. SQL2"
+    },
+    {
+     "letter": "c",
+     "text": "SQL86 a.k.a. SQL3"
+    },
+    {
+     "letter": "d",
+     "text": "SQL99 a.k.a. SQL3 and SQL92 a.k.a. SQL2"
+    }
+   ],
+   "explanation": "The presentation lists SQL99 a.k.a. SQL3, SQL92 a.k.a. SQL2, and SQL86 a.k.a. SQL1. Only option (d) pairs the revisions correctly; the others swap the aliases."
+  },
+  {
+   "id": "q-gen-sql-select-05",
+   "exam": "",
+   "number": 5,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "According to the presentation, which statements about SQL standards and dialects are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Writing SQL code portable among different DBMSs is not easy"
+    },
+    {
+     "letter": "b",
+     "text": "All DBMS vendors fully implement the entire SQL standard"
+    },
+    {
+     "letter": "c",
+     "text": "Vendors offer procedural extensions such as PL/SQL (Oracle) and Transact-SQL (Microsoft)"
+    },
+    {
+     "letter": "d",
+     "text": "SQL standards forbid any vendor-specific extensions"
+    }
+   ],
+   "explanation": "The presentation states the standard is only partly implemented, making portable SQL difficult, and that vendors add procedural extensions like PL/SQL and Transact-SQL. Options (b) and (d) directly contradict this."
+  },
+  {
+   "id": "q-gen-sql-select-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "The presentation notes that recent SQL revisions are divided into a Core part and Optional packages. Which is described as belonging to the Optional packages?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Numeric data types (E011)"
+    },
+    {
+     "letter": "b",
+     "text": "Support for data warehouses, spatial data, time-based data and multimedia"
+    },
+    {
+     "letter": "c",
+     "text": "The core specification every RDBMS vendor should implement"
+    },
+    {
+     "letter": "d",
+     "text": "The basic SELECT statement"
+    }
+   ],
+   "explanation": "Already SQL3 defined optional packages addressing the needs of data warehouses, spatial data, time-based data, multimedia and other fields, separate from the Core specification that every vendor should implement."
+  },
+  {
+   "id": "q-gen-sql-select-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "According to the Oracle 19c compliance examples, which Core SQL function is replaced by an equivalent Oracle function rather than supported directly?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`UPPER`"
+    },
+    {
+     "letter": "b",
+     "text": "`LOWER`"
+    },
+    {
+     "letter": "c",
+     "text": "`SUBSTRING` (replaced by `SUBSTR`)"
+    },
+    {
+     "letter": "d",
+     "text": "`TRIM`"
+    }
+   ],
+   "explanation": "The non-compliant subfeatures slide shows Oracle provides equivalents: `SUBSTRING` is replaced by `SUBSTR`, `CHARACTER_LENGTH` by `LENGTH`, `POSITION` by `INSTR`. `UPPER`, `LOWER` and `TRIM` are listed among the fully supported features."
+  },
+  {
+   "id": "q-gen-sql-select-08",
+   "exam": "",
+   "number": 8,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "Based on the presentation, which of the following are valid targets/inputs for a SQL `SELECT` statement?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Only a single physical table at a time"
+    },
+    {
+     "letter": "b",
+     "text": "A set of tables linked by relations (foreign and primary keys)"
+    },
+    {
+     "letter": "c",
+     "text": "Only tables that contain a primary key"
+    },
+    {
+     "letter": "d",
+     "text": "The output of another SQL statement, treated as a pseudo-table"
+    }
+   ],
+   "explanation": "The SELECT slide states the statement retrieves data from a table or a set of tables linked by relations, and that it can also be executed on the output of another SQL statement treated as a pseudo-table. It is not limited to a single table or to tables with primary keys."
+  },
+  {
+   "id": "q-gen-sql-select-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "Given the `rooms` table, what does the following query return?\n\n```sql\nSELECT building AS bld, room AS rm FROM rooms\n```",
+   "options": [
+    {
+     "letter": "a",
+     "text": "All columns of `rooms` with original names"
+    },
+    {
+     "letter": "b",
+     "text": "Two columns, `building` and `room`, renamed to `bld` and `rm` in the output"
+    },
+    {
+     "letter": "c",
+     "text": "An error, because `AS` cannot rename a column"
+    },
+    {
+     "letter": "d",
+     "text": "The `rooms` table sorted by building"
+    }
+   ],
+   "explanation": "`AS` assigns aliases to the selected columns, so the output has columns labelled `bld` and `rm`. The presentation also notes that SQL keywords like `AS` may be written in lower- or uppercase interchangeably."
+  },
+  {
+   "id": "q-gen-sql-select-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "In the presentation's `LIKE` examples, which pattern element matches **any single character**?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`%`"
+    },
+    {
+     "letter": "b",
+     "text": "`[ghj]`"
+    },
+    {
+     "letter": "c",
+     "text": "`_`"
+    },
+    {
+     "letter": "d",
+     "text": "`[b-g]`"
+    }
+   ],
+   "explanation": "The LIKE slide defines `_` as any single character and `%` as any number of characters. `[b-g]` matches one character in a range and `[ghj]` matches one of the listed characters."
+  },
+  {
+   "id": "q-gen-sql-select-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "The presentation warns that one feature should not be used too frequently for performance reasons. Which one?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Column aliases defined with `AS`"
+    },
+    {
+     "letter": "b",
+     "text": "`LIKE` patterns"
+    },
+    {
+     "letter": "c",
+     "text": "Selecting all columns with `*`"
+    },
+    {
+     "letter": "d",
+     "text": "The `ORDER BY` clause"
+    }
+   ],
+   "explanation": "The LIKE slide explicitly notes that patterns should not be used too frequently due to performance reasons. The IN slide similarly warns about large value sets, but the per-feature warning here concerns LIKE patterns."
+  },
+  {
+   "id": "q-gen-sql-select-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "The presentation states that text columns are sorted as text even when they contain numbers. Under `ORDER BY` on such a text column (ascending), which ordering is correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`2` comes before `1000` because 2 < 1000"
+    },
+    {
+     "letter": "b",
+     "text": "`1000` and `2` are treated as equal"
+    },
+    {
+     "letter": "c",
+     "text": "Numbers in text are automatically converted to integers before sorting"
+    },
+    {
+     "letter": "d",
+     "text": "`'1000' < '2'`, so `1000` comes before `2`"
+    }
+   ],
+   "explanation": "The ORDER BY slide explicitly states that text columns are sorted as text even if they contain numbers, giving the example `'1000' < '2'`. Therefore `1000` sorts before `2` in ascending text order."
+  },
+  {
+   "id": "q-gen-sql-select-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "Consider the query:\n\n```sql\nSELECT * FROM rooms ORDER BY type, floor\n```\n\nAccording to the presentation, which statements about this multi-column sort are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Ascending order is the default for both columns"
+    },
+    {
+     "letter": "b",
+     "text": "`floor` is the primary sort key and `type` the tie-breaker"
+    },
+    {
+     "letter": "c",
+     "text": "Rows with equal `type` are then ordered by `floor`"
+    },
+    {
+     "letter": "d",
+     "text": "`DESC` must be specified or the query is invalid"
+    }
+   ],
+   "explanation": "The ORDER BY slide states ascending is the default and that with multiple columns rows equal on the first column are compared by the second. So `type` is primary and `floor` breaks ties; `DESC` is optional, not required."
+  },
+  {
+   "id": "q-gen-sql-select-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "What does the `DISTINCT` clause produce in the following query?\n\n```sql\nSELECT DISTINCT type, floor FROM rooms WHERE floor >= 2\n```",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Distinct values of `type` only, ignoring `floor`"
+    },
+    {
+     "letter": "b",
+     "text": "Unique combinations of the `type` and `floor` column values"
+    },
+    {
+     "letter": "c",
+     "text": "All rows, with duplicates marked but not removed"
+    },
+    {
+     "letter": "d",
+     "text": "Only rows where both columns have unique values across the whole table"
+    }
+   ],
+   "explanation": "The DISTINCT slide states that unique combinations of column values/expressions are obtained. DISTINCT applies to the whole selected tuple (`type`, `floor`), not to a single column."
+  },
+  {
+   "id": "q-gen-sql-select-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "According to the presentation's two-step interpretation of a multi-table query, what is created **first**?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The filtered result set satisfying the WHERE condition"
+    },
+    {
+     "letter": "b",
+     "text": "An index linking the two tables"
+    },
+    {
+     "letter": "c",
+     "text": "A Cartesian product of all combinations of records from the tables"
+    },
+    {
+     "letter": "d",
+     "text": "A temporary view of the joined data"
+    }
+   ],
+   "explanation": "The query-interpretation slides state that to answer a query referring to multiple tables, a Cartesian product (all possible combinations of records) is created first, and only afterwards is it filtered by the join condition."
+  },
+  {
+   "id": "q-gen-sql-select-16",
+   "exam": "",
+   "number": 16,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "The presentation shows two query styles for linking tables. Which statements are correct?\n\n```sql\n-- Style 1\nSELECT * FROM rooms, assets\nWHERE rooms.bld_code = assets.bld_code AND rooms.room = assets.room\n\n-- Style 2\nSELECT * FROM rooms JOIN assets\nON rooms.bld_code = assets.bld_code AND rooms.room = assets.room\n```",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Style 1 is the WHERE-based query style"
+    },
+    {
+     "letter": "b",
+     "text": "Style 2 is the JOIN-based query style"
+    },
+    {
+     "letter": "c",
+     "text": "Only Style 2 can express a join condition on two columns"
+    },
+    {
+     "letter": "d",
+     "text": "Style 1 uses the `ON` keyword to specify conditions"
+    }
+   ],
+   "explanation": "The presentation contrasts a WHERE-based style (tables listed in FROM, conditions in WHERE) with a JOIN-based style (using JOIN ... ON). Both can combine conditions with AND; `ON` belongs to the JOIN style, not the WHERE style."
+  },
+  {
+   "id": "q-gen-sql-select-17",
+   "exam": "",
+   "number": 17,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "The presentation asks how to obtain room 452 in the chemistry building in the result even though there are no assets in that room. Which JOIN achieves this when `Rooms` is the parent (left) table?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "INNER JOIN"
+    },
+    {
+     "letter": "b",
+     "text": "Old-style WHERE join on equality"
+    },
+    {
+     "letter": "c",
+     "text": "LEFT JOIN"
+    },
+    {
+     "letter": "d",
+     "text": "A plain `JOIN` keyword with no qualifier"
+    }
+   ],
+   "explanation": "A LEFT JOIN keeps all records from the parent table, using NULLs for the joined table's columns when there is no match. INNER JOIN (or the plain JOIN / old-style WHERE join) keeps only matching combinations, so the asset-less room would be dropped."
+  },
+  {
+   "id": "q-gen-sql-select-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "According to the JOIN categories table, which description matches `FULL JOIN`?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Only matching combinations of records in joined tables are kept"
+    },
+    {
+     "letter": "b",
+     "text": "All records from both the parent and joined tables are kept, with NULLs where there is no match"
+    },
+    {
+     "letter": "c",
+     "text": "All records from the joined table only, with NULLs in the parent columns"
+    },
+    {
+     "letter": "d",
+     "text": "All records from the parent table only, with NULLs in the joined columns"
+    }
+   ],
+   "explanation": "The JOIN categories table describes FULL JOIN as keeping all records from both the parent and joined tables, using NULLs where there are no corresponding records (a union of LEFT and RIGHT). Option (a) is INNER, (c) is RIGHT, (d) is LEFT."
+  },
+  {
+   "id": "q-gen-sql-select-19",
+   "exam": "",
+   "number": 19,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "In the presentation's `EXISTS` example over `Rooms` and `Assets`, the query returns rooms that have at least one matching asset:\n\n```sql\nSELECT * FROM Rooms R WHERE EXISTS\n(SELECT * FROM Assets A WHERE R.room_id = A.room_id)\n```\n\nGiven rooms with `room_id` 7 and 15, and assets only for `room_id` 15 (and 18), which rooms appear in the output?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Both room 7 and room 15"
+    },
+    {
+     "letter": "b",
+     "text": "Only room 15"
+    },
+    {
+     "letter": "c",
+     "text": "Only room 7"
+    },
+    {
+     "letter": "d",
+     "text": "No rooms"
+    }
+   ],
+   "explanation": "For each room the correlated subquery checks whether any asset shares its `room_id`. Room 7 has no matching assets so it is excluded; room 15 has two matching assets so it is included. Asset row 18 matches no listed room."
+  },
+  {
+   "id": "q-gen-sql-select-2-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the presentation, beyond finding records that match criteria, what additional capability of SQL is emphasised in part II?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Compiling stored procedures into machine code"
+    },
+    {
+     "letter": "b",
+     "text": "Defining physical storage layouts on disk"
+    },
+    {
+     "letter": "c",
+     "text": "Retrieving aggregated data from a database"
+    },
+    {
+     "letter": "d",
+     "text": "Encrypting columns at rest"
+    }
+   ],
+   "explanation": "The opening slides state that with SQL you can also retrieve aggregated data (e.g. total number and value of orders per country), which helps analyse trends and measure business performance. The other options are not discussed."
+  },
+  {
+   "id": "q-gen-sql-select-2-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "What is the purpose of the `GROUP BY` phrase as described in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "To sort the result set by the grouping columns"
+    },
+    {
+     "letter": "b",
+     "text": "To group records that share the same values of some columns"
+    },
+    {
+     "letter": "c",
+     "text": "To remove NULL values from the result"
+    },
+    {
+     "letter": "d",
+     "text": "To join two tables on a common key"
+    }
+   ],
+   "explanation": "The GROUP BY slide states it allows grouping records with the same values of some columns and is typically used with aggregate functions such as SUM() or MIN(). Sorting is ORDER BY, and joining is unrelated."
+  },
+  {
+   "id": "q-gen-sql-select-2-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "Which aggregate function, according to the presentation's table, simply calculates the number of records?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`COUNT(*)`"
+    },
+    {
+     "letter": "b",
+     "text": "`SUM(expression)`"
+    },
+    {
+     "letter": "c",
+     "text": "`AVG(expression)`"
+    },
+    {
+     "letter": "d",
+     "text": "`MAX(expression)`"
+    }
+   ],
+   "explanation": "The aggregate functions table defines `COUNT(*)` as calculating the number of records. `SUM`, `AVG` and `MAX` operate on the values of a numerical expression rather than just counting rows."
+  },
+  {
+   "id": "q-gen-sql-select-2-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "The presentation notes that the argument of an aggregate function can be more than a bare column name. Which example is given?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`SUM(*)`"
+    },
+    {
+     "letter": "b",
+     "text": "`COUNT(NetValue, Tax)`"
+    },
+    {
+     "letter": "c",
+     "text": "`SUM(NetValue*1.23)`"
+    },
+    {
+     "letter": "d",
+     "text": "`AVG()` with no argument"
+    }
+   ],
+   "explanation": "The aggregate functions slide notes an expression can be just a column name like `NetValue` or be based on a column value, giving `SUM(NetValue*1.23)` as the example. The other forms are not valid per the slide."
+  },
+  {
+   "id": "q-gen-sql-select-2-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "Consider the \"trivial example\" query:\n\n```sql\nSELECT COUNT(*) AS order_count,\n       SUM(order_value) AS total_order_value\nFROM Orders\nWHERE ShipCountry = 'France'\n```\n\nHow many rows does this query return?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "One row per order in France"
+    },
+    {
+     "letter": "b",
+     "text": "Exactly one row, with the count and total for French orders"
+    },
+    {
+     "letter": "c",
+     "text": "One row per distinct `order_value`"
+    },
+    {
+     "letter": "d",
+     "text": "Zero rows, because there is no `GROUP BY`"
+    }
+   ],
+   "explanation": "With aggregate functions and no GROUP BY, first the rows matching the WHERE condition are found, then a single row of results is returned. The slide explicitly shows one result row (e.g. 42 / 37890)."
+  },
+  {
+   "id": "q-gen-sql-select-2-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "In the query below, for what scope are the aggregate values computed?\n\n```sql\nSELECT Customer_ID,\n       COUNT(*) AS order_count,\n       SUM(order_value) AS total_order_value\nFROM Orders\nGROUP BY Customer_ID\n```",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Over the whole `Orders` table as a single group"
+    },
+    {
+     "letter": "b",
+     "text": "Per individual order row"
+    },
+    {
+     "letter": "c",
+     "text": "Independently for every group of records sharing the same `Customer_ID`"
+    },
+    {
+     "letter": "d",
+     "text": "Only for the customer with the most orders"
+    }
+   ],
+   "explanation": "The GROUP BY example states that all aggregate function values are calculated for every group of records with the same `Customer_ID` independently, producing one output row per customer."
+  },
+  {
+   "id": "q-gen-sql-select-2-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the GROUP BY interpretation slides, what is obtained **first** when answering a GROUP BY query (after applying WHERE)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The aggregate values for the largest group"
+    },
+    {
+     "letter": "b",
+     "text": "The unique list of values of the grouping column(s)"
+    },
+    {
+     "letter": "c",
+     "text": "The final sorted result set"
+    },
+    {
+     "letter": "d",
+     "text": "A Cartesian product of the table with itself"
+    }
+   ],
+   "explanation": "The step-I interpretation slide states that to answer a query with GROUP BY, a unique list of column values is retrieved (e.g. the unique list of CUSTOMER_ID), and then aggregates are computed per group."
+  },
+  {
+   "id": "q-gen-sql-select-2-08",
+   "exam": "",
+   "number": 8,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "The following query is rejected according to the presentation. Why?\n\n```sql\nSELECT customer_id, delivery_city, …\nFROM …\nGROUP BY customer_id\n```",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`GROUP BY` cannot be used with text columns"
+    },
+    {
+     "letter": "b",
+     "text": "`delivery_city` must be wrapped in `COUNT()`"
+    },
+    {
+     "letter": "c",
+     "text": "The `FROM` clause is incomplete, which is the only issue"
+    },
+    {
+     "letter": "d",
+     "text": "`delivery_city` is not in `GROUP BY`, and there may be many cities per customer, so which one to show is ambiguous"
+    }
+   ],
+   "explanation": "The GROUP BY discussion slide states only columns used in GROUP BY can appear in the SELECT list, because a non-grouped column (like delivery_city) may have many values per group, making the single output value ambiguous."
+  },
+  {
+   "id": "q-gen-sql-select-2-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the presentation, what benefit does using GROUP BY (returning summaries instead of detailed records) provide?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "It guarantees that queries always run faster than any index"
+    },
+    {
+     "letter": "b",
+     "text": "It reduces resource use on both the server side and the client side"
+    },
+    {
+     "letter": "c",
+     "text": "It prevents NULL values from ever appearing"
+    },
+    {
+     "letter": "d",
+     "text": "It removes the need for a WHERE clause"
+    }
+   ],
+   "explanation": "The GROUP BY discussion slide states that GROUP BY allows reducing resource use both server-side and client-side whenever summary values, rather than detailed records, are required."
+  },
+  {
+   "id": "q-gen-sql-select-2-10",
+   "exam": "",
+   "number": 10,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "With `GROUP BY Customer_ID, Delivery_City`, for which scope is each aggregate computed?\n\n```sql\nSELECT Customer_ID, Delivery_City,\n       COUNT(*) AS order_count,\n       SUM(order_value) AS total_order_value\nFROM Orders\nGROUP BY Customer_ID, Delivery_City\n```",
+   "options": [
+    {
+     "letter": "a",
+     "text": "For each `Customer_ID` only, ignoring city"
+    },
+    {
+     "letter": "b",
+     "text": "For each `Delivery_City` only, ignoring customer"
+    },
+    {
+     "letter": "c",
+     "text": "For each distinct combination of `Customer_ID` and `Delivery_City`"
+    },
+    {
+     "letter": "d",
+     "text": "Over the entire table as one group"
+    }
+   ],
+   "explanation": "The multiple-column GROUP BY slide states the aggregates are calculated for each group of records with the same Customer_ID and Delivery_City, i.e. for each distinct combination of the two grouping columns."
+  },
+  {
+   "id": "q-gen-sql-select-2-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "What is the role of the `HAVING` phrase according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "To filter individual rows before grouping"
+    },
+    {
+     "letter": "b",
+     "text": "To impose a logical condition on the result of an aggregate function"
+    },
+    {
+     "letter": "c",
+     "text": "To define which columns become grouping keys"
+    },
+    {
+     "letter": "d",
+     "text": "To sort grouped results in descending order"
+    }
+   ],
+   "explanation": "The HAVING slide states it allows imposing a logical condition on the result of an aggregate function, e.g. `HAVING SUM(order_value)>150`; only groups fulfilling the condition are kept in the result set."
+  },
+  {
+   "id": "q-gen-sql-select-2-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "Given the grouped data for customer MAIN (Poznań total 100.00, Warszawa total 220.00) and the condition `HAVING SUM(order_value) > 150`, which rows remain?\n\n```sql\nGROUP BY Customer_ID, Delivery_City\nHAVING SUM(order_value) > 150\n```",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Both the Poznań and Warszawa rows"
+    },
+    {
+     "letter": "b",
+     "text": "Only the Poznań row"
+    },
+    {
+     "letter": "c",
+     "text": "Only the Warszawa row"
+    },
+    {
+     "letter": "d",
+     "text": "Neither row"
+    }
+   ],
+   "explanation": "The HAVING interpretation slide shows the Poznań group (total 100.00) fails `SUM(order_value)>150` and is removed, while the Warszawa group (total 220.00) satisfies it and is kept."
+  },
+  {
+   "id": "q-gen-sql-select-2-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the slide on NULL values and comparisons, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "To test for NULL one should use `Column_Name IS [NOT] NULL`"
+    },
+    {
+     "letter": "b",
+     "text": "NULL can be reliably compared using `Column_Name = NULL`"
+    },
+    {
+     "letter": "c",
+     "text": "`MIN()`, `MAX()` and `SUM()` can produce non-obvious results when NULLs appear in the aggregated expression"
+    },
+    {
+     "letter": "d",
+     "text": "Aggregate functions always treat NULL as zero"
+    }
+   ],
+   "explanation": "The slide instructs using `IS [NOT] NULL` for NULL comparisons (not `= NULL`) and warns that MIN/MAX/SUM may yield non-obvious results with NULLs in the expression. It does not state NULL is universally treated as zero."
+  },
+  {
+   "id": "q-gen-sql-select-2-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the presentation, how should one test whether a column has no value?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`WHERE Column_Name = NULL`"
+    },
+    {
+     "letter": "b",
+     "text": "`WHERE Column_Name IS NULL`"
+    },
+    {
+     "letter": "c",
+     "text": "`WHERE Column_Name == NULL`"
+    },
+    {
+     "letter": "d",
+     "text": "`WHERE NULL(Column_Name)`"
+    }
+   ],
+   "explanation": "The NULL slide gives the syntax `WHERE … Column_Name is [NOT] NULL …`. Equality comparisons against NULL do not work reliably, which is why the `IS NULL` form is required."
+  },
+  {
+   "id": "q-gen-sql-select-2-15",
+   "exam": "",
+   "number": 15,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the slides on the R-based data analysis examples, which statements are accurate?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Modern analysis can mix matrix-like and file-based operations with SQL"
+    },
+    {
+     "letter": "b",
+     "text": "The sample code is developed in R (using packages like `sqldf`)"
+    },
+    {
+     "letter": "c",
+     "text": "The SQL must be executed only against a remote production database"
+    },
+    {
+     "letter": "d",
+     "text": "SQL code can be executed on top of in-memory data imported from a text file"
+    }
+   ],
+   "explanation": "The analysis slides state the code is written in R, that modern analysis mixes matrix/file operations with SQL, and that SQL is executed on top of in-memory data imported from a text file. There is no requirement to run against a remote production database."
+  },
+  {
+   "id": "q-gen-sql-select-2-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "The presentation describes a view as:\n\n```sql\nCREATE VIEW TotalSale AS\nSELECT Customer_ID, COUNT(*) AS order_count,\n       SUM(order_value) AS total_order_value\nFROM Orders GROUP BY Customer_ID\n```\n\nWhat is a view, according to the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A physical copy of the query's result, refreshed nightly"
+    },
+    {
+     "letter": "b",
+     "text": "A renamed table stored separately on disk"
+    },
+    {
+     "letter": "c",
+     "text": "A saved query that can be used in further queries like a standard table"
+    },
+    {
+     "letter": "d",
+     "text": "An index over the grouping columns"
+    }
+   ],
+   "explanation": "The Views slide states a view can be treated as a saved query, and after defining it, it can be used in queries just like a standard table (though performance may be degraded)."
+  },
+  {
+   "id": "q-gen-sql-select-2-17",
+   "exam": "",
+   "number": 17,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the Views guidelines slide, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "By default, views do not store data; underlying tables are used each time"
+    },
+    {
+     "letter": "b",
+     "text": "Views can restrict access, e.g. exposing total sales but not per-order details"
+    },
+    {
+     "letter": "c",
+     "text": "Views are the recommended tool whenever ad hoc queries are needed"
+    },
+    {
+     "letter": "d",
+     "text": "Views provide means for system integration without exposing the physical model"
+    }
+   ],
+   "explanation": "The guidelines slide states views do not store data by default, can be used to restrict access, and support system integration by hiding the physical model. It explicitly says views should NOT be defined when ad hoc queries are needed, so (c) is false."
+  },
+  {
+   "id": "q-gen-sql-select-2-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "After creating the `TotalSale` view, the query `SELECT * FROM TotalSale WHERE total_order_value < 250` is run. According to the presentation, what does the DBMS use to answer it?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Data permanently stored inside the view"
+    },
+    {
+     "letter": "b",
+     "text": "Current data from the underlying `Orders` table, via the saved query"
+    },
+    {
+     "letter": "c",
+     "text": "A cached snapshot taken at view creation time"
+    },
+    {
+     "letter": "d",
+     "text": "Only the rows that existed when the view was created"
+    }
+   ],
+   "explanation": "The Views guidelines slide states that every time a query referring to a view is submitted, the data from the underlying tables are used by the DBMS to answer the query, because views do not store data by default."
+  },
+  {
+   "id": "q-gen-sql-select-2-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the objectives slide, SQL SELECT queries frequently go beyond JOIN and WHERE by doing which of the following?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Aggregating data, e.g. calculating sums"
+    },
+    {
+     "letter": "b",
+     "text": "Looking for records in one table that have no matching records in others"
+    },
+    {
+     "letter": "c",
+     "text": "Combining aggregation with filtering on aggregate values (e.g. total order value above a threshold)"
+    },
+    {
+     "letter": "d",
+     "text": "Defining new physical indexes on the fly"
+    }
+   ],
+   "explanation": "The objectives slide lists aggregation, finding records without matches, and combining aggregation with filtering on aggregates (the HAVING use case). Defining indexes is not among the listed query activities."
+  },
+  {
+   "id": "q-gen-sql-select-2-20",
+   "exam": "",
+   "number": 20,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "sql-select-2"
+   ],
+   "stem": "According to the aggregate functions table, how do `MIN()` and `MAX()` determine the lowest/largest value of an expression?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Always by converting values to text and comparing alphabetically"
+    },
+    {
+     "letter": "b",
+     "text": "By counting how many times each value occurs"
+    },
+    {
+     "letter": "c",
+     "text": "By comparing values based on their type, the same way they are compared for sorting"
+    },
+    {
+     "letter": "d",
+     "text": "By returning the first and last row physically stored"
+    }
+   ],
+   "explanation": "The aggregate functions table states that MIN and MAX compare values based on their type, in the same way they are compared to be sorted. They are not based on counts or physical row order."
+  },
+  {
+   "id": "q-gen-sql-select-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "sql-select"
+   ],
+   "stem": "According to the presentation's slides on `UNION`, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`UNION` adds together the output rows of multiple queries"
+    },
+    {
+     "letter": "b",
+     "text": "If `ALL` is omitted, duplicate rows appearing in multiple source queries are collapsed into one"
+    },
+    {
+     "letter": "c",
+     "text": "All participating subqueries must return the same number of columns, with matching types"
+    },
+    {
+     "letter": "d",
+     "text": "`UNION` automatically sorts the combined result alphabetically"
+    }
+   ],
+   "explanation": "The UNION slides state it combines the outputs of multiple queries, that omitting ALL removes duplicates, and that the number and types of columns must match across subqueries. There is no statement that UNION sorts the result automatically."
+  },
+  {
+   "id": "q-gen-stored-procedures-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "According to the lecture, what is the primary motivation for using stored procedures rather than relying solely on individual SQL statements?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They eliminate the need for relational tables"
+    },
+    {
+     "letter": "b",
+     "text": "They allow longer chains of queries and data-modification statements, including loops, to be executed within the DBMS"
+    },
+    {
+     "letter": "c",
+     "text": "They convert relational databases into NoSQL stores"
+    },
+    {
+     "letter": "d",
+     "text": "They remove the requirement to define primary keys"
+    }
+   ],
+   "explanation": "The lecture introduces stored procedures to address processing that cannot be easily done with a single SELECT/INSERT/UPDATE/DELETE, enabling longer chains of statements and loops executed inside the DBMS (b). Stored procedures do not remove tables, keys, or the relational model (a, c, d)."
+  },
+  {
+   "id": "q-gen-stored-procedures-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "The lecture focuses on a specific language that extends SQL. Which language and DBMS does it concentrate on?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "PL/SQL in Oracle Database"
+    },
+    {
+     "letter": "b",
+     "text": "PL/pgSQL in PostgreSQL"
+    },
+    {
+     "letter": "c",
+     "text": "Transact-SQL in Ms SQL Server"
+    },
+    {
+     "letter": "d",
+     "text": "SQL/PSM in MySQL"
+    }
+   ],
+   "explanation": "The lecture explicitly states it is focused on Transact-SQL capabilities, the language extending SQL available in Ms SQL Server (c). PL/SQL, PL/pgSQL, and SQL/PSM are other vendors' procedural extensions mentioned only as examples of differing standards."
+  },
+  {
+   "id": "q-gen-stored-procedures-03",
+   "exam": "",
+   "number": 3,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "In the Ms SQL Server hierarchy of server-side procedures presented in the lecture, which of the following are listed as kinds of stored procedures?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Standard SP"
+    },
+    {
+     "letter": "b",
+     "text": "Triggers"
+    },
+    {
+     "letter": "c",
+     "text": "Extended SP"
+    },
+    {
+     "letter": "d",
+     "text": "System SP"
+    }
+   ],
+   "explanation": "The hierarchy diagram branches \"Stored procedures\" into Standard SP, Triggers, Extended SP, and System SP, so all four are correct. Functions (parametrised views and scalar-returning functions) form the separate branch of server-side procedures."
+  },
+  {
+   "id": "q-gen-stored-procedures-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "According to the lecture, what is the role of System SP (procedury systemowe) in Ms SQL Server?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They are defined in DLLs to add arbitrary functionality"
+    },
+    {
+     "letter": "b",
+     "text": "They provide means to configure the DBMS and set options not available through SQL statements"
+    },
+    {
+     "letter": "c",
+     "text": "They are the only procedures allowed to return scalar values"
+    },
+    {
+     "letter": "d",
+     "text": "They are triggers that fire instead of a modification"
+    }
+   ],
+   "explanation": "The lecture describes System SP as providing the means to configure the DBMS and set options not available through ordinary SQL statements (b). Procedures defined in DLLs are Extended SP (a), scalar return is a property of functions (c), and INSTEAD OF behavior belongs to triggers (d)."
+  },
+  {
+   "id": "q-gen-stored-procedures-05",
+   "exam": "",
+   "number": 5,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "How does the lecture describe Extended SP (procedury rozszerzone)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Procedures that run instead of a CRUD statement"
+    },
+    {
+     "letter": "b",
+     "text": "Procedures scheduled by SQL Server Agent"
+    },
+    {
+     "letter": "c",
+     "text": "Procedures defined in DLLs that make it possible to extend Ms SQL Server functionality with arbitrary code"
+    },
+    {
+     "letter": "d",
+     "text": "Parametrised views returning a result set"
+    }
+   ],
+   "explanation": "The lecture states Extended SP are defined in DLLs, allowing Ms SQL Server functionality to be extended with arbitrary code (c). The other options describe triggers (a), scheduled jobs (b), and functions (d)."
+  },
+  {
+   "id": "q-gen-stored-procedures-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "In the basic stored-procedure syntax shown in the lecture, how can a procedure return multiple values to the caller?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "By declaring the procedure with the RETURNS keyword"
+    },
+    {
+     "letter": "b",
+     "text": "Through parameters declared with the OUTPUT keyword"
+    },
+    {
+     "letter": "c",
+     "text": "By defining the procedure as a parametrised view"
+    },
+    {
+     "letter": "d",
+     "text": "Only by raising an exception"
+    }
+   ],
+   "explanation": "The lecture's syntax shows `@parameterName ParameterType [OUTPUT]` and notes the procedure can return multiple values through OUTPUT parameters (b). RETURNS and parametrised views relate to functions, not the procedure return mechanism shown (a, c)."
+  },
+  {
+   "id": "q-gen-stored-procedures-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "d"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "In the sample `CalculateOrderCount` procedure, what mechanism is used to iterate over the customers of a given country one by one?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A recursive function call"
+    },
+    {
+     "letter": "b",
+     "text": "A WHILE loop driven by a GROUP BY clause"
+    },
+    {
+     "letter": "c",
+     "text": "An INSTEAD OF trigger"
+    },
+    {
+     "letter": "d",
+     "text": "A CURSOR with FETCH NEXT in a WHILE @@FETCH_STATUS = 0 loop"
+    }
+   ],
+   "explanation": "The sample declares a CURSOR, opens it, and repeatedly FETCHes the next customer while `@@FETCH_STATUS = 0`, updating each customer's OrderCount (d). The procedure uses no recursion, GROUP-BY-driven loop, or trigger."
+  },
+  {
+   "id": "q-gen-stored-procedures-08",
+   "exam": "",
+   "number": 8,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "According to the comparison of stored procedures versus direct query processing, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "With direct processing, each query and its result is a separate round-trip between client and DBMS"
+    },
+    {
+     "letter": "b",
+     "text": "Stored procedures require one round-trip per internal statement, just like direct processing"
+    },
+    {
+     "letter": "c",
+     "text": "Using stored procedures can significantly reduce network communication overhead"
+    },
+    {
+     "letter": "d",
+     "text": "Direct query processing performs all loops internally on the server with a single request"
+    }
+   ],
+   "explanation": "In the standard pattern each SQL query/result is its own client-DBMS round-trip (a), whereas a stored procedure executes internally and returns its result in a single round-trip, cutting network overhead (c). Statements b and d invert these facts."
+  },
+  {
+   "id": "q-gen-stored-procedures-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "The lecture identifies a key limitation of relying on database functions and stored procedures. What is it?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They cannot access more than one table"
+    },
+    {
+     "letter": "b",
+     "text": "They always run slower than equivalent ad hoc statements"
+    },
+    {
+     "letter": "c",
+     "text": "Different standards (such as Transact-SQL or PL/SQL) exist, leading to limited portability of the code"
+    },
+    {
+     "letter": "d",
+     "text": "They cannot be reused by more than one client application"
+    }
+   ],
+   "explanation": "The lecture stresses that because vendors use their own languages (Transact-SQL, PL/SQL, etc.), procedure/function code has limited portability (c). It also says such code is the most efficient and can be shared by many applications, contradicting b and d."
+  },
+  {
+   "id": "q-gen-stored-procedures-10",
+   "exam": "",
+   "number": 10,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "d"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "The lecture lists advantages of placing logic in database functions and stored procedures. Which of the following are stated benefits?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They allow creation of parametrised views and complex server-side processing"
+    },
+    {
+     "letter": "b",
+     "text": "They offer the most efficient processing thanks to reduced client-server communication overhead"
+    },
+    {
+     "letter": "c",
+     "text": "Their code is fully portable across all DBMS platforms"
+    },
+    {
+     "letter": "d",
+     "text": "Execution plans created by the database server make them faster than ad hoc statements"
+    }
+   ],
+   "explanation": "The lecture lists parametrised views/server-side processing (a), reduced communication overhead (b), and server-built execution plans beating ad hoc statements (d) as benefits. Portability is explicitly cited as the limitation, not a benefit, so c is wrong."
+  },
+  {
+   "id": "q-gen-stored-procedures-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "According to the lecture, if a single CRUD statement affects multiple records, how many times is an associated trigger activated?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Once for every affected record"
+    },
+    {
+     "letter": "b",
+     "text": "Only once, for the whole group of affected records"
+    },
+    {
+     "letter": "c",
+     "text": "Twice: once before and once after the statement"
+    },
+    {
+     "letter": "d",
+     "text": "It depends on the number of columns modified"
+    }
+   ],
+   "explanation": "The lecture explicitly notes that when multiple records are affected by one CRUD statement, the trigger is activated only once, for the whole group of records (b). It is not fired per row or per column."
+  },
+  {
+   "id": "q-gen-stored-procedures-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "What distinguishes an INSTEAD OF trigger from an AFTER trigger, per the lecture?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "INSTEAD OF triggers can only be defined on functions"
+    },
+    {
+     "letter": "b",
+     "text": "AFTER triggers replace the original action, while INSTEAD OF triggers run before it"
+    },
+    {
+     "letter": "c",
+     "text": "AFTER triggers run after the action completes, while INSTEAD OF triggers run in place of the original action"
+    },
+    {
+     "letter": "d",
+     "text": "Both run only when no rows are affected"
+    }
+   ],
+   "explanation": "The lecture states AFTER triggers are called after an action (e.g. after a record is inserted), whereas INSTEAD OF triggers are called instead of the original action they are defined for (c). Option b reverses these roles."
+  },
+  {
+   "id": "q-gen-stored-procedures-13",
+   "exam": "",
+   "number": 13,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "Based on the \"Triggers - remarks\" slide, which statements about triggers are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Trigger capabilities may depend on the SQL implementation"
+    },
+    {
+     "letter": "b",
+     "text": "On some DBMS platforms, triggers can be defined for views as well as tables"
+    },
+    {
+     "letter": "c",
+     "text": "A trigger can change the content of another or even the same table, potentially causing the DBMS to fire other triggers"
+    },
+    {
+     "letter": "d",
+     "text": "Triggers are guaranteed to behave identically across every DBMS platform"
+    }
+   ],
+   "explanation": "The lecture states trigger capabilities depend on the implementation (a), some platforms allow triggers on views (b), and a trigger modifying tables can cause other triggers to fire (c). Identical cross-platform behavior is contradicted by a, making d false."
+  },
+  {
+   "id": "q-gen-stored-procedures-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "In the trigger syntax `CREATE TRIGGER TriggerName ON TableName {AFTER|INSTEAD OF} {INSERT,UPDATE,DELETE} AS TriggerCode`, what does the `ON TableName` clause specify?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The schema in which the trigger code is compiled"
+    },
+    {
+     "letter": "b",
+     "text": "The table the trigger is associated with and whose modifications activate it"
+    },
+    {
+     "letter": "c",
+     "text": "The output parameter that the trigger returns"
+    },
+    {
+     "letter": "d",
+     "text": "The execution plan to be reused"
+    }
+   ],
+   "explanation": "The `ON TableName` clause binds the trigger to a specific table, so modifications to that table activate the trigger (b). It does not designate a schema, output parameter, or execution plan."
+  },
+  {
+   "id": "q-gen-stored-procedures-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "The example trigger `InsertOrder` uses `SET @customer = (SELECT CustomerId FROM inserted)`. What assumption does the lecture explicitly note about this code?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "That the Orders table has no primary key"
+    },
+    {
+     "letter": "b",
+     "text": "That the trigger is an INSTEAD OF trigger"
+    },
+    {
+     "letter": "c",
+     "text": "That only one order is inserted by the INSERT statement"
+    },
+    {
+     "letter": "d",
+     "text": "That OrderCount is recomputed from scratch every time"
+    }
+   ],
+   "explanation": "The lecture notes the code assumes one order is inserted per INSERT statement, warning that multiple rows can be inserted at once via INSERT ... SELECT (c). The trigger is AFTER INSERT and increments OrderCount rather than recomputing it."
+  },
+  {
+   "id": "q-gen-stored-procedures-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "Which Ms SQL Server service is described as responsible for managing jobs that execute actions on a regular basis (for example, every night)?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "SQL Server Profiler"
+    },
+    {
+     "letter": "b",
+     "text": "SQL Server Agent"
+    },
+    {
+     "letter": "c",
+     "text": "SQL Server Reporting Services"
+    },
+    {
+     "letter": "d",
+     "text": "Database Engine Tuning Advisor"
+    }
+   ],
+   "explanation": "The lecture identifies SQL Server Agent as the service responsible for managing jobs, allowing stored procedures to run automatically on a schedule (b). The other components are unrelated SQL Server tools not mentioned for job scheduling."
+  },
+  {
+   "id": "q-gen-stored-procedures-17",
+   "exam": "",
+   "number": 17,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "According to the lecture's treatment of regularly executed jobs in Ms SQL Server, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A job can be composed of multiple steps of different categories, including the execution of operating system commands"
+    },
+    {
+     "letter": "b",
+     "text": "Jobs can only be created through the graphical interface, never programmatically"
+    },
+    {
+     "letter": "c",
+     "text": "Jobs can also be created programmatically with Transact-SQL"
+    },
+    {
+     "letter": "d",
+     "text": "Each job is limited to executing exactly one stored procedure and nothing else"
+    }
+   ],
+   "explanation": "The lecture states jobs can have multiple steps of different categories including OS commands (a) and can be created programmatically with Transact-SQL (c). This contradicts b and d, which falsely restrict jobs to the GUI and to a single procedure."
+  },
+  {
+   "id": "q-gen-stored-procedures-18",
+   "exam": "",
+   "number": 18,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "The lecture explains how stored procedures can be faster than equivalent ad hoc statements. What mechanism does it cite?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They bypass the DBMS and run directly on the operating system"
+    },
+    {
+     "letter": "b",
+     "text": "They automatically create indexes on all referenced tables"
+    },
+    {
+     "letter": "c",
+     "text": "The DBMS can maintain a cached execution plan for the whole SP, compiled and analysed beforehand"
+    },
+    {
+     "letter": "d",
+     "text": "They convert all SELECT statements into materialised views"
+    }
+   ],
+   "explanation": "The lecture states an SP can take advantage of an execution plan: the DBMS caches the best predicted method of accessing data for the entire SP, compiled and analysed beforehand (c). It does not bypass the DBMS, auto-create indexes, or build materialised views."
+  },
+  {
+   "id": "q-gen-stored-procedures-19",
+   "exam": "",
+   "number": 19,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "The lecture argues that DBMS-side processing is well suited to performance-critical work. Which reasons does it give?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "DBMSs typically run continuously on high-performance servers"
+    },
+    {
+     "letter": "b",
+     "text": "The DBMS provides the best environment for high-performance processing of relational data"
+    },
+    {
+     "letter": "c",
+     "text": "Stored procedures and functions can efficiently process data already present in the relational database"
+    },
+    {
+     "letter": "d",
+     "text": "Client applications always have faster CPUs than database servers"
+    }
+   ],
+   "explanation": "The lecture states DBMSs run continuously on high-performance servers (a), provide the best environment for high-performance relational processing (b), and let SPs/functions efficiently process resident data (c). Option d is not claimed and would undercut the argument for server-side processing."
+  },
+  {
+   "id": "q-gen-stored-procedures-20",
+   "exam": "",
+   "number": 20,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "stored-procedures"
+   ],
+   "stem": "According to the lecture's summary and \"SP, triggers and functions\" slide, which statements are correct?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The main advantage of stored procedures is that their code is highly portable between vendors"
+    },
+    {
+     "letter": "b",
+     "text": "SPs, triggers, and functions enable the most efficient form of data processing, useful when time really matters"
+    },
+    {
+     "letter": "c",
+     "text": "Triggers help perform the same actions regardless of which application issued the CRUD statement, ensuring consistent processing"
+    },
+    {
+     "letter": "d",
+     "text": "Functionality implemented in an SP cannot be shared across multiple client applications"
+    }
+   ],
+   "explanation": "The lecture summarises that these constructs offer the most efficient processing (b) and that triggers ensure consistent behaviour no matter which application issued the statement (c). Portability is the key limitation (not an advantage), and the lecture stresses that SP functionality can be shared among many applications, so a and d are false."
+  },
+  {
+   "id": "q-gen-vector-databases-01",
+   "exam": "",
+   "number": 1,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "What is the primary purpose for which vector databases store high-dimensional feature vectors?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "To enforce referential integrity between relational tables"
+    },
+    {
+     "letter": "b",
+     "text": "To support retrieval/search applications such as LLMs, recommendation systems, and document retrieval by finding similar vectors"
+    },
+    {
+     "letter": "c",
+     "text": "To compress text content for cheaper long-term archival storage"
+    },
+    {
+     "letter": "d",
+     "text": "To replace primary keys with floating-point identifiers"
+    }
+   ],
+   "explanation": "The presentation states that vector databases store high-dimensional feature vectors used by retrieval search applications, including LLMs, recommendation systems, document retrieval, and e-commerce. They are about similarity search, not integrity enforcement, compression, or replacing primary keys."
+  },
+  {
+   "id": "q-gen-vector-databases-02",
+   "exam": "",
+   "number": 2,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "In the pgvector examples, which operator denotes the L2 (Euclidean) distance between vectors?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`<=>`"
+    },
+    {
+     "letter": "b",
+     "text": "`<#>`"
+    },
+    {
+     "letter": "c",
+     "text": "`<->`"
+    },
+    {
+     "letter": "d",
+     "text": "`<@>`"
+    }
+   ],
+   "explanation": "The presentation explicitly states that `<->` denotes L2 distance (Euclidean distance), while `<=>` is used for cosine distance. The other operators are not the ones presented for Euclidean distance."
+  },
+  {
+   "id": "q-gen-vector-databases-03",
+   "exam": "",
+   "number": 3,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "According to the presentation, what does the pgvector operator `<=>` compute?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "L2 (Euclidean) distance"
+    },
+    {
+     "letter": "b",
+     "text": "Cosine distance"
+    },
+    {
+     "letter": "c",
+     "text": "Hamming distance"
+    },
+    {
+     "letter": "d",
+     "text": "The dot product"
+    }
+   ],
+   "explanation": "The presentation states \"Cosine distance is obtained by `<=>`\", in contrast to `<->` which gives L2 (Euclidean) distance. Hamming distance and dot product are not the operations assigned to `<=>` in the slides."
+  },
+  {
+   "id": "q-gen-vector-databases-04",
+   "exam": "",
+   "number": 4,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "What is pgvector, as described in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A standalone vector database competing with Pinecone and Milvus"
+    },
+    {
+     "letter": "b",
+     "text": "A Python library for computing text embeddings"
+    },
+    {
+     "letter": "c",
+     "text": "An open source similarity search extension for PostgreSQL"
+    },
+    {
+     "letter": "d",
+     "text": "A Docker image used to deploy JupyterLab"
+    }
+   ],
+   "explanation": "The presentation describes pgvector as the open source similarity search extension for PostgreSQL that makes search operations possible. It is not a standalone database, not an embedding library (that role is filled by sentence-transformers), and not a Docker image."
+  },
+  {
+   "id": "q-gen-vector-databases-05",
+   "exam": "",
+   "number": 5,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "According to the presentation, which distance functions does pgvector support? (Select all that apply.)",
+   "options": [
+    {
+     "letter": "a",
+     "text": "L2 distance (Euclidean)"
+    },
+    {
+     "letter": "b",
+     "text": "Cosine distance"
+    },
+    {
+     "letter": "c",
+     "text": "L1 distance (Manhattan)"
+    },
+    {
+     "letter": "d",
+     "text": "Hamming distance"
+    }
+   ],
+   "explanation": "The presentation lists all four: pgvector supports several distance functions including L2 distance (Euclidean), cosine distance, L1 distance (Manhattan), and Hamming distance. All four options are correct."
+  },
+  {
+   "id": "q-gen-vector-databases-06",
+   "exam": "",
+   "number": 6,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "What is the dimensionality of the embeddings produced by the SBERT model `all-MiniLM-L6-v2` in the presentation?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "768"
+    },
+    {
+     "letter": "b",
+     "text": "384"
+    },
+    {
+     "letter": "c",
+     "text": "512"
+    },
+    {
+     "letter": "d",
+     "text": "1536"
+    }
+   ],
+   "explanation": "The presentation shows the embedding length reported as 384 for each sentence and states these are 384-dimensional embeddings, describing the embedding as a function f: sentence -> R384. The other values are common embedding sizes for other models but not this one."
+  },
+  {
+   "id": "q-gen-vector-databases-07",
+   "exam": "",
+   "number": 7,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "What does RAG (Retrieval-Augmented Generation), as mentioned in the presentation, refer to?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "A graph-based indexing strategy for approximate nearest neighbour search"
+    },
+    {
+     "letter": "b",
+     "text": "A method of compressing vectors to reduce storage cost"
+    },
+    {
+     "letter": "c",
+     "text": "Systems that answer questions (often as prompts) based on the content of your database"
+    },
+    {
+     "letter": "d",
+     "text": "A relational join algorithm optimized for high-dimensional keys"
+    }
+   ],
+   "explanation": "The presentation defines RAG as systems which answer questions, frequently in the form of prompts, based on the content of your database. It is a use case, not an indexing strategy, compression method, or join algorithm."
+  },
+  {
+   "id": "q-gen-vector-databases-08",
+   "exam": "",
+   "number": 8,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "According to the presentation, queries that find records with the most similar vectors can rely on which approaches? (Select all that apply.)",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Exact search, also known as k-nearest neighbor (kNN)"
+    },
+    {
+     "letter": "b",
+     "text": "Full table scan using SQL LIKE patterns"
+    },
+    {
+     "letter": "c",
+     "text": "Approximate vector search (approximate nearest neighbour)"
+    },
+    {
+     "letter": "d",
+     "text": "B-tree range scans over sorted vector values"
+    }
+   ],
+   "explanation": "The presentation states that similarity queries can rely on exact search (kNN), which can be expensive, or on approximate vector search (approximate nearest neighbour). LIKE-based pattern matching is contrasted as the old exact-match approach, and vectors are noted as not sortable, so B-tree range scans do not apply."
+  },
+  {
+   "id": "q-gen-vector-databases-09",
+   "exam": "",
+   "number": 9,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "The presentation notes a key reason vectors are difficult to index in the traditional sense. What is it?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Vectors always exceed the maximum BLOB size of databases"
+    },
+    {
+     "letter": "b",
+     "text": "Vector collections are not sortable"
+    },
+    {
+     "letter": "c",
+     "text": "Vectors cannot be stored in PostgreSQL"
+    },
+    {
+     "letter": "d",
+     "text": "Vectors must be encrypted before indexing"
+    }
+   ],
+   "explanation": "The presentation states that vectors can not be easily indexed because vector collections are not sortable. The other statements are not the reason given; pgvector does store vectors in PostgreSQL and encryption is never mentioned as a requirement."
+  },
+  {
+   "id": "q-gen-vector-databases-10",
+   "exam": "",
+   "number": 10,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "Which of the following are named in the presentation as examples of dedicated vector databases? (Select all that apply.)",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Pinecone"
+    },
+    {
+     "letter": "b",
+     "text": "Milvus"
+    },
+    {
+     "letter": "c",
+     "text": "Qdrant"
+    },
+    {
+     "letter": "d",
+     "text": "PostgreSQL"
+    }
+   ],
+   "explanation": "The presentation lists Pinecone, Milvus, and Qdrant as dedicated vector databases. PostgreSQL is presented as the alternative approach: an existing relational DBMS extended with vector capabilities (via pgvector), not a dedicated vector database."
+  },
+  {
+   "id": "q-gen-vector-databases-11",
+   "exam": "",
+   "number": 11,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "In the pgvector example, which SQL clause is used to return the rows whose vectors are closest to a query vector?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`WHERE embedding = '[3,2,2.5]'`"
+    },
+    {
+     "letter": "b",
+     "text": "`ORDER BY embedding <-> '[3,2,2.5]' LIMIT 2`"
+    },
+    {
+     "letter": "c",
+     "text": "`GROUP BY embedding HAVING distance < 1`"
+    },
+    {
+     "letter": "d",
+     "text": "`JOIN vectors ON embedding NEAR '[3,2,2.5]'`"
+    }
+   ],
+   "explanation": "The presentation queries similar vectors with `SELECT * FROM first_items ORDER BY embedding <-> '[3,2,2.5]' LIMIT 2`, ordering by the distance operator and limiting the number of rows. Exact equality, GROUP BY/HAVING, and a NEAR join operator are not used for similarity search."
+  },
+  {
+   "id": "q-gen-vector-databases-12",
+   "exam": "",
+   "number": 12,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "In the presentation's text-querying example, cosine similarity is computed from cosine distance using which expression?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`embedding <-> %s::vector`"
+    },
+    {
+     "letter": "b",
+     "text": "`embedding <=> %s::vector`"
+    },
+    {
+     "letter": "c",
+     "text": "`1 - (embedding <=> %s::vector)`"
+    },
+    {
+     "letter": "d",
+     "text": "`1 / (embedding <-> %s::vector)`"
+    }
+   ],
+   "explanation": "The presentation's query selects `1 - (embedding <=> %s::vector) AS cosine_similarity`, converting cosine distance into cosine similarity. The bare `<=>` operator returns the distance, not the similarity, and the other expressions are not used."
+  },
+  {
+   "id": "q-gen-vector-databases-13",
+   "exam": "",
+   "number": 13,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "Which Python library is used in the presentation to compute embeddings from text?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "scikit-learn"
+    },
+    {
+     "letter": "b",
+     "text": "sentence-transformers (SBERT)"
+    },
+    {
+     "letter": "c",
+     "text": "pgvector-py"
+    },
+    {
+     "letter": "d",
+     "text": "TensorFlow Hub"
+    }
+   ],
+   "explanation": "The presentation installs and uses the sentence-transformers (SBERT) library, documented at sbert.net, to compute embeddings from text (and it can also handle images, audio, or video). The other libraries are not used in the examples."
+  },
+  {
+   "id": "q-gen-vector-databases-14",
+   "exam": "",
+   "number": 14,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "In the example, the table is created with `CREATE TABLE first_items (id serial PRIMARY KEY, embedding vector(3), name varchar(20));`. What does `vector(3)` specify?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "That up to 3 rows can be stored"
+    },
+    {
+     "letter": "b",
+     "text": "That the embedding column holds a 3-dimensional vector"
+    },
+    {
+     "letter": "c",
+     "text": "That 3 separate indexes will be created"
+    },
+    {
+     "letter": "d",
+     "text": "That the vector has 3 bytes of precision"
+    }
+   ],
+   "explanation": "In pgvector, `vector(3)` declares a column storing fixed-length 3-dimensional vectors; in the more realistic example the documents table uses `vector(384)` to match the 384-dimensional SBERT embeddings. It does not limit row counts, define indexes, or set byte precision."
+  },
+  {
+   "id": "q-gen-vector-databases-15",
+   "exam": "",
+   "number": 15,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "According to the presentation, what type of search do vector databases primarily enable, compared with traditional databases?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Faster exact-match lookups on integer primary keys"
+    },
+    {
+     "letter": "b",
+     "text": "Pattern-based search using the SQL LIKE operator"
+    },
+    {
+     "letter": "c",
+     "text": "Semantic search rather than exact match-based querying"
+    },
+    {
+     "letter": "d",
+     "text": "Transactional locking across distributed shards"
+    }
+   ],
+   "explanation": "The summary slide states that vector databases enable semantic search rather than exact match-based querying or querying based on patterns available with LIKE. Exact-match key lookups and LIKE patterns are the traditional capabilities being contrasted, and locking is unrelated."
+  },
+  {
+   "id": "q-gen-vector-databases-16",
+   "exam": "",
+   "number": 16,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "The presentation notes that \"a separate index is typically created\" under which condition?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "For each table in the database"
+    },
+    {
+     "letter": "b",
+     "text": "For each distance function that you plan to use"
+    },
+    {
+     "letter": "c",
+     "text": "For every individual vector inserted"
+    },
+    {
+     "letter": "d",
+     "text": "For each user connected to the database"
+    }
+   ],
+   "explanation": "The presentation explicitly notes that a separate index is typically created for each distance function that we plan to use. It is not per-table, per-vector, or per-user."
+  },
+  {
+   "id": "q-gen-vector-databases-17",
+   "exam": "",
+   "number": 17,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "According to the presentation, which indexing approaches are mentioned for reducing the computational cost of vector search? (Select all that apply.)",
+   "options": [
+    {
+     "letter": "a",
+     "text": "The use of graphs"
+    },
+    {
+     "letter": "b",
+     "text": "The use of lists that divide vectors into subsets, searching only the lists closest to the query vector"
+    },
+    {
+     "letter": "c",
+     "text": "Hash-partitioned B-trees on the primary key"
+    },
+    {
+     "letter": "d",
+     "text": "Bitmap indexes over the raw text column"
+    }
+   ],
+   "explanation": "The presentation lists two indexing approaches: the use of graphs, and the use of lists to divide vectors into lists so that only the subsets closest to the vector of interest are searched. B-trees and bitmap indexes on text are not the vector indexing strategies presented."
+  },
+  {
+   "id": "q-gen-vector-databases-18",
+   "exam": "",
+   "number": 18,
+   "type": "multi",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "a",
+    "b",
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "The presentation describes new challenges in running vector databases. Which of the following are listed? (Select all that apply.)",
+   "options": [
+    {
+     "letter": "a",
+     "text": "Calculating embeddings"
+    },
+    {
+     "letter": "b",
+     "text": "Efficient similarity search using different distance functions"
+    },
+    {
+     "letter": "c",
+     "text": "Development of Retrieval-Augmented Generation (RAG) solutions"
+    },
+    {
+     "letter": "d",
+     "text": "Enforcing foreign-key constraints between vector columns"
+    }
+   ],
+   "explanation": "The summary slide lists calculating embeddings, efficient similarity search using different distance functions, and developing RAG solutions as the new challenges. Enforcing foreign-key constraints between vector columns is not mentioned and is unrelated to the challenges described."
+  },
+  {
+   "id": "q-gen-vector-databases-19",
+   "exam": "",
+   "number": 19,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "b"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "According to the presentation, why are traditional platforms (RDBMSs with SQL, Apache Hadoop, columnar NoSQL) considered unsuitable for multimedia similarity search?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "They cannot store binary or text data at all"
+    },
+    {
+     "letter": "b",
+     "text": "None of them supports an efficient search for similar text or image content, and even defining similarity mathematically is challenging"
+    },
+    {
+     "letter": "c",
+     "text": "They lack support for the JSON data type"
+    },
+    {
+     "letter": "d",
+     "text": "They cannot scale beyond a few thousand records"
+    }
+   ],
+   "explanation": "The presentation states that none of these platforms supports an efficient search for similar text or image content, and that even defining what \"similar\" means in mathematical terms is a challenge, which is why vector DBMSs were conceived. Storage of binary/text is in fact possible (just with limited querying), so the other options are incorrect."
+  },
+  {
+   "id": "q-gen-vector-databases-20",
+   "exam": "",
+   "number": 20,
+   "type": "single",
+   "generated": true,
+   "tags": [
+    "AI-generated"
+   ],
+   "correct": [
+    "c"
+   ],
+   "pdfs": [
+    "vector-databases"
+   ],
+   "stem": "In the PostgreSQL setup appendix, which command enables the pgvector functionality within the database session?",
+   "options": [
+    {
+     "letter": "a",
+     "text": "`INSTALL pgvector;`"
+    },
+    {
+     "letter": "b",
+     "text": "`IMPORT EXTENSION vector;`"
+    },
+    {
+     "letter": "c",
+     "text": "`CREATE EXTENSION vector;`"
+    },
+    {
+     "letter": "d",
+     "text": "`ENABLE vector;`"
+    }
+   ],
+   "explanation": "The appendix shows that after connecting to the database the pgvector functionality is enabled with `CREATE EXTENSION vector;` (the extension is already installed in the container). The other command forms are not valid PostgreSQL syntax shown in the presentation."
   }
  ]
 };

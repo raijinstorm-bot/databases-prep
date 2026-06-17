@@ -10,27 +10,38 @@
   <div class="wrap">
     <header>
       <h1>Databases — Exam Quiz</h1>
-      <p class="sub">Pick the past exams you want, take the quiz, see your score.</p>
+      <p class="sub">Study by exam year or by topic — or roll a random quiz.</p>
     </header>
 
     <!-- START -->
-    <section id="start" class="card">
-      <h2>Choose exam(s)</h2>
-      <div id="exam-list" class="exam-list"></div>
-      <div class="row">
-        <label class="toggle"><input type="checkbox" id="shuffle" checked /> Shuffle questions</label>
+    <section id="start" class="card screen">
+      <div class="seg" id="mode-seg">
+        <button class="seg-btn active" data-mode="year">By year</button>
+        <button class="seg-btn" data-mode="topic">By topic</button>
+      </div>
+
+      <p id="select-hint" class="hint"></p>
+      <div id="select-list" class="select-list"></div>
+
+      <div class="row controls">
+        <label class="toggle"><input type="checkbox" id="shuffle" checked /> Shuffle</label>
         <div class="spacer"></div>
+        <span id="sel-count" class="sel-count"></span>
         <button id="start-btn" class="primary">Start quiz</button>
       </div>
+
+      <div class="divider"><span>or</span></div>
+      <button id="random-btn" class="random">🎲 Random 20 questions</button>
     </section>
 
     <!-- QUIZ -->
-    <section id="quiz" class="card hidden">
+    <section id="quiz" class="card screen hidden">
       <div class="progress-bar"><div id="bar"></div></div>
       <div class="qmeta">
         <span id="qcount"></span>
         <span id="qscore"></span>
       </div>
+      <div id="badges" class="badges"></div>
       <div id="stem" class="stem"></div>
       <div id="options" class="options"></div>
       <div id="verdict"></div>
@@ -44,7 +55,7 @@
     </section>
 
     <!-- RESULTS -->
-    <section id="results" class="card hidden"></section>
+    <section id="results" class="card screen hidden"></section>
 
     <footer>Static study app · data built from <code>questions/</code></footer>
   </div>
