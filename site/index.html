@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Databases — Exam Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Databases — Exam Quiz</h1>
+      <p class="sub">Pick the past exams you want, take the quiz, see your score.</p>
+    </header>
+
+    <!-- START -->
+    <section id="start" class="card">
+      <h2>Choose exam(s)</h2>
+      <div id="exam-list" class="exam-list"></div>
+      <div class="row">
+        <label class="toggle"><input type="checkbox" id="shuffle" checked /> Shuffle questions</label>
+        <div class="spacer"></div>
+        <button id="start-btn" class="primary">Start quiz</button>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="card hidden">
+      <div class="progress-bar"><div id="bar"></div></div>
+      <div class="qmeta">
+        <span id="qcount"></span>
+        <span id="qscore"></span>
+      </div>
+      <div id="stem" class="stem"></div>
+      <div id="options" class="options"></div>
+      <div id="verdict"></div>
+      <div id="explain"></div>
+      <div class="row" style="margin-top:20px;">
+        <button id="quit-btn" class="ghost">Quit</button>
+        <div class="spacer"></div>
+        <button id="check-btn" class="primary">Check answer</button>
+        <button id="next-btn" class="primary hidden">Next</button>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results" class="card hidden"></section>
+
+    <footer>Static study app · data built from <code>questions/</code></footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
