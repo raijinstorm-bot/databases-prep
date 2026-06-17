@@ -37,11 +37,84 @@
     return e ? e.label : id;
   }
 
+  // ---------- stats (localStorage, per-question, recency-weighted) ----------
+  var STORE_KEY = "db_quiz_stats_v1";
+  // Tweak the grading here: how strongly recent attempts dominate older ones.
+  var SCORING = { qDecay: 0.55, topicDecay: 0.6, weakThreshold: 0.7, attemptCap: 25 };
+
+  function loadStats() {
+    try { return JSON.parse(localStorage.getItem(STORE_KEY)) || { questions: {} }; }
+    catch (e) { return { questions: {} }; }
+  }
+  function saveStats() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(STATS)); } catch (e) {}
+  }
+  var STATS = loadStats();
+
+  function recordAttempt(qid, ok) {
+    var rec = STATS.questions[qid] || (STATS.questions[qid] = { attempts: [] });
+    rec.attempts.push({ ts: Date.now(), run: currentRun, ok: ok ? 1 : 0 });
+    if (rec.attempts.length > SCORING.attemptCap) rec.attempts.shift();
+    saveStats();
+  }
+
+  // recency-weighted score in [0,1] for one question; null if never attempted
+  function qScore(qid) {
+    var rec = STATS.questions[qid];
+    if (!rec || !rec.attempts.length) return null;
+    var a = rec.attempts.slice().sort(function (x, y) { return x.ts - y.ts; });
+    var num = 0, den = 0, w = 1;
+    for (var i = a.length - 1; i >= 0; i--) { num += w * a[i].ok; den += w; w *= SCORING.qDecay; }
+    return den ? num / den : null;
+  }
+  function qLastTs(qid) {
+    var rec = STATS.questions[qid];
+    if (!rec || !rec.attempts.length) return 0;
+    return rec.attempts.reduce(function (m, x) { return x.ts > m ? x.ts : m; }, 0);
+  }
+
+  // topic score: recency-weighted across the topic's attempted questions
+  function topicStat(slug) {
+    var qs = DATA.questions.filter(function (q) {
+      return q.type !== "open" && (q.pdfs || []).indexOf(slug) !== -1;
+    });
+    var attempted = qs.filter(function (q) { return qScore(q.id) !== null; });
+    if (!attempted.length) return { score: null, tried: 0, total: qs.length };
+    attempted.sort(function (a, b) { return qLastTs(b.id) - qLastTs(a.id); });
+    var num = 0, den = 0, w = 1;
+    attempted.forEach(function (q) { num += w * qScore(q.id); den += w; w *= SCORING.topicDecay; });
+    return { score: den ? num / den : null, tried: attempted.length, total: qs.length };
+  }
+  function overallStat() {
+    var ids = Object.keys(STATS.questions);
+    var scored = ids.map(function (id) { return { s: qScore(id), ts: qLastTs(id) }; })
+      .filter(function (x) { return x.s !== null; });
+    scored.sort(function (a, b) { return b.ts - a.ts; });
+    var num = 0, den = 0, w = 1;
+    scored.forEach(function (x) { num += w * x.s; den += w; w *= SCORING.topicDecay; });
+    var attempts = ids.reduce(function (n, id) { return n + STATS.questions[id].attempts.length; }, 0);
+    return { score: den ? num / den : null, tried: scored.length, attempts: attempts };
+  }
+  function grade10(score) { return score === null ? null : Math.round((1 + 9 * score) * 10) / 10; }
+  function gradeClass(g) { return g === null ? "" : (g >= 7 ? "g-good" : (g >= 4 ? "g-mid" : "g-bad")); }
+
+  // weakest-first practice quiz; scope = topic slug or null (everything)
+  function buildWeakQuiz(scope) {
+    var pool = DATA.questions.filter(function (q) {
+      return q.type !== "open" && (!scope || (q.pdfs || []).indexOf(scope) !== -1);
+    }).map(function (q) { return { q: q, s: qScore(q.id) }; });
+    var weak = pool.filter(function (x) { return x.s !== null && x.s < SCORING.weakThreshold; })
+      .sort(function (a, b) { return a.s - b.s; });
+    var rest = shuffle(pool.filter(function (x) { return weak.indexOf(x) === -1; }));
+    var ordered = weak.concat(rest).map(function (x) { return x.q; });
+    return ordered.slice(0, Math.min(20, ordered.length));
+  }
+
   // ---------- state ----------
   var mode = "year";
   var selYear = {};
   var selTopic = {};
-  var quiz = [], openStudy = [], idx = 0, answers = [], locked = false;
+  var quiz = [], openStudy = [], idx = 0, answers = [], locked = false, currentRun = null;
 
   // ---------- start screen ----------
   function renderStart() {
@@ -118,7 +191,7 @@
     else closed.sort(function (a, b) {
       return a.exam === b.exam ? a.number - b.number : (a.exam < b.exam ? -1 : 1);
     });
-    quiz = closed; idx = 0; answers = [];
+    quiz = closed; idx = 0; answers = []; currentRun = "r" + Date.now();
     show("quiz"); renderQuestion();
   }
 
@@ -126,8 +199,15 @@
     var closed = DATA.questions.filter(function (q) { return q.type !== "open"; });
     shuffle(closed);
     quiz = closed.slice(0, 20);
-    openStudy = []; idx = 0; answers = [];
+    openStudy = []; idx = 0; answers = []; currentRun = "r" + Date.now();
     if (!quiz.length) return;
+    show("quiz"); renderQuestion();
+  }
+
+  function startPractice(scope) {
+    var list = buildWeakQuiz(scope);
+    if (!list.length) return;
+    quiz = list; openStudy = []; idx = 0; answers = []; currentRun = "r" + Date.now();
     show("quiz"); renderQuestion();
   }
 
@@ -183,6 +263,7 @@
       .map(function (r) { return r.dataset.letter; });
     var isCorrect = sameSet(selected, q.correct);
     answers.push({ q: q, selected: selected, correct: isCorrect });
+    recordAttempt(q.id, isCorrect);
 
     rows.forEach(function (r) {
       var letter = r.dataset.letter;
@@ -251,10 +332,70 @@
       });
     }
 
-    html += '<div class="row" style="margin-top:26px;"><div class="spacer"></div>' +
+    html += '<div class="row" style="margin-top:26px;">' +
+      '<button id="results-stats" class="ghost">📊 View stats</button><div class="spacer"></div>' +
       '<button id="again-btn" class="primary">Back to start</button></div>';
     $("results").innerHTML = html;
     $("again-btn").addEventListener("click", function () { show("start"); });
+    $("results-stats").addEventListener("click", renderStats);
+  }
+
+  // ---------- stats screen ----------
+  function renderStats() {
+    show("stats");
+    var ov = overallStat();
+    var html = "<h2>Your progress</h2>";
+    if (ov.score === null) {
+      html += "<p class='empty'>Answer some questions and your per-topic grades (1–10) will appear here. Progress is saved in this browser only.</p>";
+      html += statsFooter();
+      $("stats").innerHTML = html; wireStats(); return;
+    }
+    var og = grade10(ov.score);
+    html += "<div class='overall'><div class='score " + gradeClass(og) + "'>" + og.toFixed(1) +
+      "<small>/10</small></div><div class='ov-meta'>" + Math.round(ov.score * 100) +
+      "% recency-weighted · " + ov.tried + " questions practised · " + ov.attempts + " attempts</div></div>";
+    html += "<button id='weak-btn' class='weak'>🎯 Practice my weak spots</button>";
+
+    var rows = DATA.topics.map(function (t) {
+      var st = topicStat(t.slug);
+      return { t: t, st: st, g: grade10(st.score) };
+    });
+    rows.sort(function (a, b) {
+      if (a.st.score === null && b.st.score === null) return a.t.name < b.t.name ? -1 : 1;
+      if (a.st.score === null) return 1;
+      if (b.st.score === null) return -1;
+      return a.st.score - b.st.score;
+    });
+    html += "<div class='stat-list'>";
+    rows.forEach(function (r) {
+      var pct = r.st.score === null ? 0 : Math.round(r.st.score * 100);
+      var gtxt = r.g === null ? "—" : r.g.toFixed(1);
+      html += "<div class='stat-row'>" +
+        "<div class='stat-head'><span class='stat-name'>" + esc(r.t.name) + "</span>" +
+        "<span class='grade " + gradeClass(r.g) + "'>" + gtxt + "</span></div>" +
+        "<div class='stat-bar'><div class='" + gradeClass(r.g) + "' style='width:" + pct + "%'></div></div>" +
+        "<div class='stat-sub'><span>" + r.st.tried + "/" + r.st.total + " practised</span>" +
+        "<button class='mini' data-topic='" + r.t.slug + "'>Practice</button></div></div>";
+    });
+    html += "</div>" + statsFooter();
+    $("stats").innerHTML = html;
+    wireStats();
+  }
+  function statsFooter() {
+    return "<div class='row' style='margin-top:24px;'>" +
+      "<button id='reset-btn' class='ghost'>Reset stats</button><div class='spacer'></div>" +
+      "<button id='stats-back' class='primary'>Back</button></div>";
+  }
+  function wireStats() {
+    var wb = $("weak-btn"); if (wb) wb.addEventListener("click", function () { startPractice(null); });
+    Array.prototype.forEach.call(document.querySelectorAll(".mini[data-topic]"), function (b) {
+      b.addEventListener("click", function () { startPractice(b.dataset.topic); });
+    });
+    $("stats-back").addEventListener("click", function () { show("start"); });
+    var rb = $("reset-btn");
+    if (rb) rb.addEventListener("click", function () {
+      if (confirm("Reset all saved progress on this device?")) { STATS = { questions: {} }; saveStats(); renderStats(); }
+    });
   }
 
   function reviewItem(a) {
@@ -274,7 +415,7 @@
 
   // ---------- screens ----------
   function show(name) {
-    ["start", "quiz", "results"].forEach(function (s) {
+    ["start", "quiz", "results", "stats"].forEach(function (s) {
       $(s).classList.toggle("hidden", s !== name);
     });
     // retrigger entrance animation
@@ -294,6 +435,7 @@
   });
   $("start-btn").addEventListener("click", startQuiz);
   $("random-btn").addEventListener("click", startRandom);
+  $("stats-btn").addEventListener("click", renderStats);
   $("check-btn").addEventListener("click", checkAnswer);
   $("next-btn").addEventListener("click", next);
   $("quit-btn").addEventListener("click", function () {

@@ -5,6 +5,14 @@ exam), **by topic** (a lecture presentation), or roll a **random 20-question**
 quiz. Single/multi choice — the UI never reveals which — with scoring and a
 review of everything you missed. Deployable to GitHub Pages with zero backend.
 
+Progress tracking (no login): every answer is saved in the browser's
+`localStorage` (per question, with run id + timestamp). A **Stats** view shows a
+per-topic grade out of 10, computed with **recency-weighted** scoring (recent
+attempts dominate old ones, so improvement shows up fast), plus a
+"🎯 Practice my weak spots" quiz and per-topic practice. Tunable in
+`site/app.js` via the `SCORING` object. Data is per-browser only and never
+leaves the device.
+
 Question banks:
 - **Real exam questions** — 2023, 2024 (A/B), 2025.
 - **AI-generated practice questions** — ~20 per lecture topic, tagged
