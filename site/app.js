@@ -168,7 +168,7 @@
       opts.appendChild(row);
     });
 
-    $("verdict").innerHTML = "";
+    var v = $("verdict"); v.className = ""; v.innerHTML = "";
     $("explain").innerHTML = "";
     $("check-btn").classList.remove("hidden");
     $("next-btn").classList.add("hidden");

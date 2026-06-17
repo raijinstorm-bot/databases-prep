@@ -2,12 +2,6 @@
 window.QUIZ_DATA = {
  "exams": [
   {
-   "id": "2023-1",
-   "label": "2023 — Variant 1",
-   "closed": 42,
-   "open": 0
-  },
-  {
    "id": "2024-A",
    "label": "2024 — Variant A",
    "closed": 17,
@@ -242,12 +236,12 @@ window.QUIZ_DATA = {
  "questions": [
   {
    "id": "q-2023-1-01",
-   "exam": "2023-1",
+   "exam": "",
    "number": 1,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "b"
@@ -279,12 +273,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-02",
-   "exam": "2023-1",
+   "exam": "",
    "number": 2,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "c"
@@ -315,12 +309,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-03",
-   "exam": "2023-1",
+   "exam": "",
    "number": 3,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "c"
@@ -351,12 +345,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-04",
-   "exam": "2023-1",
+   "exam": "",
    "number": 4,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -387,12 +381,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-05",
-   "exam": "2023-1",
+   "exam": "",
    "number": 5,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "b"
@@ -423,12 +417,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-06",
-   "exam": "2023-1",
+   "exam": "",
    "number": 6,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "b"
@@ -459,12 +453,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-07",
-   "exam": "2023-1",
+   "exam": "",
    "number": 7,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -495,12 +489,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-08",
-   "exam": "2023-1",
+   "exam": "",
    "number": 8,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "b"
@@ -531,12 +525,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-09",
-   "exam": "2023-1",
+   "exam": "",
    "number": 9,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -569,12 +563,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-10",
-   "exam": "2023-1",
+   "exam": "",
    "number": 10,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -607,12 +601,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-11",
-   "exam": "2023-1",
+   "exam": "",
    "number": 11,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -645,12 +639,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-12",
-   "exam": "2023-1",
+   "exam": "",
    "number": 12,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "b"
@@ -681,12 +675,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-13",
-   "exam": "2023-1",
+   "exam": "",
    "number": 13,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -719,12 +713,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-14",
-   "exam": "2023-1",
+   "exam": "",
    "number": 14,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "b"
@@ -755,12 +749,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-15",
-   "exam": "2023-1",
+   "exam": "",
    "number": 15,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -791,12 +785,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-16",
-   "exam": "2023-1",
+   "exam": "",
    "number": 16,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -828,12 +822,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-17",
-   "exam": "2023-1",
+   "exam": "",
    "number": 17,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "d"
@@ -864,12 +858,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-18",
-   "exam": "2023-1",
+   "exam": "",
    "number": 18,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -901,12 +895,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-19",
-   "exam": "2023-1",
+   "exam": "",
    "number": 19,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -938,12 +932,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-20",
-   "exam": "2023-1",
+   "exam": "",
    "number": 20,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -976,12 +970,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-21",
-   "exam": "2023-1",
+   "exam": "",
    "number": 21,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "b"
@@ -1012,12 +1006,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-22",
-   "exam": "2023-1",
+   "exam": "",
    "number": 22,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1050,12 +1044,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-23",
-   "exam": "2023-1",
+   "exam": "",
    "number": 23,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -1086,12 +1080,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-24",
-   "exam": "2023-1",
+   "exam": "",
    "number": 24,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -1122,12 +1116,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-25",
-   "exam": "2023-1",
+   "exam": "",
    "number": 25,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -1158,12 +1152,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-26",
-   "exam": "2023-1",
+   "exam": "",
    "number": 26,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1196,12 +1190,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-27",
-   "exam": "2023-1",
+   "exam": "",
    "number": 27,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1233,12 +1227,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-28",
-   "exam": "2023-1",
+   "exam": "",
    "number": 28,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1271,12 +1265,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-29",
-   "exam": "2023-1",
+   "exam": "",
    "number": 29,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1309,12 +1303,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-30",
-   "exam": "2023-1",
+   "exam": "",
    "number": 30,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "c"
@@ -1345,12 +1339,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-31",
-   "exam": "2023-1",
+   "exam": "",
    "number": 31,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1384,12 +1378,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-32",
-   "exam": "2023-1",
+   "exam": "",
    "number": 32,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "b"
@@ -1420,12 +1414,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-33",
-   "exam": "2023-1",
+   "exam": "",
    "number": 33,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -1456,12 +1450,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-34",
-   "exam": "2023-1",
+   "exam": "",
    "number": 34,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1494,12 +1488,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-35",
-   "exam": "2023-1",
+   "exam": "",
    "number": 35,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1531,12 +1525,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-36",
-   "exam": "2023-1",
+   "exam": "",
    "number": 36,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -1567,12 +1561,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-37",
-   "exam": "2023-1",
+   "exam": "",
    "number": 37,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1604,12 +1598,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-38",
-   "exam": "2023-1",
+   "exam": "",
    "number": 38,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1641,12 +1635,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-39",
-   "exam": "2023-1",
+   "exam": "",
    "number": 39,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
@@ -1679,12 +1673,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-40",
-   "exam": "2023-1",
+   "exam": "",
    "number": 40,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -1715,12 +1709,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-41",
-   "exam": "2023-1",
+   "exam": "",
    "number": 41,
    "type": "single",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a"
@@ -1751,12 +1745,12 @@ window.QUIZ_DATA = {
   },
   {
    "id": "q-2023-1-43",
-   "exam": "2023-1",
+   "exam": "",
    "number": 43,
    "type": "multi",
    "generated": true,
    "tags": [
-    "2023-1"
+    "AI-generated"
    ],
    "correct": [
     "a",
